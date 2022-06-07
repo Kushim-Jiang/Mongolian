@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ch.Ch.medi" format="2">
+	<advance width="530" height="1750"/>
+	<note>
+		u1834.med
+	</note>
+	<outline>
+		<contour>
+			<point x="0" y="101" type="curve"/>
+			<point x="0" y="16" type="line"/>
+			<point x="63" y="55"/>
+			<point x="126" y="63"/>
+			<point x="235" y="63" type="curve" smooth="yes"/>
+			<point x="356" y="63" type="line"/>
+			<point x="356" y="129" type="line"/>
+			<point x="328" y="212"/>
+			<point x="315" y="283"/>
+			<point x="315" y="364" type="curve"/>
+			<point x="560" y="364" type="line"/>
+			<point x="560" y="444" type="line"/>
+			<point x="0" y="444" type="line"/>
+			<point x="0" y="364" type="line"/>
+			<point x="241" y="364" type="line"/>
+			<point x="241" y="280"/>
+			<point x="251" y="206"/>
+			<point x="271" y="143" type="curve"/>
+			<point x="235" y="143" type="line" smooth="yes"/>
+			<point x="120" y="143"/>
+			<point x="56" y="137"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

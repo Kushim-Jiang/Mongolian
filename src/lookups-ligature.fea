@@ -1,0 +1,156 @@
+lookup IIb.ligature {
+    # h_g
+    sub [h.G.init g.G.init] e.A.medi by GA.init;
+    sub [h.G.medi g.G.medi] e.A.medi by GA.medi;
+    sub [h.G.init g.G.init] e.Aa.fina by GA.isol;
+    sub [h.G.medi g.G.medi] e.Aa.fina by GA.fina;
+    sub [h.Gx.init g.Gx.init] e.A.medi by GxA.init;
+    sub [h.Gx.medi g.Gx.medi] e.A.medi by GxA.medi;
+    sub [h.Gx.init g.Gx.init] e.Aa.fina by GxA.isol;
+    sub [h.Gx.medi g.Gx.medi] e.Aa.fina by GxA.fina;
+
+    sub [h.G.init g.G.init] i.I.medi by GI.init;
+    sub [h.G.medi g.G.medi] i.I.medi by GI.medi;
+    sub [h.G.init g.G.init] i.I.fina by GI.isol;
+    sub [h.G.medi g.G.medi] i.I.fina by GI.fina;
+    sub [h.Gx.init g.Gx.init] i.I.medi by GxI.init;
+    sub [h.Gx.medi g.Gx.medi] i.I.medi by GxI.medi;
+    sub [h.Gx.init g.Gx.init] i.I.fina by GxI.isol;
+    sub [h.Gx.medi g.Gx.medi] i.I.fina by GxI.fina;
+
+    sub [h.G.init g.G.init] [oe.UI.medi ue.UI.medi] by GUI.init;
+    sub [h.G.medi g.G.medi] [oe.UI.medi ue.UI.medi] by GUI.medi;
+    sub [h.G.init g.G.init] [oe.Ue.fina ue.Ue.fina] by GUe.isol;
+    sub [h.G.medi g.G.medi] [oe.Ue.fina ue.Ue.fina] by GUe.fina;
+    sub [h.G.init g.G.init] [oe.U.medi ue.U.medi] by GU.init;
+    sub [h.G.medi g.G.medi] [oe.U.medi ue.U.medi] by GU.medi;
+    sub [h.G.init g.G.init] [oe.O.fina ue.O.fina] by GO.isol;
+    sub [h.G.medi g.G.medi] [oe.O.fina ue.O.fina] by GO.fina;
+    sub [h.Gx.init g.Gx.init] [oe.UI.medi ue.UI.medi] by GxUI.init;
+    sub [h.Gx.medi g.Gx.medi] [oe.UI.medi ue.UI.medi] by GxUI.medi;
+    sub [h.Gx.init g.Gx.init] [oe.Ue.fina ue.Ue.fina] by GxUe.isol;
+    sub [h.Gx.medi g.Gx.medi] [oe.Ue.fina ue.Ue.fina] by GxUe.fina;
+    sub [h.Gx.init g.Gx.init] [oe.U.medi ue.U.medi] by GxU.init;
+    sub [h.Gx.medi g.Gx.medi] [oe.U.medi ue.U.medi] by GxU.medi;
+    sub [h.Gx.init g.Gx.init] [oe.O.fina ue.O.fina] by GxO.isol;
+    sub [h.Gx.medi g.Gx.medi] [oe.O.fina ue.O.fina] by GxO.fina;
+
+    sub [h.G.init g.G.init] eh.W.medi by GW.init;
+    sub [h.G.medi g.G.medi] eh.W.medi by GW.medi;
+    sub [h.G.init g.G.init] eh.W.fina by GW.isol;
+    sub [h.G.medi g.G.medi] eh.W.fina by GW.fina;
+    sub [h.Gx.init g.Gx.init] eh.W.medi by GxW.init;
+    sub [h.Gx.medi g.Gx.medi] eh.W.medi by GxW.medi;
+    sub [h.Gx.init g.Gx.init] eh.W.fina by GxW.isol;
+    sub [h.Gx.medi g.Gx.medi] eh.W.fina by GxW.fina;
+
+    # b
+    sub b.B.init [a.A.medi e.A.medi] by BA.init;
+    sub b.B.medi [a.A.medi e.A.medi] by BA.medi;
+    sub b.B.init [a.Aa.fina e.Aa.fina] by BA.isol;
+    sub b.B.medi [a.Aa.fina e.Aa.fina] by BA.fina;
+    sub b.B.init i.I.medi by BI.init;
+    sub b.B.medi i.I.medi by BI.medi;
+    sub b.B.init i.I.fina by BI.isol;
+    sub b.B.medi i.I.fina by BI.fina;
+    sub b.B.init [o.U.medi u.U.medi oe.U.medi ue.U.medi] by BU.init;
+    sub b.B.medi [o.U.medi u.U.medi oe.U.medi ue.U.medi] by BU.medi;
+    sub b.B.init [o.O.fina u.O.fina oe.O.fina ue.O.fina] by BO.isol;
+    sub b.B.medi [o.O.fina u.O.fina oe.O.fina ue.O.fina] by BO.fina;
+    sub b.B.init [oe.UI.medi ue.UI.medi] by BUI.init;
+    sub b.B.medi [oe.UI.medi ue.UI.medi] by BUI.medi;
+    sub b.B.init [oe.Ue.fina ue.Ue.fina] by BUe.isol;
+    sub b.B.medi [oe.Ue.fina ue.Ue.fina] by BUe.fina;
+    sub b.B.init eh.W.medi by BW.init;
+    sub b.B.medi eh.W.medi by BW.medi;
+    sub b.B.init eh.W.fina by BW.isol;
+    sub b.B.medi eh.W.fina by BW.fina; 
+
+    # p
+    sub p.P.init [a.A.medi e.A.medi] by PA.init;
+    sub p.P.medi [a.A.medi e.A.medi] by PA.medi;
+    sub p.P.init [a.Aa.fina e.Aa.fina] by PA.isol;
+    sub p.P.medi [a.Aa.fina e.Aa.fina] by PA.fina;
+    sub p.P.init i.I.medi by PI.init;
+    sub p.P.medi i.I.medi by PI.medi;
+    sub p.P.init i.I.fina by PI.isol;
+    sub p.P.medi i.I.fina by PI.fina;
+    sub p.P.init [o.U.medi u.U.medi oe.U.medi ue.U.medi] by PU.init;
+    sub p.P.medi [o.U.medi u.U.medi oe.U.medi ue.U.medi] by PU.medi;
+    sub p.P.init [o.O.fina u.O.fina oe.O.fina ue.O.fina] by PO.isol;
+    sub p.P.medi [o.O.fina u.O.fina oe.O.fina ue.O.fina] by PO.fina;
+    sub p.P.init [oe.UI.medi ue.UI.medi] by PUI.init;
+    sub p.P.medi [oe.UI.medi ue.UI.medi] by PUI.medi;
+    sub p.P.init [oe.Ue.fina ue.Ue.fina] by PUe.isol;
+    sub p.P.medi [oe.Ue.fina ue.Ue.fina] by PUe.fina;
+    sub p.P.init eh.W.medi by PW.init;
+    sub p.P.medi eh.W.medi by PW.medi;
+    sub p.P.init eh.W.fina by PW.isol;
+    sub p.P.medi eh.W.fina by PW.fina; 
+
+    # f
+    sub f.F.init [a.A.medi e.A.medi] by FA.init;
+    sub f.F.medi [a.A.medi e.A.medi] by FA.medi;
+    sub f.F.init [a.Aa.fina e.Aa.fina] by FA.isol;
+    sub f.F.medi [a.Aa.fina e.Aa.fina] by FA.fina;
+    sub f.F.init i.I.medi by FI.init;
+    sub f.F.medi i.I.medi by FI.medi;
+    sub f.F.init i.I.fina by FI.isol;
+    sub f.F.medi i.I.fina by FI.fina;
+    sub f.F.init [o.U.medi u.U.medi oe.U.medi ue.U.medi] by FU.init;
+    sub f.F.medi [o.U.medi u.U.medi oe.U.medi ue.U.medi] by FU.medi;
+    sub f.F.init [o.O.fina u.O.fina oe.O.fina ue.O.fina] by FO.isol;
+    sub f.F.medi [o.O.fina u.O.fina oe.O.fina ue.O.fina] by FO.fina;
+    sub f.F.init [oe.UI.medi ue.UI.medi] by FUI.init;
+    sub f.F.medi [oe.UI.medi ue.UI.medi] by FUI.medi;
+    sub f.F.init [oe.Ue.fina ue.Ue.fina] by FUe.isol;
+    sub f.F.medi [oe.Ue.fina ue.Ue.fina] by FUe.fina;
+    sub f.F.init eh.W.medi by FW.init;
+    sub f.F.medi eh.W.medi by FW.medi;
+    sub f.F.init eh.W.fina by FW.isol;
+    sub f.F.medi eh.W.fina by FW.fina; 
+
+    # k2
+    sub k2.K2.init [a.A.medi e.A.medi] by K2A.init;
+    sub k2.K2.medi [a.A.medi e.A.medi] by K2A.medi;
+    sub k2.K2.init [a.Aa.fina e.Aa.fina] by K2A.isol;
+    sub k2.K2.medi [a.Aa.fina e.Aa.fina] by K2A.fina;
+    sub k2.K2.init i.I.medi by K2I.init;
+    sub k2.K2.medi i.I.medi by K2I.medi;
+    sub k2.K2.init i.I.fina by K2I.isol;
+    sub k2.K2.medi i.I.fina by K2I.fina;
+    sub k2.K2.init [o.U.medi u.U.medi oe.U.medi ue.U.medi] by K2U.init;
+    sub k2.K2.medi [o.U.medi u.U.medi oe.U.medi ue.U.medi] by K2U.medi;
+    sub k2.K2.init [o.O.fina u.O.fina oe.O.fina ue.O.fina] by K2O.isol;
+    sub k2.K2.medi [o.O.fina u.O.fina oe.O.fina ue.O.fina] by K2O.fina;
+    sub k2.K2.init [oe.UI.medi ue.UI.medi] by K2UI.init;
+    sub k2.K2.medi [oe.UI.medi ue.UI.medi] by K2UI.medi;
+    sub k2.K2.init [oe.Ue.fina ue.Ue.fina] by K2Ue.isol;
+    sub k2.K2.medi [oe.Ue.fina ue.Ue.fina] by K2Ue.fina;
+    sub k2.K2.init eh.W.medi by K2W.init;
+    sub k2.K2.medi eh.W.medi by K2W.medi;
+    sub k2.K2.init eh.W.fina by K2W.isol;
+    sub k2.K2.medi eh.W.fina by K2W.fina; 
+
+    # k
+    sub k.K.init [a.A.medi e.A.medi] by KA.init;
+    sub k.K.medi [a.A.medi e.A.medi] by KA.medi;
+    sub k.K.init [a.Aa.fina e.Aa.fina] by KA.isol;
+    sub k.K.medi [a.Aa.fina e.Aa.fina] by KA.fina;
+    sub k.K.init i.I.medi by KI.init;
+    sub k.K.medi i.I.medi by KI.medi;
+    sub k.K.init i.I.fina by KI.isol;
+    sub k.K.medi i.I.fina by KI.fina;
+    sub k.K.init [o.U.medi u.U.medi oe.U.medi ue.U.medi] by KU.init;
+    sub k.K.medi [o.U.medi u.U.medi oe.U.medi ue.U.medi] by KU.medi;
+    sub k.K.init [o.O.fina u.O.fina oe.O.fina ue.O.fina] by KO.isol;
+    sub k.K.medi [o.O.fina u.O.fina oe.O.fina ue.O.fina] by KO.fina;
+    sub k.K.init [oe.UI.medi ue.UI.medi] by KUI.init;
+    sub k.K.medi [oe.UI.medi ue.UI.medi] by KUI.medi;
+    sub k.K.init [oe.Ue.fina ue.Ue.fina] by KUe.isol;
+    sub k.K.medi [oe.Ue.fina ue.Ue.fina] by KUe.fina;
+    sub k.K.init eh.W.medi by KW.init;
+    sub k.K.medi eh.W.medi by KW.medi;
+    sub k.K.init eh.W.fina by KW.isol;
+    sub k.K.medi eh.W.fina by KW.fina; 
+} IIb.ligature;

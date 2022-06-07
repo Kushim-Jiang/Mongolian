@@ -1,0 +1,67 @@
+# Ia. General: Basic character-to-glyph mapping
+include(classes-letters.fea);
+include(classes-categories.fea);
+table GDEF {
+    GlyphClassDef , , [zwnj zwj nirugu fvs1 fvs2 fvs3 fvs4], ;
+} GDEF;
+
+languagesystem mong dflt;
+
+# IIa. Cursive script: Initiation of cursive positions
+include(lookups-joining.fea);
+feature isol {
+    lookup IIa.isol;
+} isol;
+
+feature init {
+    lookup IIa.init;
+} init;
+
+feature medi {
+    lookup IIa.medi;
+} medi;
+
+feature fina {
+    lookup IIa.fina;
+} fina;
+
+# III. Hudum-specific
+include(lookups-conditions.fea);
+include(lookups-general.fea);
+feature rclt {
+    # III.1: Chachlag
+    lookup _.effe;
+    lookup III.a_e.chachlag;
+
+    # III.2: Syllabic
+    lookup III.o_u_oe_ue.marked;
+    lookup III.n_j_w_h_g.chachlag_onset;
+    lookup III.n_t_d.onset_and_devsger;
+    lookup III.h_g.onset_and_devsger_and_gender;
+
+    # III.3: Particle
+    lookup III.a_i_u_ue_d.particle.A;
+    lookup III.a_i_u_ue_d.particle.B;
+    lookup III.ue_y.dictionary_particle;
+
+    # III.4: Devsger i
+    lookup III.i.devsger;
+
+    # III.5: Post-bowed
+    lookup III.a_e_o_u_oe_ue.post_bowed;
+
+    # III.6: FVS-selected
+    lookup III.fvs;
+
+    # IIB.1: Variation involving bowed written units
+
+    # IIB.2: Cleanup of format controls
+    lookup _.nomi;
+
+    # IIB.3: Optional treatments
+} rclt;
+
+include(lookups-ligature.fea);
+feature rlig {
+    lookup IIb.ligature;
+} rlig;

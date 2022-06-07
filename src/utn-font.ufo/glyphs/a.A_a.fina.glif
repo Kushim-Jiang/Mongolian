@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="a.Aa.fina" format="2">
+	<advance width="439" height="1750"/>
+	<note>
+		u182D_1821
+	</note>
+	<outline>
+		<contour>
+			<point x="133" y="-264" type="curve"/>
+			<point x="215" y="-264" type="line"/>
+			<point x="201" y="-238"/>
+			<point x="194" y="-212"/>
+			<point x="194" y="-187" type="curve" smooth="yes"/>
+			<point x="194" y="-130"/>
+			<point x="213" y="-94"/>
+			<point x="261" y="-31" type="curve" smooth="yes"/>
+			<point x="346" y="77"/>
+			<point x="394" y="162"/>
+			<point x="394" y="245" type="curve" smooth="yes"/>
+			<point x="394" y="374"/>
+			<point x="315" y="444"/>
+			<point x="163" y="444" type="curve" smooth="yes"/>
+			<point x="0" y="444" type="line"/>
+			<point x="0" y="364" type="line"/>
+			<point x="162" y="364" type="line" smooth="yes"/>
+			<point x="267" y="364"/>
+			<point x="316" y="325"/>
+			<point x="316" y="244" type="curve" smooth="yes"/>
+			<point x="316" y="180"/>
+			<point x="285" y="125"/>
+			<point x="209" y="28" type="curve" smooth="yes"/>
+			<point x="146" y="-55"/>
+			<point x="114" y="-115"/>
+			<point x="114" y="-187" type="curve" smooth="yes"/>
+			<point x="114" y="-217"/>
+			<point x="120" y="-243"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

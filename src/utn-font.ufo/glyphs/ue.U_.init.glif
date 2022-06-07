@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ue.U.init" format="2">
+	<advance width="618" height="1750"/>
+	<note>
+		u1826.iniV1
+	</note>
+	<outline>
+		<contour>
+			<point x="242" y="40" type="curve" smooth="yes"/>
+			<point x="367" y="40"/>
+			<point x="440" y="121"/>
+			<point x="440" y="249" type="curve" smooth="yes"/>
+			<point x="440" y="294"/>
+			<point x="433" y="332"/>
+			<point x="420" y="364" type="curve"/>
+			<point x="648" y="364" type="line"/>
+			<point x="648" y="444" type="line"/>
+			<point x="90" y="444" type="line"/>
+			<point x="59" y="392"/>
+			<point x="45" y="336"/>
+			<point x="45" y="260" type="curve" smooth="yes"/>
+			<point x="45" y="120"/>
+			<point x="113" y="40"/>
+		</contour>
+		<contour>
+			<point x="242" y="123" type="curve" smooth="yes"/>
+			<point x="163" y="123"/>
+			<point x="124" y="169"/>
+			<point x="124" y="262" type="curve" smooth="yes"/>
+			<point x="124" y="301"/>
+			<point x="131" y="335"/>
+			<point x="144" y="364" type="curve"/>
+			<point x="341" y="364" type="line"/>
+			<point x="354" y="332"/>
+			<point x="361" y="294"/>
+			<point x="361" y="251" type="curve" smooth="yes"/>
+			<point x="361" y="167"/>
+			<point x="317" y="123"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

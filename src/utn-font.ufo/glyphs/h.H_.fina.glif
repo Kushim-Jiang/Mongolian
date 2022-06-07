@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="h.H.fina" format="2">
+	<advance width="663" height="1750"/>
+	<note>
+		u182C.fin
+	</note>
+	<outline>
+		<contour>
+			<point x="506" y="74" type="curve"/>
+			<point x="506" y="186" type="line" smooth="yes"/>
+			<point x="506" y="369"/>
+			<point x="538" y="522"/>
+			<point x="618" y="666" type="curve"/>
+			<point x="525" y="666" type="line"/>
+			<point x="460" y="537"/>
+			<point x="427" y="377"/>
+			<point x="427" y="188" type="curve"/>
+			<point x="344" y="235"/>
+			<point x="321" y="309"/>
+			<point x="321" y="444" type="curve"/>
+			<point x="0" y="444" type="line"/>
+			<point x="0" y="364" type="line"/>
+			<point x="19" y="96" type="line"/>
+			<point x="85" y="96" type="line"/>
+			<point x="104" y="364" type="line"/>
+			<point x="251" y="364" type="line"/>
+			<point x="251" y="264"/>
+			<point x="299" y="169"/>
+			<point x="377" y="115" type="curve" smooth="yes"/>
+			<point x="416" y="88"/>
+			<point x="459" y="74"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>

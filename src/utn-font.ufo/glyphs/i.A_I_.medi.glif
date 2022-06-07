@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i.AI.medi" format="2">
+	<advance width="579" height="1750"/>
+	<note>
+		u1822.medV1
+	</note>
+	<outline>
+		<contour>
+			<point x="391" y="-67" type="curve"/>
+			<point x="464" y="-31" type="line"/>
+			<point x="391" y="98"/>
+			<point x="336" y="229"/>
+			<point x="297" y="364" type="curve"/>
+			<point x="609" y="364" type="line"/>
+			<point x="609" y="444" type="line"/>
+			<point x="0" y="444" type="line"/>
+			<point x="0" y="364" type="line"/>
+			<point x="19" y="96" type="line"/>
+			<point x="85" y="96" type="line"/>
+			<point x="104" y="364" type="line"/>
+			<point x="218" y="364" type="line"/>
+			<point x="257" y="219"/>
+			<point x="314" y="75"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.67,0.95,0.38,1</string>
+		</dict>
+	</lib>
+</glyph>
