@@ -507,8 +507,8 @@ lookup condition.dictionary_particle {
 @e.fina.for_post_bowed = [e.A.fina];
 @o.fina.for_post_bowed = [o.U.fina];
 @u.fina.for_post_bowed = [u.U.fina];
-@oe.fina.for_post_bowed = [oe.Ue.fina oe.U.fina];
-@ue.fina.for_post_bowed = [ue.Ue.fina ue.U.fina];
+@oe.fina.for_post_bowed = [oe.U.fina];
+@ue.fina.for_post_bowed = [ue.U.fina];
 lookup condition.post_bowed {
     sub @a.fina.for_post_bowed by a.Aa.fina;
     sub @e.fina.for_post_bowed by e.Aa.fina;
