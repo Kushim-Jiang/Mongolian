@@ -46,6 +46,7 @@ feature rclt {
 
     # III.4: Devsger i
     lookup III.i.devsger;
+    lookup III.i.onset;
 
     # III.5: Post-bowed
     lookup III.a_e_o_u_oe_ue.post_bowed;
