@@ -147,10 +147,12 @@ lookup condition.particle {
 @y.init.for_dictionary_particle = [y.Y.init];
 @y.medi.for_dictionary_particle = [y.Y.medi];
 @ue.init.for_dictionary_particle = [ue.U.init];
+@u.init.for_dictionary_particle = [u.U.init];
 lookup condition.dictionary_particle {
     sub @y.init.for_dictionary_particle by y.I.init;
     sub @y.medi.for_dictionary_particle by y.I.medi;
     sub @ue.init.for_dictionary_particle by ue.AUI.init;
+    sub @u.init.for_dictionary_particle by u.AU.init;
 } condition.dictionary_particle;
 
 # III.5: Post-bowed

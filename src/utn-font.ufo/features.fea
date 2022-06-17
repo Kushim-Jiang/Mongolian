@@ -504,10 +504,12 @@ lookup condition.particle {
 @y.init.for_dictionary_particle = [y.Y.init];
 @y.medi.for_dictionary_particle = [y.Y.medi];
 @ue.init.for_dictionary_particle = [ue.U.init];
+@u.init.for_dictionary_particle = [u.U.init];
 lookup condition.dictionary_particle {
     sub @y.init.for_dictionary_particle by y.I.init;
     sub @y.medi.for_dictionary_particle by y.I.medi;
     sub @ue.init.for_dictionary_particle by ue.AUI.init;
+    sub @u.init.for_dictionary_particle by u.AU.init;
 } condition.dictionary_particle;
 
 # III.5: Post-bowed
@@ -629,7 +631,9 @@ lookup III.ue_y.dictionary_particle {
     sub [mvs.effe nnbsp.effe] i.I.init y.Y.medi' lookup condition.dictionary_particle [a.A.medi e.A.medi] [n.A.fina r.R.fina];
     sub [mvs.effe nnbsp.effe] y.Y.init' lookup condition.dictionary_particle i.I.fina;
     sub [mvs.effe nnbsp.effe] y.Y.init' lookup condition.dictionary_particle i.I.medi n.A.fina;
+    # not found in EAC spec
     sub [mvs.effe nnbsp.effe] ue.U.init' lookup condition.dictionary_particle g.G.medi e.A.medi i.I.fina;
+    sub [mvs.effe nnbsp.effe] u.U.init' lookup condition.dictionary_particle r.R.medi u.U.medi g.Gh.medi u.U.fina;
     lookupflag 0;
 } III.ue_y.dictionary_particle;
 
@@ -970,3 +974,11 @@ lookup IIb.ligature {
 } IIb.ligature;feature rlig {
     lookup IIb.ligature;
 } rlig;
+
+feature dist {
+	pos nirugu 168;
+	pos fvs1 1712;
+	pos fvs2 1712;
+	pos fvs3 1712;
+	pos fvs4 1712;
+} dist;
