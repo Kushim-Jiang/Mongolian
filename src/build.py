@@ -39,7 +39,7 @@ def main():
         [ufo],
         output=["otf"],
         remove_overlaps=True,
-        output_path=directory / "DraftUTN-Regular.otf",
+        output_path=directory.parent / "otf" / "DraftUTN-Regular.otf",
     )
 
 
