@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="glyph921" format="2">
+	<advance width="465"/>
+	<note>
+		glyph921
+	</note>
+	<outline>
+		<contour>
+			<point x="395" y="274" type="line"/>
+			<point x="389" y="302" type="line"/>
+			<point x="367" y="379" type="line"/>
+			<point x="348" y="438" type="line"/>
+			<point x="209" y="456" type="line"/>
+			<point x="147" y="505" type="line"/>
+			<point x="107" y="580" type="line"/>
+			<point x="87" y="676" type="line"/>
+			<point x="84" y="727" type="line"/>
+			<point x="425" y="727" type="line"/>
+			<point x="425" y="909" type="line"/>
+			<point x="391" y="909" type="line"/>
+			<point x="391" y="943" type="line"/>
+			<point x="398" y="1010" type="line"/>
+			<point x="411" y="1097" type="line"/>
+			<point x="414" y="1123" type="line"/>
+			<point x="414" y="1169" type="line"/>
+			<point x="386" y="1197" type="line"/>
+			<point x="330" y="1197" type="line"/>
+			<point x="316" y="1183" type="line" smooth="yes"/>
+			<point x="307" y="1174"/>
+			<point x="302" y="1160"/>
+			<point x="302" y="1143" type="curve" smooth="yes"/>
+			<point x="302" y="1130"/>
+			<point x="303" y="1114"/>
+			<point x="306" y="1097" type="curve" smooth="yes"/>
+			<point x="309" y="1071" type="line"/>
+			<point x="314" y="1041" type="line"/>
+			<point x="326" y="943" type="line"/>
+			<point x="326" y="909" type="line"/>
+			<point x="0" y="909" type="line"/>
+			<point x="0" y="727" type="line"/>
+			<point x="5" y="637" type="line"/>
+			<point x="26" y="488" type="line"/>
+			<point x="54" y="434" type="line" smooth="yes"/>
+			<point x="72" y="398"/>
+			<point x="98" y="369"/>
+			<point x="131" y="347" type="curve" smooth="yes"/>
+			<point x="181" y="314" type="line"/>
+			<point x="312" y="303" type="line"/>
+			<point x="377" y="282" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2849 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+34 35 2852 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+35 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+14 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+34 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+16 
+MDRP[10000]	/* MoveDirectRelPt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+38 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+32 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+4 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+4 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+32 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+18 
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+5 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+5 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+18 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+6 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+6 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+38 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+35 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+35 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+14 
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+18 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+23 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+23 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+32 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+24 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+24 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+18 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+39 
+MDRP[11100]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="glyph2042" format="2">
+	<advance width="903"/>
+	<note>
+		glyph2042
+	</note>
+	<outline>
+		<contour>
+			<point x="476" y="336" type="line"/>
+			<point x="575" y="336" type="line"/>
+			<point x="650" y="387" type="line"/>
+			<point x="695" y="471" type="line"/>
+			<point x="714" y="579" type="line"/>
+			<point x="714" y="822" type="line" smooth="yes"/>
+			<point x="714" y="880"/>
+			<point x="686" y="909"/>
+			<point x="629" y="909" type="curve" smooth="yes"/>
+			<point x="393" y="909" type="line"/>
+			<point x="438" y="1160" type="line"/>
+			<point x="635" y="1160" type="line"/>
+			<point x="666" y="1144" type="line" smooth="yes"/>
+			<point x="687" y="1133"/>
+			<point x="706" y="1116"/>
+			<point x="723" y="1093" type="curve" smooth="yes"/>
+			<point x="749" y="1059" type="line"/>
+			<point x="769" y="1007" type="line" smooth="yes"/>
+			<point x="782" y="972"/>
+			<point x="792" y="931"/>
+			<point x="800" y="884" type="curve" smooth="yes"/>
+			<point x="805" y="853"/>
+			<point x="810" y="833"/>
+			<point x="815" y="823" type="curve" smooth="yes"/>
+			<point x="821" y="807" type="line"/>
+			<point x="835" y="807" type="line" smooth="yes"/>
+			<point x="839" y="807"/>
+			<point x="844" y="813"/>
+			<point x="849" y="826" type="curve" smooth="yes"/>
+			<point x="857" y="845" type="line"/>
+			<point x="857" y="976" type="line"/>
+			<point x="824" y="1137" type="line"/>
+			<point x="759" y="1254" type="line"/>
+			<point x="663" y="1320" type="line"/>
+			<point x="476" y="1320" type="line"/>
+			<point x="339" y="1109" type="line"/>
+			<point x="325" y="909" type="line"/>
+			<point x="325" y="692" type="line"/>
+			<point x="330" y="606" type="line"/>
+			<point x="338" y="563" type="line" smooth="yes"/>
+			<point x="343" y="534"/>
+			<point x="350" y="506"/>
+			<point x="359" y="479" type="curve" smooth="yes"/>
+			<point x="372" y="438" type="line"/>
+			<point x="415" y="374" type="line"/>
+		</contour>
+		<contour>
+			<point x="470" y="476" type="line"/>
+			<point x="417" y="514" type="line"/>
+			<point x="393" y="581" type="line"/>
+			<point x="389" y="673" type="line"/>
+			<point x="389" y="727" type="line"/>
+			<point x="650" y="727" type="line"/>
+			<point x="650" y="671" type="line"/>
+			<point x="646" y="579" type="line"/>
+			<point x="621" y="513" type="line"/>
+			<point x="568" y="476" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2849 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+42 10 2852 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+0 19 2852 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+18 46 2852 
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+46 3 2852 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+14 48 2852 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+34 30 2852 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+3 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+1 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+1 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+3 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+5 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+5 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+46 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+18 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+18 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+46 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+44 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+44 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+34 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+50 
+MDRP[11100]	/* MoveDirectRelPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="glyph1947" format="2">
+	<advance width="1997"/>
+	<note>
+		glyph1947
+	</note>
+	<outline>
+		<contour>
+			<point x="1082" y="-61" type="line"/>
+			<point x="1164" y="-61" type="line"/>
+			<point x="1169" y="1315" type="line"/>
+			<point x="1087" y="1315" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2849 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+1 0 2852 
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

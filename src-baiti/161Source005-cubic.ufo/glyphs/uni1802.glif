@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1802" format="2">
+	<advance width="843"/>
+	<unicode hex="1802"/>
+	<note>
+		uni1802
+	</note>
+	<outline>
+		<contour>
+			<point x="442" y="562" type="line"/>
+			<point x="555" y="794" type="line"/>
+			<point x="555" y="822" type="line"/>
+			<point x="442" y="1071" type="line"/>
+			<point x="329" y="822" type="line"/>
+			<point x="329" y="794" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2979 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+2 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+5 
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

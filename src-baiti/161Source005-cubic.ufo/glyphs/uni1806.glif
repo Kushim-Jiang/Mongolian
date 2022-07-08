@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1806" format="2">
+	<advance width="825"/>
+	<unicode hex="1806"/>
+	<note>
+		uni1806
+	</note>
+	<outline>
+		<contour>
+			<point x="271" y="724" type="line"/>
+			<point x="609" y="724" type="line"/>
+			<point x="609" y="906" type="line"/>
+			<point x="271" y="906" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2979 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+1 1873 0 2983 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 4 values pushed */
+1 1865 2 2983 
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="glyph1010" format="2">
+	<advance width="712"/>
+	<note>
+		glyph1010
+	</note>
+	<outline>
+		<component base="glyph1009" xOffset="-29"/>
+	</outline>
+</glyph>

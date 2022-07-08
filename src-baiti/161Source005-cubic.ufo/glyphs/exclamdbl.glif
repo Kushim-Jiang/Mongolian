@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdbl" format="2">
+	<advance width="1944"/>
+	<unicode hex="203C"/>
+	<note>
+		exclamdbl
+	</note>
+	<outline>
+		<contour>
+			<point x="390" y="483" type="line"/>
+			<point x="432" y="488" type="line" smooth="yes"/>
+			<point x="481" y="494"/>
+			<point x="571" y="506"/>
+			<point x="628" y="514" type="curve" smooth="yes"/>
+			<point x="663" y="519"/>
+			<point x="696" y="522"/>
+			<point x="725" y="525" type="curve" smooth="yes"/>
+			<point x="1118" y="562" type="line"/>
+			<point x="1289" y="566" type="line"/>
+			<point x="1290" y="608" type="line"/>
+			<point x="1145" y="615" type="line"/>
+			<point x="849" y="657" type="line"/>
+			<point x="664" y="688" type="line"/>
+			<point x="625" y="696" type="line"/>
+			<point x="544" y="711" type="line"/>
+			<point x="501" y="720" type="line"/>
+			<point x="414" y="732" type="line"/>
+			<point x="302" y="734" type="line"/>
+			<point x="223" y="672" type="line"/>
+			<point x="216" y="617" type="line"/>
+			<point x="220" y="556" type="line"/>
+			<point x="296" y="485" type="line"/>
+		</contour>
+		<contour>
+			<point x="400" y="907" type="line"/>
+			<point x="691" y="945" type="line"/>
+			<point x="1129" y="986" type="line"/>
+			<point x="1299" y="989" type="line"/>
+			<point x="1300" y="1031" type="line"/>
+			<point x="1155" y="1039" type="line"/>
+			<point x="859" y="1081" type="line"/>
+			<point x="674" y="1111" type="line"/>
+			<point x="511" y="1143" type="line"/>
+			<point x="424" y="1155" type="line"/>
+			<point x="387" y="1156" type="line" smooth="yes"/>
+			<point x="337" y="1157"/>
+			<point x="299" y="1148"/>
+			<point x="273" y="1127" type="curve" smooth="yes"/>
+			<point x="233" y="1096" type="line"/>
+			<point x="227" y="1041" type="line"/>
+			<point x="230" y="980" type="line"/>
+			<point x="306" y="909" type="line"/>
+		</contour>
+		<contour>
+			<point x="1651" y="448" type="line"/>
+			<point x="1699" y="468" type="line"/>
+			<point x="1736" y="502" type="line"/>
+			<point x="1758" y="549" type="line"/>
+			<point x="1760" y="604" type="line"/>
+			<point x="1750" y="629" type="line" smooth="yes"/>
+			<point x="1743" y="645"/>
+			<point x="1734" y="659"/>
+			<point x="1722" y="671" type="curve" smooth="yes"/>
+			<point x="1705" y="690" type="line"/>
+			<point x="1657" y="711" type="line"/>
+			<point x="1603" y="712" type="line"/>
+			<point x="1555" y="693" type="line"/>
+			<point x="1519" y="658" type="line"/>
+			<point x="1497" y="611" type="line"/>
+			<point x="1495" y="556" type="line"/>
+			<point x="1515" y="507" type="line"/>
+			<point x="1549" y="471" type="line"/>
+			<point x="1597" y="449" type="line"/>
+		</contour>
+		<contour>
+			<point x="1634" y="872" type="curve" smooth="yes"/>
+			<point x="1661" y="872" type="line"/>
+			<point x="1709" y="892" type="line"/>
+			<point x="1746" y="926" type="line"/>
+			<point x="1768" y="973" type="line"/>
+			<point x="1770" y="1028" type="line"/>
+			<point x="1750" y="1077" type="line"/>
+			<point x="1715" y="1114" type="line"/>
+			<point x="1667" y="1135" type="line"/>
+			<point x="1613" y="1136" type="line"/>
+			<point x="1589" y="1127" type="line" smooth="yes"/>
+			<point x="1573" y="1120"/>
+			<point x="1559" y="1111"/>
+			<point x="1547" y="1100" type="curve" smooth="yes"/>
+			<point x="1529" y="1082" type="line"/>
+			<point x="1507" y="1034" type="line"/>
+			<point x="1506" y="979" type="line"/>
+			<point x="1525" y="931" type="line"/>
+			<point x="1560" y="895" type="line"/>
+			<point x="1583" y="885" type="line" smooth="yes"/>
+			<point x="1599" y="877"/>
+			<point x="1616" y="873"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2999 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+49 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 4 values pushed */
+54 1902 2 3003 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 4 values pushed */
+72 1902 23 3003 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+54 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+0 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+0 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+72 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+38 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+38 
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

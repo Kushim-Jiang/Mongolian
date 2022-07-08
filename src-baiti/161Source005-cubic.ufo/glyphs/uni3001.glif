@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni3001" format="2">
+	<advance width="993"/>
+	<unicode hex="3001"/>
+	<note>
+		uni3001
+	</note>
+	<outline>
+		<contour>
+			<point x="596" y="12" type="line"/>
+			<point x="634" y="12" type="line"/>
+			<point x="660" y="24" type="line"/>
+			<point x="683" y="44" type="line"/>
+			<point x="697" y="75" type="line"/>
+			<point x="697" y="110" type="line"/>
+			<point x="691" y="135" type="line" smooth="yes"/>
+			<point x="686" y="150"/>
+			<point x="677" y="167"/>
+			<point x="666" y="185" type="curve" smooth="yes"/>
+			<point x="632" y="237" type="line"/>
+			<point x="538" y="317" type="line"/>
+			<point x="437" y="370" type="line"/>
+			<point x="328" y="406" type="line"/>
+			<point x="268" y="417" type="line"/>
+			<point x="259" y="377" type="line"/>
+			<point x="310" y="365" type="line"/>
+			<point x="404" y="309" type="line"/>
+			<point x="447" y="267" type="line"/>
+			<point x="468" y="239" type="line" smooth="yes"/>
+			<point x="475" y="229"/>
+			<point x="482" y="218"/>
+			<point x="489" y="205" type="curve" smooth="yes"/>
+			<point x="500" y="186" type="line"/>
+			<point x="556" y="62" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2999 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+13 
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

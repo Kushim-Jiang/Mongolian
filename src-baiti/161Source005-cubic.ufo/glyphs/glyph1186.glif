@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="glyph1186" format="2">
+	<advance width="416"/>
+	<note>
+		glyph1186
+	</note>
+	<outline>
+		<contour>
+			<point x="174" y="286" type="line"/>
+			<point x="199" y="286" type="line"/>
+			<point x="227" y="450" type="line"/>
+			<point x="175" y="510" type="line"/>
+			<point x="106" y="649" type="line"/>
+			<point x="86" y="727" type="line"/>
+			<point x="425" y="727" type="line"/>
+			<point x="425" y="909" type="line"/>
+			<point x="0" y="909" type="line"/>
+			<point x="0" y="708" type="line"/>
+			<point x="25" y="591" type="line"/>
+			<point x="111" y="382" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2849 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+6 3 2852 
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+3 7 2852 
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

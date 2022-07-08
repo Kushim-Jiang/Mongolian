@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="glyph1858" format="2">
+	<advance width="1024"/>
+	<note>
+		glyph1858
+	</note>
+	<outline>
+		<contour>
+			<point x="131" y="233" type="line"/>
+			<point x="142" y="262" type="line"/>
+			<point x="95" y="290" type="line"/>
+			<point x="30" y="346" type="line"/>
+			<point x="-10" y="414" type="line"/>
+			<point x="-27" y="500" type="line"/>
+			<point x="-27" y="931" type="line"/>
+			<point x="1194" y="526" type="line"/>
+			<point x="1194" y="638" type="line"/>
+			<point x="-152" y="1090" type="line"/>
+			<point x="-190" y="1090" type="line"/>
+			<point x="-190" y="364" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2849 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+5 8 2852 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+2 8 5 
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+PUSHW[ ]	/* 3 values pushed */
+3 8 5 
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+2 6 2852 
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

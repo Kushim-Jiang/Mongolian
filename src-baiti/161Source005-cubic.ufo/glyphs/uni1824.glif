@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1824" format="2">
+	<advance width="897"/>
+	<unicode hex="1824"/>
+	<note>
+		uni1824
+	</note>
+	<outline>
+		<component base="uni1823"/>
+	</outline>
+</glyph>

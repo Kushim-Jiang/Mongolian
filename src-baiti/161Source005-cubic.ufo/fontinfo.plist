@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>1729</integer>
+	<key>capHeight</key>
+	<integer>1480</integer>
+	<key>copyright</key>
+	<string>© 2008  Microsoft Corporation. All Rights Reserved. Portions © 2008 Beijing Founder  Electronics Co. Ltd. All Rights Reserved.</string>
+	<key>descender</key>
+	<integer>-449</integer>
+	<key>familyName</key>
+	<string>Mongolian Baiti 150</string>
+	<key>openTypeHeadCreated</key>
+	<string>2017/12/29 22:42:45</string>
+	<key>openTypeHheaAscender</key>
+	<integer>1729</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-449</integer>
+	<key>openTypeNameDescription</key>
+	<string>The font glyphs compliant with China standard GB18030-2000 with the font name Founder Meng Baiti. </string>
+	<key>openTypeNameDesigner</key>
+	<string>Founder, Beijing China</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>http://www.founder.com.cn/cn/</string>
+	<key>openTypeNameLicense</key>
+	<string>You may use this font to display and print content as permitted by the license terms for the product in which this font is included. You may only (i) embed this font in content as permitted by the embedding restrictions included in this font; and (ii) temporarily download this font to a printer or other output device to help print content.</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>http://www.microsoft.com/typography/fonts</string>
+	<key>openTypeNameManufacturer</key>
+	<string>Microsoft Corporation</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>http://www.microsoft.com/typography/fonts/</string>
+	<key>openTypeOS2StrikeoutPosition</key>
+	<integer>512</integer>
+	<key>openTypeOS2StrikeoutSize</key>
+	<integer>102</integer>
+	<key>openTypeOS2Type</key>
+	<array>
+		<integer>2</integer>
+	</array>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>1729</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-449</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>184</integer>
+	<key>openTypeOS2UnicodeRanges</key>
+	<array>
+		<integer>0</integer>
+		<integer>1</integer>
+		<integer>31</integer>
+		<integer>42</integer>
+		<integer>48</integer>
+		<integer>81</integer>
+		<integer>91</integer>
+	</array>
+	<key>openTypeOS2VendorID</key>
+	<string>MS  </string>
+	<key>openTypeOS2WeightClass</key>
+	<integer>400</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>1729</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>449</integer>
+	<key>postscriptBlueValues</key>
+	<array/>
+	<key>postscriptFontName</key>
+	<string>MongolianBaiti150</string>
+	<key>postscriptFullName</key>
+	<string>Mongolian Baiti 150</string>
+	<key>postscriptOtherBlues</key>
+	<array/>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
+	<key>styleName</key>
+	<string>Regular</string>
+	<key>trademark</key>
+	<string>Mongolian Baiti is either a registered trademark or a trademark of Microsoft Corporation in the United States and/or other countries.</string>
+	<key>unitsPerEm</key>
+	<integer>2048</integer>
+	<key>versionMajor</key>
+	<integer>1</integer>
+	<key>versionMinor</key>
+	<integer>0</integer>
+	<key>xHeight</key>
+	<integer>875</integer>
+</dict>
+</plist>

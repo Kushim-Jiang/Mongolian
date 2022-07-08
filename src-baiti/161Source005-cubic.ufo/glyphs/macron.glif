@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron" format="2">
+	<advance width="1024"/>
+	<unicode hex="00AF"/>
+	<note>
+		macron
+	</note>
+	<outline>
+		<contour>
+			<point x="-17" y="1462" type="line"/>
+			<point x="1042" y="1462" type="line"/>
+			<point x="1042" y="1546" type="line"/>
+			<point x="-17" y="1546" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2849 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+3 0 2852 
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

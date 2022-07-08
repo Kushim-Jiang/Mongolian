@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Igrave" format="2">
+	<advance width="682"/>
+	<unicode hex="00CC"/>
+	<note>
+		Igrave
+	</note>
+	<outline>
+		<contour>
+			<point x="51" y="0" type="line"/>
+			<point x="632" y="0" type="line"/>
+			<point x="632" y="37" type="line"/>
+			<point x="535" y="37" type="line"/>
+			<point x="474" y="71" type="line"/>
+			<point x="452" y="94" type="line"/>
+			<point x="447" y="113" type="line" smooth="yes"/>
+			<point x="443" y="126"/>
+			<point x="440" y="142"/>
+			<point x="439" y="162" type="curve" smooth="yes"/>
+			<point x="437" y="192" type="line"/>
+			<point x="437" y="1239" type="line"/>
+			<point x="462" y="1270" type="line"/>
+			<point x="499" y="1319" type="line"/>
+			<point x="632" y="1319" type="line"/>
+			<point x="632" y="1356" type="line"/>
+			<point x="51" y="1356" type="line"/>
+			<point x="51" y="1319" type="line"/>
+			<point x="147" y="1319" type="line"/>
+			<point x="209" y="1285" type="line"/>
+			<point x="230" y="1263" type="line"/>
+			<point x="241" y="1224" type="line"/>
+			<point x="245" y="1164" type="line"/>
+			<point x="245" y="117" type="line"/>
+			<point x="184" y="37" type="line"/>
+			<point x="51" y="37" type="line"/>
+		</contour>
+		<contour>
+			<point x="483" y="1450" type="line"/>
+			<point x="518" y="1450" type="line"/>
+			<point x="412" y="1725" type="line"/>
+			<point x="189" y="1725" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2849 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1632 
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+PUSHW[ ]	/* 1 value pushed */
+17 
+MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+PUSHW[ ]	/* 2 values pushed */
+17 1646 
+MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+1632 
+RCVT[ ]	/* ReadCVT */
+IF[ ]	/* If */
+PUSHW[ ]	/* 1 value pushed */
+3 
+MDAP[1]	/* MoveDirectAbsPt */
+ELSE[ ]	/* Else */
+PUSHW[ ]	/* 2 values pushed */
+3 1640 
+MIAP[0]	/* MoveIndirectAbsPt */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+1 
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+5 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+6 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+17 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+15 
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+19 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+20 
+MDRP[10000]	/* MoveDirectRelPt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+12 0 2852 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+0 
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+23 
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+23 
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

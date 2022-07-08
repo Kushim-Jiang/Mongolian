@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bullet" format="2">
+	<advance width="1051"/>
+	<unicode hex="2022"/>
+	<note>
+		bullet
+	</note>
+	<outline>
+		<contour>
+			<point x="485" y="509" type="line"/>
+			<point x="588" y="509" type="line"/>
+			<point x="680" y="549" type="line"/>
+			<point x="748" y="617" type="line"/>
+			<point x="788" y="708" type="line"/>
+			<point x="788" y="811" type="line"/>
+			<point x="748" y="902" type="line"/>
+			<point x="679" y="971" type="line"/>
+			<point x="588" y="1011" type="line"/>
+			<point x="485" y="1011" type="line"/>
+			<point x="394" y="971" type="line"/>
+			<point x="326" y="903" type="line"/>
+			<point x="286" y="811" type="line"/>
+			<point x="286" y="708" type="line"/>
+			<point x="325" y="616" type="line"/>
+			<point x="393" y="548" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2999 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+1 
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+9 
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

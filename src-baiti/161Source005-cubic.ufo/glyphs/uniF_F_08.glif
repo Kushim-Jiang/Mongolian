@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniFF08" format="2">
+	<advance width="894"/>
+	<unicode hex="FF08"/>
+	<note>
+		uniFF08
+	</note>
+	<outline>
+		<contour>
+			<point x="759" y="-232" type="line"/>
+			<point x="759" y="-195" type="line"/>
+			<point x="657" y="-125" type="line"/>
+			<point x="533" y="29" type="line"/>
+			<point x="459" y="195" type="line"/>
+			<point x="400" y="509" type="line"/>
+			<point x="400" y="919" type="line"/>
+			<point x="478" y="1282" type="line"/>
+			<point x="637" y="1519" type="line"/>
+			<point x="759" y="1586" type="line"/>
+			<point x="759" y="1628" type="line"/>
+			<point x="513" y="1518" type="line"/>
+			<point x="207" y="1007" type="line"/>
+			<point x="207" y="484" type="line"/>
+			<point x="363" y="91" type="line"/>
+			<point x="607" y="-155" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2849 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+2 8 2852 
+CALL[ ]	/* CallFunction */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+14 4 2852 
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

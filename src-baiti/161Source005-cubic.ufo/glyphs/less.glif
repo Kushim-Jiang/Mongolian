@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less" format="2">
+	<advance width="1155"/>
+	<unicode hex="003C"/>
+	<note>
+		less
+	</note>
+	<outline>
+		<contour>
+			<point x="1113" y="187" type="line"/>
+			<point x="1113" y="277" type="line"/>
+			<point x="187" y="683" type="line"/>
+			<point x="1113" y="1085" type="line"/>
+			<point x="1113" y="1172" type="line"/>
+			<point x="37" y="706" type="line"/>
+			<point x="37" y="657" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2849 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+5 1 2852 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+3 1 5 
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>

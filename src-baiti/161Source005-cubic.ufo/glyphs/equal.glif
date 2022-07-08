@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal" format="2">
+	<advance width="1155"/>
+	<unicode hex="003D"/>
+	<note>
+		equal
+	</note>
+	<outline>
+		<contour>
+			<point x="37" y="801" type="line"/>
+			<point x="1116" y="801" type="line"/>
+			<point x="1116" y="883" type="line"/>
+			<point x="37" y="883" type="line"/>
+		</contour>
+		<contour>
+			<point x="37" y="475" type="line"/>
+			<point x="1116" y="475" type="line"/>
+			<point x="1116" y="557" type="line"/>
+			<point x="37" y="557" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>assembly</key>
+			<string>PUSHW[ ]	/* 1 value pushed */
+2849 
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+7 4 2852 
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+1 2 2852 
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+		</dict>
+	</lib>
+</glyph>
