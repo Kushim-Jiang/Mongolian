@@ -3,10 +3,10 @@ from pathlib import Path
 
 from fontmake.font_project import FontProject
 from ufoLib2 import Font
+
 from rename import build_mapping_from_yaml, rename_glyphs
 
 directory = Path(__file__).parent.parent
-
 otl_dir = directory
 otl_path = otl_dir / "src" / "main.fea"
 
@@ -43,12 +43,7 @@ def main():
     ufo.info.familyName = "Mongolian Baiti"
 
     project = FontProject()
-    project.run_from_ufos(
-        [ufo],
-        output=["otf"],
-        remove_overlaps=True,
-        output_path=directory.parent / "otf" / "Baiti-Regular.otf",
-    )
+    project.run_from_ufos([ufo], output=["otf"], remove_overlaps=True, output_path=directory / "src-baiti" / "Baiti-Regular.otf")
 
 
 if __name__ == "__main__":
