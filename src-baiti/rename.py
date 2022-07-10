@@ -22,7 +22,7 @@ def build_mapping_from_yaml(path: str) -> Mapping:
 
         for doc in docs:
             for k, v in doc.items():
-                mapping["glyph" + str(k)] = v
+                mapping[str(k)] = v
     return mapping
 
 
