@@ -75,17 +75,17 @@ uni1829: ng.AG.isol
 glyph343: ng.AG.init
 glyph344: ng.AG.medi
 glyph345: ng.AG.fina
-glyph347: ng_n.AGN.medi
-glyph348: ng_h.AGH.fina
-glyph349: ng_h.AGGh.fina
-glyph350: ng_h.AGH.medi
-glyph351: ng_h.AGGh.medi
-glyph352: ng_g.AGH.fina
-glyph353: ng_g.AGGh.fina
-glyph354: ng_g.AGH.medi
-glyph355: ng_g.AGGh.medi
-glyph1993: ng_g_l.AGGL.medi
-glyph356: ng_l.AGL.medi
+# glyph347: ng_n.AGN.medi
+# glyph348: ng_h.AGH.fina
+# glyph349: ng_h.AGGh.fina
+# glyph350: ng_h.AGH.medi
+# glyph351: ng_h.AGGh.medi
+# glyph352: ng_g.AGH.fina
+# glyph353: ng_g.AGGh.fina
+# glyph354: ng_g.AGH.medi
+# glyph355: ng_g.AGGh.medi
+# glyph1993: ng_g_l.AGGL.medi
+# glyph356: ng_l.AGL.medi
 uni182A: b.B.isol
 glyph363: b.B.init
 glyph364: b.B.medi
@@ -536,356 +536,356 @@ glyph908: cr.Cr.init
 glyph909: cr.Cr.medi
 glyph907: cr.Cr.fina
 
-glyph306: u_u.OU.isol
-glyph1831: ue_ue.OU.isol
-glyph402: b_ue_ue.BOU.isol
+# glyph306: u_u.OU.isol
+# glyph1831: ue_ue.OU.isol
+# glyph402: b_ue_ue.BOU.isol
 
-glyph2223: a.A.init.mvs
-glyph2224: e.A.init.mvs
-glyph2220: i.I.isol.mvs
-glyph2221: i.Ix.isol.mvs
-glyph2225: i.I.init.mvs
-glyph2039: u.U.isol.mvs
-glyph2040: u.Ux.isol.mvs
-glyph2037: u.AO.init.mvs
-glyph2038: u.U.init.mvs
-glyph2042: ue.U.isol.mvs
-glyph2043: ue.Ux.isol.mvs
-glyph2226: ue.AOI.init.mvs
-glyph2041: ue.O.init.mvs
-glyph2044: n.N.init.mvs
-glyph2054: m.M.init.mvs
-glyph2049: l.L.init.mvs
-glyph2050: t.T.init.mvs
-glyph2051: d.D.init.mvs
-glyph2055: ch.Ch.init.mvs
-glyph2222: j.I.isol.mvs
-glyph2052: y.Y.init.mvs
-glyph2053: y.I.init.mvs
+# glyph2223: a.A.init.mvs
+# glyph2224: e.A.init.mvs
+# glyph2220: i.I.isol.mvs
+# glyph2221: i.Ix.isol.mvs
+# glyph2225: i.I.init.mvs
+# glyph2039: u.U.isol.mvs
+# glyph2040: u.Ux.isol.mvs
+# glyph2037: u.AO.init.mvs
+# glyph2038: u.U.init.mvs
+# glyph2042: ue.U.isol.mvs
+# glyph2043: ue.Ux.isol.mvs
+# glyph2226: ue.AOI.init.mvs
+# glyph2041: ue.O.init.mvs
+# glyph2044: n.N.init.mvs
+# glyph2054: m.M.init.mvs
+# glyph2049: l.L.init.mvs
+# glyph2050: t.T.init.mvs
+# glyph2051: d.D.init.mvs
+# glyph2055: ch.Ch.init.mvs
+# glyph2222: j.I.isol.mvs
+# glyph2052: y.Y.init.mvs
+# glyph2053: y.I.init.mvs
 
-glyph2574: u_u.OU.fina.mvs
-glyph2575: ue_ue.OU.fina.mvs
-glyph2045: b_a.BA..init.mvs
-glyph2046: b_e.BA..init.mvs
-glyph2576: b_ue_ue.BOU.fina.mvs
-glyph2048: h_i.GI.fina.mvs
-glyph2047: h_i.GI.medi.mvs
-glyph2229: h_ue.GUe.fina.mvs
+# glyph2574: u_u.OU.fina.mvs
+# glyph2575: ue_ue.OU.fina.mvs
+# glyph2045: b_a.BA..init.mvs
+# glyph2046: b_e.BA..init.mvs
+# glyph2576: b_ue_ue.BOU.fina.mvs
+# glyph2048: h_i.GI.fina.mvs
+# glyph2047: h_i.GI.medi.mvs
+# glyph2229: h_ue.GUe.fina.mvs
 
-uni202F: nnbsp
-uni1801: ellipsis-mon
-uni1802: comma-mon
-uni1803: fullstop-mon
-uni1804: colon-mon
-uni1805: fourdots-mon
-uni1806: hyphen-mon
-uni1807: ssm-mon
-uni1808: comma2-mon
-uni1809: fullstop2-mon
-uni180A: nirugu
-uni180B: fvs1
-uni180C: fvs2
-uni180D: fvs3
-uni180E: mvs
-uni180F: fvs4
+# uni202F: nnbsp
+# uni1801: ellipsis-mon
+# uni1802: comma-mon
+# uni1803: fullstop-mon
+# uni1804: colon-mon
+# uni1805: fourdots-mon
+# uni1806: hyphen-mon
+# uni1807: ssm-mon
+# uni1808: comma2-mon
+# uni1809: fullstop2-mon
+# uni180A: nirugu
+# uni180B: fvs1
+# uni180C: fvs2
+# uni180D: fvs3
+# uni180E: mvs
+# uni180F: fvs4
 
-uni1810: zero-mon
-uni1811: one-mon
-uni1812: two-mon
-uni1813: three-mon
-uni1814: four-mon
-uni1815: five-mon
-uni1816: six-mon
-uni1817: seven-mon
-uni1818: eight-mon
-uni1819: nine-mon
-uni1800: birga
-u11660: uni11660
-u11661: uni11661
-u11662: uni11662
-u11663: uni11663
-u11664: uni11664
-u11665: uni11665
-u11666: uni11666
-u11667: uni11667
-u11668: uni11668
-u11669: uni11669
-u1166A: uni1166A
-u1166B: uni1166B
-u1166C: uni1166C
+# uni1810: zero-mon
+# uni1811: one-mon
+# uni1812: two-mon
+# uni1813: three-mon
+# uni1814: four-mon
+# uni1815: five-mon
+# uni1816: six-mon
+# uni1817: seven-mon
+# uni1818: eight-mon
+# uni1819: nine-mon
+# uni1800: birga
+# u11660: uni11660
+# u11661: uni11661
+# u11662: uni11662
+# u11663: uni11663
+# u11664: uni11664
+# u11665: uni11665
+# u11666: uni11666
+# u11667: uni11667
+# u11668: uni11668
+# u11669: uni11669
+# u1166A: uni1166A
+# u1166B: uni1166B
+# u1166C: uni1166C
 
-A: A-lat
-B: B-lat
-C: C-lat
-D: D-lat
-E: E-lat
-F: F-lat
-G: G-lat
-H: H-lat
-I: I-lat
-J: J-lat
-K: K-lat
-L: L-lat
-M: M-lat
-N: N-lat
-O: O-lat
-P: P-lat
-Q: Q-lat
-R: R-lat
-S: S-lat
-T: T-lat
-U: U-lat
-V: V-lat
-W: W-lat
-X: X-lat
-Y: Y-lat
-Z: Z-lat
-a: a-lat
-b: b-lat
-c: c-lat
-d: d-lat
-e: e-lat
-f: f-lat
-g: g-lat
-h: h-lat
-i: i-lat
-j: j-lat
-k: k-lat
-l: l-lat
-m: m-lat
-n: n-lat
-o: o-lat
-p: p-lat
-q: q-lat
-r: r-lat
-s: s-lat
-t: t-lat
-u: u-lat
-v: v-lat
-w: w-lat
-x: x-lat
-y: y-lat
-z: z-lat
-zero: zero-lat
-one: one-lat
-two: two-lat
-three: three-lat
-four: four-lat
-five: five-lat
-six: six-lat
-seven: seven-lat
-eight: eight-lat
-nine: nine-lat
+# A: A-lat
+# B: B-lat
+# C: C-lat
+# D: D-lat
+# E: E-lat
+# F: F-lat
+# G: G-lat
+# H: H-lat
+# I: I-lat
+# J: J-lat
+# K: K-lat
+# L: L-lat
+# M: M-lat
+# N: N-lat
+# O: O-lat
+# P: P-lat
+# Q: Q-lat
+# R: R-lat
+# S: S-lat
+# T: T-lat
+# U: U-lat
+# V: V-lat
+# W: W-lat
+# X: X-lat
+# Y: Y-lat
+# Z: Z-lat
+# a: a-lat
+# b: b-lat
+# c: c-lat
+# d: d-lat
+# e: e-lat
+# f: f-lat
+# g: g-lat
+# h: h-lat
+# i: i-lat
+# j: j-lat
+# k: k-lat
+# l: l-lat
+# m: m-lat
+# n: n-lat
+# o: o-lat
+# p: p-lat
+# q: q-lat
+# r: r-lat
+# s: s-lat
+# t: t-lat
+# u: u-lat
+# v: v-lat
+# w: w-lat
+# x: x-lat
+# y: y-lat
+# z: z-lat
+# zero: zero-lat
+# one: one-lat
+# two: two-lat
+# three: three-lat
+# four: four-lat
+# five: five-lat
+# six: six-lat
+# seven: seven-lat
+# eight: eight-lat
+# nine: nine-lat
 
-space: uni0020
-exclam: uni0021
-quotedbl: uni0022
-numbersign: uni0023
-dollar: uni0024
-percent: uni0025
-ampersand: uni0026
-quotesingle: uni0027
-parenleft: uni0028
-parenright: uni0029
-asterisk: uni002A
-plus: uni002B
-comma: uni002C
-hyphen: uni002D
-period: uni002E
-slash: uni002F
-colon: uni003A
-semicolon: uni003B
-less: uni003C
-equal: uni003D
-greater: uni003E
-question: uni003F
-at: uni0040
-bracketleft: uni005B
-backslash: uni005C
-bracketright: uni005D
-asciicircum: uni005E
-underscore: uni005F
-grave: uni0060
-braceleft: uni007B
-bar: uni007C
-braceright: uni007D
-asciitilde: uni007E
-uni00A0: uni00A0
-exclamdown: uni00A1
-cent: uni00A2
-sterling: uni00A3
-currency: uni00A4
-yen: uni00A5
-brokenbar: uni00A6
-section: uni00A7
-dieresis: uni00A8
-copyright: uni00A9
-ordfeminine: uni00AA
-guillemotleft: uni00AB
-logicalnot: uni00AC
-registered: uni00AE
-degree: uni00B0
-plusminus: uni00B1
-twosuperior: uni00B2
-threesuperior: uni00B3
-acute: uni00B4
-mu: uni00B5
-paragraph: uni00B6
-cedilla: uni00B8
-onesuperior: uni00B9
-ordmasculine: uni00BA
-guillemotright: uni00BB
-onequarter: uni00BC
-onehalf: uni00BD
-threequarters: uni00BE
-questiondown: uni00BF
-Agrave: uni00C0
-Aacute: uni00C1
-Acircumflex: uni00C2
-Atilde: uni00C3
-Adieresis: uni00C4
-Aring: uni00C5
-AE: uni00C6
-Ccedilla: uni00C7
-Egrave: uni00C8
-Eacute: uni00C9
-Ecircumflex: uni00CA
-Edieresis: uni00CB
-Igrave: uni00CC
-Iacute: uni00CD
-Icircumflex: uni00CE
-Idieresis: uni00CF
-Eth: uni00D0
-Ntilde: uni00D1
-Ograve: uni00D2
-Oacute: uni00D3
-Ocircumflex: uni00D4
-Otilde: uni00D5
-Odieresis: uni00D6
-multiply: uni00D7
-Oslash: uni00D8
-Ugrave: uni00D9
-Uacute: uni00DA
-Ucircumflex: uni00DB
-Udieresis: uni00DC
-Yacute: uni00DD
-Thorn: uni00DE
-germandbls: uni00DF
-agrave: uni00E0
-aacute: uni00E1
-acircumflex: uni00E2
-atilde: uni00E3
-adieresis: uni00E4
-aring: uni00E5
-ae: uni00E6
-ccedilla: uni00E7
-egrave: uni00E8
-eacute: uni00E9
-ecircumflex: uni00EA
-edieresis: uni00EB
-igrave: uni00EC
-iacute: uni00ED
-icircumflex: uni00EE
-idieresis: uni00EF
-eth: uni00F0
-ntilde: uni00F1
-ograve: uni00F2
-oacute: uni00F3
-ocircumflex: uni00F4
-otilde: uni00F5
-odieresis: uni00F6
-divide: uni00F7
-oslash: uni00F8
-ugrave: uni00F9
-uacute: uni00FA
-ucircumflex: uni00FB
-udieresis: uni00FC
-yacute: uni00FD
-thorn: uni00FE
-ydieresis: uni00FF
-OE: uni0152
-oe: uni0153
-Scaron: uni0160
-scaron: uni0161
-Ydieresis: uni0178
-Zcaron: uni017D
-zcaron: uni017E
-florin: uni0192
-circumflex: uni02C6
-tilde: uni02DC
-endash: uni2013
-emdash: uni2014
-quotesinglbase: uni201A
-quotedblbase: uni201E
-dagger: uni2020
-daggerdbl: uni2021
-perthousand: uni2030
-guilsinglleft: uni2039
-guilsinglright: uni203A
-quoteleft: uni2018
-quoteright: uni2019
-quotedblleft: uni201C
-quotedblright: uni201D
-bullet: uni2022
-exclamdbl: uni203C
-uni2047: uni2047
-uni2048: uni2048
-uni2049: uni2049
-trademark: uni2122
-uni2460: uni2460
-uni2461: uni2461
-uni2462: uni2462
-uni2463: uni2463
-uni2464: uni2464
-uni2465: uni2465
-uni2466: uni2466
-uni2467: uni2467
-uni2468: uni2468
-uni2469: uni2469
-uni246A: uni246A
-uni246B: uni246B
-uni246C: uni246C
-uni246D: uni246D
-uni246E: uni246E
-uni246F: uni246F
-uni2470: uni2470
-uni2471: uni2471
-uni2472: uni2472
-uni2473: uni2473
-uni3001: uni3001
-uni3002: uni3002
-uni3008: uni3008
-uni3009: uni3009
-uni300A: uni300A
-uni300B: uni300B
-uni300C: uni300C
-uni300D: uni300D
-uni300E: uni300E
-uni300F: uni300F
-uni3010: uni3010
-uni3011: uni3011
-uni3014: uni3014
-uni3015: uni3015
-uni3016: uni3016
-uni3017: uni3017
-uni3018: uni3018
-uni3019: uni3019
-uni301A: uni301A
-uni301B: uni301B
-uni301C: uni301C
-uni301D: uni301D
-uni301E: uni301E
-uniFE10: uniFE10
-uniFE13: uniFE13
-uniFE14: uniFE14
-uniFE15: uniFE15
-uniFE16: uniFE16
-uniFE19: uniFE19
-uniFE5B: uniFE5B
-uniFE5C: uniFE5C
-uniFE63: uniFE63
-uniFF0E: uniFF0E
-uniFF5C: uniFF5C
+# space: uni0020
+# exclam: uni0021
+# quotedbl: uni0022
+# numbersign: uni0023
+# dollar: uni0024
+# percent: uni0025
+# ampersand: uni0026
+# quotesingle: uni0027
+# parenleft: uni0028
+# parenright: uni0029
+# asterisk: uni002A
+# plus: uni002B
+# comma: uni002C
+# hyphen: uni002D
+# period: uni002E
+# slash: uni002F
+# colon: uni003A
+# semicolon: uni003B
+# less: uni003C
+# equal: uni003D
+# greater: uni003E
+# question: uni003F
+# at: uni0040
+# bracketleft: uni005B
+# backslash: uni005C
+# bracketright: uni005D
+# asciicircum: uni005E
+# underscore: uni005F
+# grave: uni0060
+# braceleft: uni007B
+# bar: uni007C
+# braceright: uni007D
+# asciitilde: uni007E
+# uni00A0: uni00A0
+# exclamdown: uni00A1
+# cent: uni00A2
+# sterling: uni00A3
+# currency: uni00A4
+# yen: uni00A5
+# brokenbar: uni00A6
+# section: uni00A7
+# dieresis: uni00A8
+# copyright: uni00A9
+# ordfeminine: uni00AA
+# guillemotleft: uni00AB
+# logicalnot: uni00AC
+# registered: uni00AE
+# degree: uni00B0
+# plusminus: uni00B1
+# twosuperior: uni00B2
+# threesuperior: uni00B3
+# acute: uni00B4
+# mu: uni00B5
+# paragraph: uni00B6
+# cedilla: uni00B8
+# onesuperior: uni00B9
+# ordmasculine: uni00BA
+# guillemotright: uni00BB
+# onequarter: uni00BC
+# onehalf: uni00BD
+# threequarters: uni00BE
+# questiondown: uni00BF
+# Agrave: uni00C0
+# Aacute: uni00C1
+# Acircumflex: uni00C2
+# Atilde: uni00C3
+# Adieresis: uni00C4
+# Aring: uni00C5
+# AE: uni00C6
+# Ccedilla: uni00C7
+# Egrave: uni00C8
+# Eacute: uni00C9
+# Ecircumflex: uni00CA
+# Edieresis: uni00CB
+# Igrave: uni00CC
+# Iacute: uni00CD
+# Icircumflex: uni00CE
+# Idieresis: uni00CF
+# Eth: uni00D0
+# Ntilde: uni00D1
+# Ograve: uni00D2
+# Oacute: uni00D3
+# Ocircumflex: uni00D4
+# Otilde: uni00D5
+# Odieresis: uni00D6
+# multiply: uni00D7
+# Oslash: uni00D8
+# Ugrave: uni00D9
+# Uacute: uni00DA
+# Ucircumflex: uni00DB
+# Udieresis: uni00DC
+# Yacute: uni00DD
+# Thorn: uni00DE
+# germandbls: uni00DF
+# agrave: uni00E0
+# aacute: uni00E1
+# acircumflex: uni00E2
+# atilde: uni00E3
+# adieresis: uni00E4
+# aring: uni00E5
+# ae: uni00E6
+# ccedilla: uni00E7
+# egrave: uni00E8
+# eacute: uni00E9
+# ecircumflex: uni00EA
+# edieresis: uni00EB
+# igrave: uni00EC
+# iacute: uni00ED
+# icircumflex: uni00EE
+# idieresis: uni00EF
+# eth: uni00F0
+# ntilde: uni00F1
+# ograve: uni00F2
+# oacute: uni00F3
+# ocircumflex: uni00F4
+# otilde: uni00F5
+# odieresis: uni00F6
+# divide: uni00F7
+# oslash: uni00F8
+# ugrave: uni00F9
+# uacute: uni00FA
+# ucircumflex: uni00FB
+# udieresis: uni00FC
+# yacute: uni00FD
+# thorn: uni00FE
+# ydieresis: uni00FF
+# OE: uni0152
+# oe: uni0153
+# Scaron: uni0160
+# scaron: uni0161
+# Ydieresis: uni0178
+# Zcaron: uni017D
+# zcaron: uni017E
+# florin: uni0192
+# circumflex: uni02C6
+# tilde: uni02DC
+# endash: uni2013
+# emdash: uni2014
+# quotesinglbase: uni201A
+# quotedblbase: uni201E
+# dagger: uni2020
+# daggerdbl: uni2021
+# perthousand: uni2030
+# guilsinglleft: uni2039
+# guilsinglright: uni203A
+# quoteleft: uni2018
+# quoteright: uni2019
+# quotedblleft: uni201C
+# quotedblright: uni201D
+# bullet: uni2022
+# exclamdbl: uni203C
+# uni2047: uni2047
+# uni2048: uni2048
+# uni2049: uni2049
+# trademark: uni2122
+# uni2460: uni2460
+# uni2461: uni2461
+# uni2462: uni2462
+# uni2463: uni2463
+# uni2464: uni2464
+# uni2465: uni2465
+# uni2466: uni2466
+# uni2467: uni2467
+# uni2468: uni2468
+# uni2469: uni2469
+# uni246A: uni246A
+# uni246B: uni246B
+# uni246C: uni246C
+# uni246D: uni246D
+# uni246E: uni246E
+# uni246F: uni246F
+# uni2470: uni2470
+# uni2471: uni2471
+# uni2472: uni2472
+# uni2473: uni2473
+# uni3001: uni3001
+# uni3002: uni3002
+# uni3008: uni3008
+# uni3009: uni3009
+# uni300A: uni300A
+# uni300B: uni300B
+# uni300C: uni300C
+# uni300D: uni300D
+# uni300E: uni300E
+# uni300F: uni300F
+# uni3010: uni3010
+# uni3011: uni3011
+# uni3014: uni3014
+# uni3015: uni3015
+# uni3016: uni3016
+# uni3017: uni3017
+# uni3018: uni3018
+# uni3019: uni3019
+# uni301A: uni301A
+# uni301B: uni301B
+# uni301C: uni301C
+# uni301D: uni301D
+# uni301E: uni301E
+# uniFE10: uniFE10
+# uniFE13: uniFE13
+# uniFE14: uniFE14
+# uniFE15: uniFE15
+# uniFE16: uniFE16
+# uniFE19: uniFE19
+# uniFE5B: uniFE5B
+# uniFE5C: uniFE5C
+# uniFE63: uniFE63
+# uniFF0E: uniFF0E
+# uniFF5C: uniFF5C
 # glyph1851: zero-mon.vert
 # glyph1852: one-mon.vert
 # glyph1853: two-mon.vert
@@ -970,3 +970,15 @@ uniFF5C: uniFF5C
 # glyph1935: uniFE63.vert
 # glyph1927: uniFF0E.vert
 # glyph1947: uniFF5C.vert
+
+# These 10 glyphs are used by EAC, not used by Baiti
+glyph2135: notdef # oe.AU.isol
+glyph2188: notdef # n.A.isol
+glyph2191: notdef # sh.S.isol
+glyph2192: notdef # sh.S.init
+glyph2193: notdef # sh.S.medi
+glyph2189: notdef # d.T.isol
+glyph693: notdef # j.I2.isol
+glyph2190: notdef # y.I.isol
+glyph702: notdef # y.II.medi
+glyph1827: notdef # w.O.medi
