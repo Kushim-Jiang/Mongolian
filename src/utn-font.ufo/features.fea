@@ -16,23 +16,23 @@
 @i.fina = [i.I.fina];
 @i = [@i.isol @i.init @i.medi @i.fina];
 @o.isol = [o.AO.isol];
-@o.init = [o.AU.init];
-@o.medi = [o.U.medi o.AU.medi];
+@o.init = [o.AO.init];
+@o.medi = [o.O.medi o.AO.medi];
 @o.fina = [o.U.fina o.O.fina];
 @o = [@o.isol @o.init @o.medi @o.fina];
 @u.isol = [u.AO.isol u.U.isol u.Ux.isol];
-@u.init = [u.AU.init u.U.init];
-@u.medi = [u.U.medi u.AU.medi];
+@u.init = [u.AO.init u.U.init];
+@u.medi = [u.O.medi u.AO.medi];
 @u.fina = [u.U.fina u.O.fina];
 @u = [@u.isol @u.init @u.medi @u.fina];
 @oe.isol = [oe.AUe.isol oe.AU.isol];
-@oe.init = [oe.AUI.init];
-@oe.medi = [oe.U.medi oe.UI.medi oe.AUI.medi];
+@oe.init = [oe.AOI.init];
+@oe.medi = [oe.O.medi oe.OI.medi oe.AOI.medi];
 @oe.fina = [oe.U.fina oe.Ue.fina oe.O.fina];
 @oe = [@oe.isol @oe.init @oe.medi @oe.fina];
 @ue.isol = [ue.AUe.isol ue.AU.isol ue.U.isol ue.Ux.isol];
-@ue.init = [ue.AUI.init ue.U.init];
-@ue.medi = [ue.U.medi ue.UI.medi ue.AUI.medi];
+@ue.init = [ue.AOI.init ue.O.init];
+@ue.medi = [ue.O.medi ue.OI.medi ue.AOI.medi];
 @ue.fina = [ue.U.fina ue.Ue.fina ue.O.fina];
 @ue = [@ue.isol @ue.init @ue.medi @ue.fina];
 @eh.isol = [eh.AW.isol];
@@ -53,7 +53,7 @@
 @b.isol = [b.B.isol];
 @b.init = [b.B.init];
 @b.medi = [b.B.medi];
-@b.fina = [b.B.fina b.Bb.fina];
+@b.fina = [b.B.fina b.B2.fina];
 @b = [@b.isol @b.init @b.medi @b.fina];
 @p.isol = [p.P.isol];
 @p.init = [p.P.init];
@@ -83,7 +83,7 @@
 @s.isol = [s.S.isol];
 @s.init = [s.S.init];
 @s.medi = [s.S.medi];
-@s.fina = [s.S.fina s.Ss.fina];
+@s.fina = [s.S.fina s.S2.fina];
 @s = [@s.isol @s.init @s.medi @s.fina];
 @sh.isol = [sh.Sh.isol sh.S.isol];
 @sh.init = [sh.Sh.init sh.S.init];
@@ -229,10 +229,10 @@ lookup IIa.init {
     sub a-mon by a.AA.init;
     sub e-mon by e.A.init;
     sub i-mon by i.AI.init;
-    sub o-mon by o.AU.init;
-    sub u-mon by u.AU.init;
-    sub oe-mon by oe.AUI.init;
-    sub ue-mon by ue.AUI.init;
+    sub o-mon by o.AO.init;
+    sub u-mon by u.AO.init;
+    sub oe-mon by oe.AOI.init;
+    sub ue-mon by ue.AOI.init;
     sub eh-mon by eh.AW.init;
     sub n-mon by n.N.init;
     sub ng-mon by ng.AG.init;
@@ -267,10 +267,10 @@ lookup IIa.medi {
     sub a-mon by a.A.medi;
     sub e-mon by e.A.medi;
     sub i-mon by i.I.medi;
-    sub o-mon by o.U.medi;
-    sub u-mon by u.U.medi;
-    sub oe-mon by oe.U.medi;
-    sub ue-mon by ue.U.medi;
+    sub o-mon by o.O.medi;
+    sub u-mon by u.O.medi;
+    sub oe-mon by oe.O.medi;
+    sub ue-mon by ue.O.medi;
     sub eh-mon by eh.W.medi;
     sub n-mon by n.N.medi;
     sub ng-mon by ng.AG.medi;
@@ -372,16 +372,16 @@ lookup condition.chachlag {
 
 @o.fina.for_marked = [o.U.fina];
 @u.fina.for_marked = [u.U.fina];
-@oe.medi.for_marked = [oe.U.medi];
+@oe.medi.for_marked = [oe.O.medi];
 @oe.fina.for_marked = [oe.O.fina oe.U.fina];
-@ue.medi.for_marked = [ue.U.medi];
+@ue.medi.for_marked = [ue.O.medi];
 @ue.fina.for_marked = [ue.O.fina ue.U.fina];
 lookup condition.marked {
     sub @o.fina.for_marked by o.O.fina;
     sub @u.fina.for_marked by u.O.fina;
-    sub @oe.medi.for_marked by oe.UI.medi;
+    sub @oe.medi.for_marked by oe.OI.medi;
     sub @oe.fina.for_marked by oe.Ue.fina;
-    sub @ue.medi.for_marked by ue.UI.medi;
+    sub @ue.medi.for_marked by ue.OI.medi;
     sub @ue.fina.for_marked by ue.Ue.fina;
 } condition.marked;
 
@@ -475,12 +475,12 @@ lookup condition.masculine_devsger {
 @a.isol.for_particle = [a.AA.isol];  # NNBSP = MVS
 @a.init.for_particle = [a.AA.init];
 @u.isol.for_particle = [u.AO.isol];
-@u.init.for_particle = [u.AU.init];
+@u.init.for_particle = [u.AO.init];
 @u.fina.for_particle = [u.O.fina];
 @e.isol.for_particle = [e.A.isol];  # NNBSP = MVS
 @ue.isol.for_particle = [ue.AUe.isol];
-@ue.init.for_particle = [ue.AUI.init];
-@ue.medi.for_particle = [ue.UI.medi];
+@ue.init.for_particle = [ue.AOI.init];
+@ue.medi.for_particle = [ue.OI.medi];
 @ue.fina.for_particle = [ue.Ue.fina ue.O.fina];
 @i.isol.for_particle = [i.AI.isol];
 @i.init.for_particle = [i.AI.init];
@@ -493,8 +493,8 @@ lookup condition.particle {
     sub @u.fina.for_particle by u.U.fina;
     sub @e.isol.for_particle by e.Aa.isol;  # NNBSP = MVS
     sub @ue.isol.for_particle by ue.U.isol;
-    sub @ue.init.for_particle by ue.U.init;
-    sub @ue.medi.for_particle by ue.U.medi;
+    sub @ue.init.for_particle by ue.O.init;
+    sub @ue.medi.for_particle by ue.O.medi;
     sub @ue.fina.for_particle by ue.U.fina;
     sub @i.isol.for_particle by i.I.isol;
     sub @i.init.for_particle by i.I.init;
@@ -503,13 +503,13 @@ lookup condition.particle {
 
 @y.init.for_dictionary_particle = [y.Y.init];
 @y.medi.for_dictionary_particle = [y.Y.medi];
-@ue.init.for_dictionary_particle = [ue.U.init];
+@ue.init.for_dictionary_particle = [ue.O.init];
 @u.init.for_dictionary_particle = [u.U.init];
 lookup condition.dictionary_particle {
     sub @y.init.for_dictionary_particle by y.I.init;
     sub @y.medi.for_dictionary_particle by y.I.medi;
-    sub @ue.init.for_dictionary_particle by ue.AUI.init;
-    sub @u.init.for_dictionary_particle by u.AU.init;
+    sub @ue.init.for_dictionary_particle by ue.AOI.init;
+    sub @u.init.for_dictionary_particle by u.AO.init;
 } condition.dictionary_particle;
 
 # III.5: Post-bowed
@@ -632,8 +632,8 @@ lookup III.ue_y.dictionary_particle {
     sub [mvs.effe nnbsp.effe] y.Y.init' lookup condition.dictionary_particle i.I.fina;
     sub [mvs.effe nnbsp.effe] y.Y.init' lookup condition.dictionary_particle i.I.medi n.A.fina;
     # not found in EAC spec
-    sub [mvs.effe nnbsp.effe] ue.U.init' lookup condition.dictionary_particle g.G.medi e.A.medi i.I.fina;
-    sub [mvs.effe nnbsp.effe] u.U.init' lookup condition.dictionary_particle r.R.medi u.U.medi g.Gh.medi u.U.fina;
+    sub [mvs.effe nnbsp.effe] ue.O.init' lookup condition.dictionary_particle g.G.medi e.A.medi i.I.fina;
+    sub [mvs.effe nnbsp.effe] u.U.init' lookup condition.dictionary_particle r.R.medi u.O.medi g.Gh.medi u.U.fina;
     lookupflag 0;
 } III.ue_y.dictionary_particle;
 
@@ -641,7 +641,7 @@ lookup III.ue_y.dictionary_particle {
 
 lookup III.i.devsger {
     lookupflag IgnoreMarks;
-    @vowel.not_ending_with_I = [a.AA.isol a.Aa.isol @a.init a.A.medi a.A.fina @o.isol @o.init o.U.medi @o.fina u.AO.isol u.U.isol @u.init u.U.medi @u.fina @e.isol e.A.init @e.medi e.A.fina oe.AUe.isol oe.U.medi @oe.fina ue.AUe.isol ue.U.isol ue.U.init ue.U.medi @ue.fina @eh];
+    @vowel.not_ending_with_I = [a.AA.isol a.Aa.isol @a.init a.A.medi a.A.fina @o.isol @o.init o.O.medi @o.fina u.AO.isol u.U.isol @u.init u.O.medi @u.fina @e.isol e.A.init @e.medi e.A.fina oe.AUe.isol oe.O.medi @oe.fina ue.AUe.isol ue.U.isol ue.O.init ue.O.medi @ue.fina @eh];
     sub @vowel.not_ending_with_I @i' lookup condition.devsger;
     lookupflag 0;
 } III.i.devsger;
@@ -677,32 +677,32 @@ lookup III.fvs {
     sub @i.medi fvs3 by i.I.medi;
     sub @i.medi fvs1 by i.AI.medi;
     sub @i.medi fvs2 by i.II.medi;
-    sub @o.medi fvs1 by o.AU.medi;
+    sub @o.medi fvs1 by o.AO.medi;
     sub @o.fina fvs2 by o.U.fina;
     sub @o.fina fvs1 by o.O.fina;
     sub @u.isol fvs3 by u.AO.isol;
     sub @u.isol fvs1 by u.U.isol;
     sub @u.isol fvs2 by u.Ux.isol;
-    sub @u.init fvs2 by u.AU.init;
+    sub @u.init fvs2 by u.AO.init;
     sub @u.init fvs1 by u.U.init;
-    sub @u.medi fvs1 by u.AU.medi;
+    sub @u.medi fvs1 by u.AO.medi;
     sub @u.fina fvs2 by u.U.fina;
     sub @u.fina fvs1 by u.O.fina;
     sub @oe.isol fvs1 by oe.AU.isol;
-    sub @oe.medi fvs3 by oe.U.medi;
-    sub @oe.medi fvs1 by oe.UI.medi;
-    sub @oe.medi fvs2 by oe.AUI.medi;
+    sub @oe.medi fvs3 by oe.O.medi;
+    sub @oe.medi fvs1 by oe.OI.medi;
+    sub @oe.medi fvs2 by oe.AOI.medi;
     sub @oe.fina fvs3 by oe.U.fina;
     sub @oe.fina fvs1 by oe.Ue.fina;
     sub @oe.fina fvs2 by oe.O.fina;
     sub @ue.isol fvs1 by ue.AU.isol;
     sub @ue.isol fvs2 by ue.U.isol;
     sub @ue.isol fvs3 by ue.Ux.isol;
-    sub @ue.init fvs2 by ue.AUI.init;
-    sub @ue.init fvs1 by ue.U.init;
-    sub @ue.medi fvs3 by ue.U.medi;
-    sub @ue.medi fvs1 by ue.UI.medi;
-    sub @ue.medi fvs2 by ue.AUI.medi;
+    sub @ue.init fvs2 by ue.AOI.init;
+    sub @ue.init fvs1 by ue.O.init;
+    sub @ue.medi fvs3 by ue.O.medi;
+    sub @ue.medi fvs1 by ue.OI.medi;
+    sub @ue.medi fvs2 by ue.AOI.medi;
     sub @ue.fina fvs3 by ue.U.fina;
     sub @ue.fina fvs1 by ue.Ue.fina;
     sub @ue.fina fvs2 by ue.O.fina;
@@ -712,7 +712,7 @@ lookup III.fvs {
     sub @n.medi fvs1 by n.N.medi;
     sub @n.fina fvs2 by n.A.fina;
     sub @n.fina fvs1 by n.N.fina;
-    sub @b.fina fvs1 by b.Bb.fina;
+    sub @b.fina fvs1 by b.B2.fina;
     sub @h.isol fvs1 by h.Gh.isol;
     sub @h.isol fvs2 by h.G.isol;
     sub @h.isol fvs4 by h.Gx.isol;
@@ -739,7 +739,7 @@ lookup III.fvs {
     sub @g.fina fvs1 by g.H.fina;
     sub @g.fina fvs2 by g.G.fina;
     sub @g.fina fvs3 by g.Gh.fina;
-    sub @s.fina fvs1 by s.Ss.fina;
+    sub @s.fina fvs1 by s.S2.fina;
     sub @sh.isol fvs1 by sh.S.isol;
     sub @sh.init fvs2 by sh.Sh.init;
     sub @sh.init fvs1 by sh.S.init;
@@ -836,20 +836,20 @@ lookup IIb.ligature {
     sub [h.Gx.init g.Gx.init] i.I.fina by GxI.isol;
     sub [h.Gx.medi g.Gx.medi] i.I.fina by GxI.fina;
 
-    sub [h.G.init g.G.init] [oe.UI.medi ue.UI.medi] by GUI.init;
-    sub [h.G.medi g.G.medi] [oe.UI.medi ue.UI.medi] by GUI.medi;
+    sub [h.G.init g.G.init] [oe.OI.medi ue.OI.medi] by GOI.init;
+    sub [h.G.medi g.G.medi] [oe.OI.medi ue.OI.medi] by GOI.medi;
     sub [h.G.init g.G.init] [oe.Ue.fina ue.Ue.fina] by GUe.isol;
     sub [h.G.medi g.G.medi] [oe.Ue.fina ue.Ue.fina] by GUe.fina;
-    sub [h.G.init g.G.init] [oe.U.medi ue.U.medi] by GU.init;
-    sub [h.G.medi g.G.medi] [oe.U.medi ue.U.medi] by GU.medi;
+    sub [h.G.init g.G.init] [oe.O.medi ue.O.medi] by GO.init;
+    sub [h.G.medi g.G.medi] [oe.O.medi ue.O.medi] by GO.medi;
     sub [h.G.init g.G.init] [oe.O.fina ue.O.fina] by GO.isol;
     sub [h.G.medi g.G.medi] [oe.O.fina ue.O.fina] by GO.fina;
-    sub [h.Gx.init g.Gx.init] [oe.UI.medi ue.UI.medi] by GxUI.init;
-    sub [h.Gx.medi g.Gx.medi] [oe.UI.medi ue.UI.medi] by GxUI.medi;
+    sub [h.Gx.init g.Gx.init] [oe.OI.medi ue.OI.medi] by GxOI.init;
+    sub [h.Gx.medi g.Gx.medi] [oe.OI.medi ue.OI.medi] by GxOI.medi;
     sub [h.Gx.init g.Gx.init] [oe.Ue.fina ue.Ue.fina] by GxUe.isol;
     sub [h.Gx.medi g.Gx.medi] [oe.Ue.fina ue.Ue.fina] by GxUe.fina;
-    sub [h.Gx.init g.Gx.init] [oe.U.medi ue.U.medi] by GxU.init;
-    sub [h.Gx.medi g.Gx.medi] [oe.U.medi ue.U.medi] by GxU.medi;
+    sub [h.Gx.init g.Gx.init] [oe.O.medi ue.O.medi] by GxO.init;
+    sub [h.Gx.medi g.Gx.medi] [oe.O.medi ue.O.medi] by GxO.medi;
     sub [h.Gx.init g.Gx.init] [oe.O.fina ue.O.fina] by GxO.isol;
     sub [h.Gx.medi g.Gx.medi] [oe.O.fina ue.O.fina] by GxO.fina;
 
@@ -871,12 +871,12 @@ lookup IIb.ligature {
     sub b.B.medi i.I.medi by BI.medi;
     sub b.B.init i.I.fina by BI.isol;
     sub b.B.medi i.I.fina by BI.fina;
-    sub b.B.init [o.U.medi u.U.medi oe.U.medi ue.U.medi] by BU.init;
-    sub b.B.medi [o.U.medi u.U.medi oe.U.medi ue.U.medi] by BU.medi;
+    sub b.B.init [o.O.medi u.O.medi oe.O.medi ue.O.medi] by BO.init;
+    sub b.B.medi [o.O.medi u.O.medi oe.O.medi ue.O.medi] by BO.medi;
     sub b.B.init [o.O.fina u.O.fina oe.O.fina ue.O.fina] by BO.isol;
     sub b.B.medi [o.O.fina u.O.fina oe.O.fina ue.O.fina] by BO.fina;
-    sub b.B.init [oe.UI.medi ue.UI.medi] by BUI.init;
-    sub b.B.medi [oe.UI.medi ue.UI.medi] by BUI.medi;
+    sub b.B.init [oe.OI.medi ue.OI.medi] by BOI.init;
+    sub b.B.medi [oe.OI.medi ue.OI.medi] by BUI.medi;
     sub b.B.init [oe.Ue.fina ue.Ue.fina] by BUe.isol;
     sub b.B.medi [oe.Ue.fina ue.Ue.fina] by BUe.fina;
     sub b.B.init eh.W.medi by BW.init;
@@ -893,12 +893,12 @@ lookup IIb.ligature {
     sub p.P.medi i.I.medi by PI.medi;
     sub p.P.init i.I.fina by PI.isol;
     sub p.P.medi i.I.fina by PI.fina;
-    sub p.P.init [o.U.medi u.U.medi oe.U.medi ue.U.medi] by PU.init;
-    sub p.P.medi [o.U.medi u.U.medi oe.U.medi ue.U.medi] by PU.medi;
+    sub p.P.init [o.O.medi u.O.medi oe.O.medi ue.O.medi] by PO.init;
+    sub p.P.medi [o.O.medi u.O.medi oe.O.medi ue.O.medi] by PO.medi;
     sub p.P.init [o.O.fina u.O.fina oe.O.fina ue.O.fina] by PO.isol;
     sub p.P.medi [o.O.fina u.O.fina oe.O.fina ue.O.fina] by PO.fina;
-    sub p.P.init [oe.UI.medi ue.UI.medi] by PUI.init;
-    sub p.P.medi [oe.UI.medi ue.UI.medi] by PUI.medi;
+    sub p.P.init [oe.OI.medi ue.OI.medi] by POI.init;
+    sub p.P.medi [oe.OI.medi ue.OI.medi] by POI.medi;
     sub p.P.init [oe.Ue.fina ue.Ue.fina] by PUe.isol;
     sub p.P.medi [oe.Ue.fina ue.Ue.fina] by PUe.fina;
     sub p.P.init eh.W.medi by PW.init;
@@ -915,12 +915,12 @@ lookup IIb.ligature {
     sub f.F.medi i.I.medi by FI.medi;
     sub f.F.init i.I.fina by FI.isol;
     sub f.F.medi i.I.fina by FI.fina;
-    sub f.F.init [o.U.medi u.U.medi oe.U.medi ue.U.medi] by FU.init;
-    sub f.F.medi [o.U.medi u.U.medi oe.U.medi ue.U.medi] by FU.medi;
+    sub f.F.init [o.O.medi u.O.medi oe.O.medi ue.O.medi] by FO.init;
+    sub f.F.medi [o.O.medi u.O.medi oe.O.medi ue.O.medi] by FO.medi;
     sub f.F.init [o.O.fina u.O.fina oe.O.fina ue.O.fina] by FO.isol;
     sub f.F.medi [o.O.fina u.O.fina oe.O.fina ue.O.fina] by FO.fina;
-    sub f.F.init [oe.UI.medi ue.UI.medi] by FUI.init;
-    sub f.F.medi [oe.UI.medi ue.UI.medi] by FUI.medi;
+    sub f.F.init [oe.OI.medi ue.OI.medi] by FOI.init;
+    sub f.F.medi [oe.OI.medi ue.OI.medi] by FOI.medi;
     sub f.F.init [oe.Ue.fina ue.Ue.fina] by FUe.isol;
     sub f.F.medi [oe.Ue.fina ue.Ue.fina] by FUe.fina;
     sub f.F.init eh.W.medi by FW.init;
@@ -937,12 +937,12 @@ lookup IIb.ligature {
     sub k2.K2.medi i.I.medi by K2I.medi;
     sub k2.K2.init i.I.fina by K2I.isol;
     sub k2.K2.medi i.I.fina by K2I.fina;
-    sub k2.K2.init [o.U.medi u.U.medi oe.U.medi ue.U.medi] by K2U.init;
-    sub k2.K2.medi [o.U.medi u.U.medi oe.U.medi ue.U.medi] by K2U.medi;
+    sub k2.K2.init [o.O.medi u.O.medi oe.O.medi ue.O.medi] by K2O.init;
+    sub k2.K2.medi [o.O.medi u.O.medi oe.O.medi ue.O.medi] by K2O.medi;
     sub k2.K2.init [o.O.fina u.O.fina oe.O.fina ue.O.fina] by K2O.isol;
     sub k2.K2.medi [o.O.fina u.O.fina oe.O.fina ue.O.fina] by K2O.fina;
-    sub k2.K2.init [oe.UI.medi ue.UI.medi] by K2UI.init;
-    sub k2.K2.medi [oe.UI.medi ue.UI.medi] by K2UI.medi;
+    sub k2.K2.init [oe.OI.medi ue.OI.medi] by K2OI.init;
+    sub k2.K2.medi [oe.OI.medi ue.OI.medi] by K2OI.medi;
     sub k2.K2.init [oe.Ue.fina ue.Ue.fina] by K2Ue.isol;
     sub k2.K2.medi [oe.Ue.fina ue.Ue.fina] by K2Ue.fina;
     sub k2.K2.init eh.W.medi by K2W.init;
@@ -959,12 +959,12 @@ lookup IIb.ligature {
     sub k.K.medi i.I.medi by KI.medi;
     sub k.K.init i.I.fina by KI.isol;
     sub k.K.medi i.I.fina by KI.fina;
-    sub k.K.init [o.U.medi u.U.medi oe.U.medi ue.U.medi] by KU.init;
-    sub k.K.medi [o.U.medi u.U.medi oe.U.medi ue.U.medi] by KU.medi;
+    sub k.K.init [o.O.medi u.O.medi oe.O.medi ue.O.medi] by KO.init;
+    sub k.K.medi [o.O.medi u.O.medi oe.O.medi ue.O.medi] by KO.medi;
     sub k.K.init [o.O.fina u.O.fina oe.O.fina ue.O.fina] by KO.isol;
     sub k.K.medi [o.O.fina u.O.fina oe.O.fina ue.O.fina] by KO.fina;
-    sub k.K.init [oe.UI.medi ue.UI.medi] by KUI.init;
-    sub k.K.medi [oe.UI.medi ue.UI.medi] by KUI.medi;
+    sub k.K.init [oe.OI.medi ue.OI.medi] by KOI.init;
+    sub k.K.medi [oe.OI.medi ue.OI.medi] by KOI.medi;
     sub k.K.init [oe.Ue.fina ue.Ue.fina] by KUe.isol;
     sub k.K.medi [oe.Ue.fina ue.Ue.fina] by KUe.fina;
     sub k.K.init eh.W.medi by KW.init;

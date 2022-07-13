@@ -24,12 +24,12 @@
 	<string>B_O_.fina.glif</string>
 	<key>BO.isol</key>
 	<string>B_O_.isol.glif</string>
-	<key>BU.init</key>
-	<string>B_U_.init.glif</string>
-	<key>BU.medi</key>
-	<string>B_U_.medi.glif</string>
-	<key>BUI.init</key>
-	<string>B_U_I_.init.glif</string>
+	<key>BO.init</key>
+	<string>B_O_.init.glif</string>
+	<key>BO.medi</key>
+	<string>B_O_.medi.glif</string>
+	<key>BOI.init</key>
+	<string>B_O_I_.init.glif</string>
 	<key>BUI.medi</key>
 	<string>B_U_I_.medi.glif</string>
 	<key>BUe.fina</key>
@@ -66,14 +66,14 @@
 	<string>F_O_.fina.glif</string>
 	<key>FO.isol</key>
 	<string>F_O_.isol.glif</string>
-	<key>FU.init</key>
-	<string>F_U_.init.glif</string>
-	<key>FU.medi</key>
-	<string>F_U_.medi.glif</string>
-	<key>FUI.init</key>
-	<string>F_U_I_.init.glif</string>
-	<key>FUI.medi</key>
-	<string>F_U_I_.medi.glif</string>
+	<key>FO.init</key>
+	<string>F_O_.init.glif</string>
+	<key>FO.medi</key>
+	<string>F_O_.medi.glif</string>
+	<key>FOI.init</key>
+	<string>F_O_I_.init.glif</string>
+	<key>FOI.medi</key>
+	<string>F_O_I_.medi.glif</string>
 	<key>FUe.fina</key>
 	<string>F_U_e.fina.glif</string>
 	<key>FUe.isol</key>
@@ -106,14 +106,14 @@
 	<string>G_O_.fina.glif</string>
 	<key>GO.isol</key>
 	<string>G_O_.isol.glif</string>
-	<key>GU.init</key>
-	<string>G_U_.init.glif</string>
-	<key>GU.medi</key>
-	<string>G_U_.medi.glif</string>
-	<key>GUI.init</key>
-	<string>G_U_I_.init.glif</string>
-	<key>GUI.medi</key>
-	<string>G_U_I_.medi.glif</string>
+	<key>GO.init</key>
+	<string>G_O_.init.glif</string>
+	<key>GO.medi</key>
+	<string>G_O_.medi.glif</string>
+	<key>GOI.init</key>
+	<string>G_O_I_.init.glif</string>
+	<key>GOI.medi</key>
+	<string>G_O_I_.medi.glif</string>
 	<key>GUe.fina</key>
 	<string>G_U_e.fina.glif</string>
 	<key>GUe.isol</key>
@@ -146,14 +146,14 @@
 	<string>G_xO_.fina.glif</string>
 	<key>GxO.isol</key>
 	<string>G_xO_.isol.glif</string>
-	<key>GxU.init</key>
-	<string>G_xU_.init.glif</string>
-	<key>GxU.medi</key>
-	<string>G_xU_.medi.glif</string>
-	<key>GxUI.init</key>
-	<string>G_xU_I_.init.glif</string>
-	<key>GxUI.medi</key>
-	<string>G_xU_I_.medi.glif</string>
+	<key>GxO.init</key>
+	<string>G_xO_.init.glif</string>
+	<key>GxO.medi</key>
+	<string>G_xO_.medi.glif</string>
+	<key>GxOI.init</key>
+	<string>G_xO_I_.init.glif</string>
+	<key>GxOI.medi</key>
+	<string>G_xO_I_.medi.glif</string>
 	<key>GxUe.fina</key>
 	<string>G_xU_e.fina.glif</string>
 	<key>GxUe.isol</key>
@@ -186,14 +186,14 @@
 	<string>K_2O_.fina.glif</string>
 	<key>K2O.isol</key>
 	<string>K_2O_.isol.glif</string>
-	<key>K2U.init</key>
-	<string>K_2U_.init.glif</string>
-	<key>K2U.medi</key>
-	<string>K_2U_.medi.glif</string>
-	<key>K2UI.init</key>
-	<string>K_2U_I_.init.glif</string>
-	<key>K2UI.medi</key>
-	<string>K_2U_I_.medi.glif</string>
+	<key>K2O.init</key>
+	<string>K_2O_.init.glif</string>
+	<key>K2O.medi</key>
+	<string>K_2O_.medi.glif</string>
+	<key>K2OI.init</key>
+	<string>K_2O_I_.init.glif</string>
+	<key>K2OI.medi</key>
+	<string>K_2O_I_.medi.glif</string>
 	<key>K2Ue.fina</key>
 	<string>K_2U_e.fina.glif</string>
 	<key>K2Ue.isol</key>
@@ -226,14 +226,14 @@
 	<string>K_O_.fina.glif</string>
 	<key>KO.isol</key>
 	<string>K_O_.isol.glif</string>
-	<key>KU.init</key>
-	<string>K_U_.init.glif</string>
-	<key>KU.medi</key>
-	<string>K_U_.medi.glif</string>
-	<key>KUI.init</key>
-	<string>K_U_I_.init.glif</string>
-	<key>KUI.medi</key>
-	<string>K_U_I_.medi.glif</string>
+	<key>KO.init</key>
+	<string>K_O_.init.glif</string>
+	<key>KO.medi</key>
+	<string>K_O_.medi.glif</string>
+	<key>KOI.init</key>
+	<string>K_O_I_.init.glif</string>
+	<key>KOI.medi</key>
+	<string>K_O_I_.medi.glif</string>
 	<key>KUe.fina</key>
 	<string>K_U_e.fina.glif</string>
 	<key>KUe.isol</key>
@@ -268,14 +268,14 @@
 	<string>P_O_.fina.glif</string>
 	<key>PO.isol</key>
 	<string>P_O_.isol.glif</string>
-	<key>PU.init</key>
-	<string>P_U_.init.glif</string>
-	<key>PU.medi</key>
-	<string>P_U_.medi.glif</string>
-	<key>PUI.init</key>
-	<string>P_U_I_.init.glif</string>
-	<key>PUI.medi</key>
-	<string>P_U_I_.medi.glif</string>
+	<key>PO.init</key>
+	<string>P_O_.init.glif</string>
+	<key>PO.medi</key>
+	<string>P_O_.medi.glif</string>
+	<key>POI.init</key>
+	<string>P_O_I_.init.glif</string>
+	<key>POI.medi</key>
+	<string>P_O_I_.medi.glif</string>
 	<key>PUe.fina</key>
 	<string>P_U_e.fina.glif</string>
 	<key>PUe.isol</key>
@@ -318,8 +318,8 @@
 	<string>b.B_.isol.glif</string>
 	<key>b.B.medi</key>
 	<string>b.B_.medi.glif</string>
-	<key>b.Bb.fina</key>
-	<string>b.B_b.fina.glif</string>
+	<key>b.B2.fina</key>
+	<string>b.B_2.fina.glif</string>
 	<key>c-mon</key>
 	<string>c-mon.glif</string>
 	<key>c.C.fina</key>
@@ -618,34 +618,34 @@
 	<string>o-mon.glif</string>
 	<key>o.AO.isol</key>
 	<string>o.A_O_.isol.glif</string>
-	<key>o.AU.init</key>
-	<string>o.A_U_.init.glif</string>
-	<key>o.AU.medi</key>
-	<string>o.A_U_.medi.glif</string>
+	<key>o.AO.init</key>
+	<string>o.A_O_.init.glif</string>
+	<key>o.AO.medi</key>
+	<string>o.A_O_.medi.glif</string>
 	<key>o.O.fina</key>
 	<string>o.O_.fina.glif</string>
 	<key>o.U.fina</key>
 	<string>o.U_.fina.glif</string>
-	<key>o.U.medi</key>
-	<string>o.U_.medi.glif</string>
+	<key>o.O.medi</key>
+	<string>o.O_.medi.glif</string>
 	<key>oe-mon</key>
 	<string>oe-mon.glif</string>
 	<key>oe.AU.isol</key>
 	<string>oe.A_U_.isol.glif</string>
-	<key>oe.AUI.init</key>
-	<string>oe.A_U_I_.init.glif</string>
-	<key>oe.AUI.medi</key>
-	<string>oe.A_U_I_.medi.glif</string>
+	<key>oe.AOI.init</key>
+	<string>oe.A_O_I_.init.glif</string>
+	<key>oe.AOI.medi</key>
+	<string>oe.A_O_I_.medi.glif</string>
 	<key>oe.AUe.isol</key>
 	<string>oe.A_U_e.isol.glif</string>
 	<key>oe.O.fina</key>
 	<string>oe.O_.fina.glif</string>
 	<key>oe.U.fina</key>
 	<string>oe.U_.fina.glif</string>
-	<key>oe.U.medi</key>
-	<string>oe.U_.medi.glif</string>
-	<key>oe.UI.medi</key>
-	<string>oe.U_I_.medi.glif</string>
+	<key>oe.O.medi</key>
+	<string>oe.O_.medi.glif</string>
+	<key>oe.OI.medi</key>
+	<string>oe.O_I_.medi.glif</string>
 	<key>oe.Ue.fina</key>
 	<string>oe.U_e.fina.glif</string>
 	<key>p-mon</key>
@@ -688,8 +688,8 @@
 	<string>s.S_.isol.glif</string>
 	<key>s.S.medi</key>
 	<string>s.S_.medi.glif</string>
-	<key>s.Ss.fina</key>
-	<string>s.S_s.fina.glif</string>
+	<key>s.S2.fina</key>
+	<string>s.S_2.fina.glif</string>
 	<key>sh-mon</key>
 	<string>sh-mon.glif</string>
 	<key>sh.S.init</key>
@@ -724,10 +724,10 @@
 	<string>u-mon.glif</string>
 	<key>u.AO.isol</key>
 	<string>u.A_O_.isol.glif</string>
-	<key>u.AU.init</key>
-	<string>u.A_U_.init.glif</string>
-	<key>u.AU.medi</key>
-	<string>u.A_U_.medi.glif</string>
+	<key>u.AO.init</key>
+	<string>u.A_O_.init.glif</string>
+	<key>u.AO.medi</key>
+	<string>u.A_O_.medi.glif</string>
 	<key>u.O.fina</key>
 	<string>u.O_.fina.glif</string>
 	<key>u.U.fina</key>
@@ -736,32 +736,32 @@
 	<string>u.U_.init.glif</string>
 	<key>u.U.isol</key>
 	<string>u.U_.isol.glif</string>
-	<key>u.U.medi</key>
-	<string>u.U_.medi.glif</string>
+	<key>u.O.medi</key>
+	<string>u.O_.medi.glif</string>
 	<key>u.Ux.isol</key>
 	<string>u.U_x.isol.glif</string>
 	<key>ue-mon</key>
 	<string>ue-mon.glif</string>
 	<key>ue.AU.isol</key>
 	<string>ue.A_U_.isol.glif</string>
-	<key>ue.AUI.init</key>
-	<string>ue.A_U_I_.init.glif</string>
-	<key>ue.AUI.medi</key>
-	<string>ue.A_U_I_.medi.glif</string>
+	<key>ue.AOI.init</key>
+	<string>ue.A_O_I_.init.glif</string>
+	<key>ue.AOI.medi</key>
+	<string>ue.A_O_I_.medi.glif</string>
 	<key>ue.AUe.isol</key>
 	<string>ue.A_U_e.isol.glif</string>
 	<key>ue.O.fina</key>
 	<string>ue.O_.fina.glif</string>
 	<key>ue.U.fina</key>
 	<string>ue.U_.fina.glif</string>
-	<key>ue.U.init</key>
-	<string>ue.U_.init.glif</string>
+	<key>ue.O.init</key>
+	<string>ue.O_.init.glif</string>
 	<key>ue.U.isol</key>
 	<string>ue.U_.isol.glif</string>
-	<key>ue.U.medi</key>
-	<string>ue.U_.medi.glif</string>
-	<key>ue.UI.medi</key>
-	<string>ue.U_I_.medi.glif</string>
+	<key>ue.O.medi</key>
+	<string>ue.O_.medi.glif</string>
+	<key>ue.OI.medi</key>
+	<string>ue.O_I_.medi.glif</string>
 	<key>ue.Ue.fina</key>
 	<string>ue.U_e.fina.glif</string>
 	<key>ue.Ux.isol</key>

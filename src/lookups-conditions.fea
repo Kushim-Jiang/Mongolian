@@ -15,16 +15,16 @@ lookup condition.chachlag {
 
 @o.fina.for_marked = [o.U.fina];
 @u.fina.for_marked = [u.U.fina];
-@oe.medi.for_marked = [oe.U.medi];
+@oe.medi.for_marked = [oe.O.medi];
 @oe.fina.for_marked = [oe.O.fina oe.U.fina];
-@ue.medi.for_marked = [ue.U.medi];
+@ue.medi.for_marked = [ue.O.medi];
 @ue.fina.for_marked = [ue.O.fina ue.U.fina];
 lookup condition.marked {
     sub @o.fina.for_marked by o.O.fina;
     sub @u.fina.for_marked by u.O.fina;
-    sub @oe.medi.for_marked by oe.UI.medi;
+    sub @oe.medi.for_marked by oe.OI.medi;
     sub @oe.fina.for_marked by oe.Ue.fina;
-    sub @ue.medi.for_marked by ue.UI.medi;
+    sub @ue.medi.for_marked by ue.OI.medi;
     sub @ue.fina.for_marked by ue.Ue.fina;
 } condition.marked;
 
@@ -118,12 +118,12 @@ lookup condition.masculine_devsger {
 @a.isol.for_particle = [a.AA.isol];  # NNBSP = MVS
 @a.init.for_particle = [a.AA.init];
 @u.isol.for_particle = [u.AO.isol];
-@u.init.for_particle = [u.AU.init];
+@u.init.for_particle = [u.AO.init];
 @u.fina.for_particle = [u.O.fina];
 @e.isol.for_particle = [e.A.isol];  # NNBSP = MVS
 @ue.isol.for_particle = [ue.AUe.isol];
-@ue.init.for_particle = [ue.AUI.init];
-@ue.medi.for_particle = [ue.UI.medi];
+@ue.init.for_particle = [ue.AOI.init];
+@ue.medi.for_particle = [ue.OI.medi];
 @ue.fina.for_particle = [ue.Ue.fina ue.O.fina];
 @i.isol.for_particle = [i.AI.isol];
 @i.init.for_particle = [i.AI.init];
@@ -136,8 +136,8 @@ lookup condition.particle {
     sub @u.fina.for_particle by u.U.fina;
     sub @e.isol.for_particle by e.Aa.isol;  # NNBSP = MVS
     sub @ue.isol.for_particle by ue.U.isol;
-    sub @ue.init.for_particle by ue.U.init;
-    sub @ue.medi.for_particle by ue.U.medi;
+    sub @ue.init.for_particle by ue.O.init;
+    sub @ue.medi.for_particle by ue.O.medi;
     sub @ue.fina.for_particle by ue.U.fina;
     sub @i.isol.for_particle by i.I.isol;
     sub @i.init.for_particle by i.I.init;
@@ -146,13 +146,13 @@ lookup condition.particle {
 
 @y.init.for_dictionary_particle = [y.Y.init];
 @y.medi.for_dictionary_particle = [y.Y.medi];
-@ue.init.for_dictionary_particle = [ue.U.init];
+@ue.init.for_dictionary_particle = [ue.O.init];
 @u.init.for_dictionary_particle = [u.U.init];
 lookup condition.dictionary_particle {
     sub @y.init.for_dictionary_particle by y.I.init;
     sub @y.medi.for_dictionary_particle by y.I.medi;
-    sub @ue.init.for_dictionary_particle by ue.AUI.init;
-    sub @u.init.for_dictionary_particle by u.AU.init;
+    sub @ue.init.for_dictionary_particle by ue.AOI.init;
+    sub @u.init.for_dictionary_particle by u.AO.init;
 } condition.dictionary_particle;
 
 # III.5: Post-bowed

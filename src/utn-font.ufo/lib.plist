@@ -3185,9 +3185,9 @@
 		<string>BI.medi</string>
 		<string>BO.fina</string>
 		<string>BO.isol</string>
-		<string>BU.init</string>
-		<string>BU.medi</string>
-		<string>BUI.init</string>
+		<string>BO.init</string>
+		<string>BO.medi</string>
+		<string>BOI.init</string>
 		<string>BUI.medi</string>
 		<string>BUe.fina</string>
 		<string>BUe.isol</string>
@@ -3205,10 +3205,10 @@
 		<string>FI.medi</string>
 		<string>FO.fina</string>
 		<string>FO.isol</string>
-		<string>FU.init</string>
-		<string>FU.medi</string>
-		<string>FUI.init</string>
-		<string>FUI.medi</string>
+		<string>FO.init</string>
+		<string>FO.medi</string>
+		<string>FOI.init</string>
+		<string>FOI.medi</string>
 		<string>FUe.fina</string>
 		<string>FUe.isol</string>
 		<string>FW.fina</string>
@@ -3225,10 +3225,10 @@
 		<string>GI.medi</string>
 		<string>GO.fina</string>
 		<string>GO.isol</string>
-		<string>GU.init</string>
-		<string>GU.medi</string>
-		<string>GUI.init</string>
-		<string>GUI.medi</string>
+		<string>GO.init</string>
+		<string>GO.medi</string>
+		<string>GOI.init</string>
+		<string>GOI.medi</string>
 		<string>GUe.fina</string>
 		<string>GUe.isol</string>
 		<string>GW.fina</string>
@@ -3245,10 +3245,10 @@
 		<string>GxI.medi</string>
 		<string>GxO.fina</string>
 		<string>GxO.isol</string>
-		<string>GxU.init</string>
-		<string>GxU.medi</string>
-		<string>GxUI.init</string>
-		<string>GxUI.medi</string>
+		<string>GxO.init</string>
+		<string>GxO.medi</string>
+		<string>GxOI.init</string>
+		<string>GxOI.medi</string>
 		<string>GxUe.fina</string>
 		<string>GxUe.isol</string>
 		<string>GxW.fina</string>
@@ -3265,10 +3265,10 @@
 		<string>K2I.medi</string>
 		<string>K2O.fina</string>
 		<string>K2O.isol</string>
-		<string>K2U.init</string>
-		<string>K2U.medi</string>
-		<string>K2UI.init</string>
-		<string>K2UI.medi</string>
+		<string>K2O.init</string>
+		<string>K2O.medi</string>
+		<string>K2OI.init</string>
+		<string>K2OI.medi</string>
 		<string>K2Ue.fina</string>
 		<string>K2Ue.isol</string>
 		<string>K2W.fina</string>
@@ -3285,10 +3285,10 @@
 		<string>KI.medi</string>
 		<string>KO.fina</string>
 		<string>KO.isol</string>
-		<string>KU.init</string>
-		<string>KU.medi</string>
-		<string>KUI.init</string>
-		<string>KUI.medi</string>
+		<string>KO.init</string>
+		<string>KO.medi</string>
+		<string>KOI.init</string>
+		<string>KOI.medi</string>
 		<string>KUe.fina</string>
 		<string>KUe.isol</string>
 		<string>KW.fina</string>
@@ -3305,10 +3305,10 @@
 		<string>PI.medi</string>
 		<string>PO.fina</string>
 		<string>PO.isol</string>
-		<string>PU.init</string>
-		<string>PU.medi</string>
-		<string>PUI.init</string>
-		<string>PUI.medi</string>
+		<string>PO.init</string>
+		<string>PO.medi</string>
+		<string>POI.init</string>
+		<string>POI.medi</string>
 		<string>PUe.fina</string>
 		<string>PUe.isol</string>
 		<string>PW.fina</string>
@@ -3368,7 +3368,7 @@
 		<string>a.Aa.fina</string>
 		<string>e.Aa.fina</string>
 		<string>b.B.fina</string>
-		<string>b.Bb.fina</string>
+		<string>b.B2.fina</string>
 		<string>c.C.fina</string>
 		<string>d.D.fina</string>
 		<string>d.Dd.fina</string>
@@ -3393,7 +3393,7 @@
 		<string>p.P.fina</string>
 		<string>r.R.fina</string>
 		<string>s.S.fina</string>
-		<string>s.Ss.fina</string>
+		<string>s.S2.fina</string>
 		<string>t.T.fina</string>
 		<string>o.U.fina</string>
 		<string>oe.U.fina</string>
@@ -3414,10 +3414,10 @@
 		<string>a.AA.init</string>
 		<string>e.AA.init</string>
 		<string>i.AI.init</string>
-		<string>o.AU.init</string>
-		<string>u.AU.init</string>
-		<string>oe.AUI.init</string>
-		<string>ue.AUI.init</string>
+		<string>o.AO.init</string>
+		<string>u.AO.init</string>
+		<string>oe.AOI.init</string>
+		<string>ue.AOI.init</string>
 		<string>b.B.init</string>
 		<string>c.C.init</string>
 		<string>d.D.init</string>
@@ -3443,7 +3443,7 @@
 		<string>d.T.init</string>
 		<string>t.T.init</string>
 		<string>u.U.init</string>
-		<string>ue.U.init</string>
+		<string>ue.O.init</string>
 		<string>w.W.init</string>
 		<string>y.Y.init</string>
 		<string>z.Z.init</string>
@@ -3506,10 +3506,10 @@
 		<string>n.A.medi</string>
 		<string>a.AA.medi</string>
 		<string>i.AI.medi</string>
-		<string>o.AU.medi</string>
-		<string>u.AU.medi</string>
-		<string>oe.AUI.medi</string>
-		<string>ue.AUI.medi</string>
+		<string>o.AO.medi</string>
+		<string>u.AO.medi</string>
+		<string>oe.AOI.medi</string>
+		<string>ue.AOI.medi</string>
 		<string>b.B.medi</string>
 		<string>c.C.medi</string>
 		<string>d.D.medi</string>
@@ -3537,13 +3537,13 @@
 		<string>r.R.medi</string>
 		<string>s.S.medi</string>
 		<string>t.T.medi</string>
-		<string>o.U.medi</string>
-		<string>oe.U.medi</string>
-		<string>u.U.medi</string>
-		<string>ue.U.medi</string>
+		<string>o.O.medi</string>
+		<string>oe.O.medi</string>
+		<string>u.O.medi</string>
+		<string>ue.O.medi</string>
 		<string>w.U.medi</string>
-		<string>oe.UI.medi</string>
-		<string>ue.UI.medi</string>
+		<string>oe.OI.medi</string>
+		<string>ue.OI.medi</string>
 		<string>w.W.medi</string>
 		<string>y.Y.medi</string>
 		<string>z.Z.medi</string>
@@ -3672,9 +3672,9 @@
 		<string>uni1826</string>
 		<key>ue.AU.isol</key>
 		<string>uni1D6B.AU.isol</string>
-		<key>ue.AUI.init</key>
+		<key>ue.AOI.init</key>
 		<string>uni1D6B.AUI.init</string>
-		<key>ue.AUI.medi</key>
+		<key>ue.AOI.medi</key>
 		<string>uni1D6B.AUI.medi</string>
 		<key>ue.AUe.isol</key>
 		<string>uni1D6B.AUe.isol</string>
@@ -3682,13 +3682,13 @@
 		<string>uni1D6B.O.fina</string>
 		<key>ue.U.fina</key>
 		<string>uni1D6B.U.fina</string>
-		<key>ue.U.init</key>
+		<key>ue.O.init</key>
 		<string>uni1D6B.U.init</string>
 		<key>ue.U.isol</key>
 		<string>uni1D6B.U.isol</string>
-		<key>ue.U.medi</key>
+		<key>ue.O.medi</key>
 		<string>uni1D6B.U.medi</string>
-		<key>ue.UI.medi</key>
+		<key>ue.OI.medi</key>
 		<string>uni1D6B.UI.medi</string>
 		<key>ue.Ue.fina</key>
 		<string>uni1D6B.Ue.fina</string>
