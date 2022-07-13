@@ -535,7 +535,6 @@ uni1842: cr.Cr.isol
 glyph908: cr.Cr.init
 glyph909: cr.Cr.medi
 glyph907: cr.Cr.fina
-
 # glyph306: u_u.OU.isol
 # glyph1831: ue_ue.OU.isol
 # glyph402: b_ue_ue.BOU.isol
@@ -970,15 +969,3 @@ glyph907: cr.Cr.fina
 # glyph1935: uniFE63.vert
 # glyph1927: uniFF0E.vert
 # glyph1947: uniFF5C.vert
-
-# These 10 glyphs are used by EAC, not used by Baiti
-glyph2135: notdef # oe.AU.isol
-glyph2188: notdef # n.A.isol
-glyph2191: notdef # sh.S.isol
-glyph2192: notdef # sh.S.init
-glyph2193: notdef # sh.S.medi
-glyph2189: notdef # d.T.isol
-glyph693: notdef # j.I2.isol
-glyph2190: notdef # y.I.isol
-glyph702: notdef # y.II.medi
-glyph1827: notdef # w.O.medi

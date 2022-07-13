@@ -4,14 +4,16 @@ from pathlib import Path
 from fontmake.font_project import FontProject
 from ufoLib2 import Font
 
-directory = Path(__file__).parent
+repository_dir = Path(__file__).parent.parent
 
-otl_dir = directory
+ufo_path = repository_dir / "src-noto" / "eac-font.ufo"
+
+otl_dir = repository_dir / "hudum-feature"
 otl_path = otl_dir / "main.fea"
 
 
 def main():
-    inlined_otl_path = otl_dir / "utn-font.ufo" / "features.fea"
+    inlined_otl_path = ufo_path / "features.fea"
     include_statement_pattern = re.compile(r"include\((.+)\);\n")
     with inlined_otl_path.open("w") as inlined_otl:
         with otl_path.open() as main_otl:
@@ -22,7 +24,7 @@ def main():
                 else:
                     inlined_otl.write(line)
 
-    ufo = Font.open(directory / "utn-font.ufo")
+    ufo = Font.open(ufo_path)
     ufo.info.familyName = "Draft UTN"
 
     project = FontProject()
@@ -30,7 +32,7 @@ def main():
         [ufo],
         output=["otf"],
         remove_overlaps=True,
-        output_path=directory.parent / "otf" / "DraftUTN-Regular.otf",
+        output_path=repository_dir / "src-noto" / "res" / "DraftUTN-Regular.otf",
     )
 
 

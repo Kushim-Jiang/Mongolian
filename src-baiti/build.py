@@ -4,20 +4,21 @@ from ufoLib2 import Font
 
 from rename import build_mapping_from_yaml, rename_glyphs
 
-directory = Path(__file__).parent
-repo_dir = directory.parent
-otl_dir = repo_dir / "src"
-temp_dir = repo_dir / "temp"
+repository_dir = Path(__file__).parent.parent
+baiti_dir = repository_dir / "src-baiti"
+res_dir = baiti_dir / "res"
+temp_dir = baiti_dir / "temp"
+otl_dir = repository_dir / "hudum-feature"
 
 
 def main():
     temp_dir.mkdir(exist_ok=True)
 
-    ufo = Font.open(directory / "161Source005-cubic.ufo")
+    ufo = Font.open(baiti_dir / "161Source005-cubic.ufo")
     ufo.info.familyName = "Mongolian Baiti"
 
     # rename glyph
-    yaml_dir = directory / "MongolianBaiti.yaml"
+    yaml_dir = baiti_dir / "MongolianBaiti.yaml"
     yaml_mapping = build_mapping_from_yaml(yaml_dir)
 
     translation = {
@@ -183,20 +184,22 @@ def main():
             cmap_glyph.unicodes = unicodes
 
     for constructed, origin in {
-            "oe.AU.isol": "ue.AU.isol",
-            "n.A.isol": "n.A.init",  # should be n.isol
-            'sh.S.isol': 's.S.isol',
-            'sh.S.init': 's.S.init',
-            'sh.S.medi': 's.S.medi',
-            'd.T.isol': 't.T.isol',
-            'j.I2.isol': 'i.I.init',  # should be j.isol
-            'y.I.isol': 'i.I.init',  # should be y.isol
-            'y.II.medi': 'i.II.medi',
-            'w.U.medi': 'u.O.medi',
+            # These 10 glyphs are used by EAC, not used by Baiti
+            "glyph2135": ".notdef",  # oe.AU.isol
+            "glyph2188": ".notdef",  # n.A.isol
+            "glyph2191": ".notdef",  # sh.S.isol
+            "glyph2192": ".notdef",  # sh.S.init
+            "glyph2193": ".notdef",  # sh.S.medi
+            "glyph2189": ".notdef",  # d.T.isol
+            "glyph693": ".notdef",  # j.I2.isol
+            "glyph2190": ".notdef",  # y.I.isol
+            "glyph702": ".notdef",  # y.II.medi
+            "glyph1827": ".notdef",  # w.O.medi
     }.items():
         ufo[constructed] = ufo[origin].copy()
 
-    for name in ["zwnj", "zwj", "mvs.effe", "nnbsp.effe", 'fvs1.effe', 'fvs2.effe', 'fvs3.effe', 'fvs4.effe']:  # TODO, FIXME
+    # TODO, FIXME
+    for name in ["zwnj", "zwj", "mvs.effe", "nnbsp.effe", 'fvs1.effe', 'fvs2.effe', 'fvs3.effe', 'fvs4.effe']:
         ufo.newGlyph(name)
 
     # feature
@@ -204,19 +207,24 @@ def main():
         if path.suffix == ".fea":
             (temp_dir / path.name).write_text(path.read_text())
 
-    # lines = [
-    #     "include(main.fea);\n",
-    #     "feature dist {\n",
-    # ]
+    lines = [
+        "include(main.fea);\n",
+        # "feature dist {\n",
+    ]
     # lines.extend(f"    pos {i} {ufo[i].width};\n" for i in ["nirugu", "fvs1", "fvs2", "fvs3", "fvs4"])
     # lines.append("} dist;\n")
-    # ufo.features.text = "".join(lines)
+    ufo.features.text = "".join(lines)
 
     path = temp_dir / "font.ufo"
     ufo.save(path, overwrite=True)  # fontmake reads fro
 
     project = FontProject()
-    project.run_from_ufos(str(path), output=["otf"], remove_overlaps=True, output_path=directory / "Baiti-Regular.otf")
+    project.run_from_ufos(
+        str(path),
+        output=["otf"],
+        remove_overlaps=True,
+        output_path=baiti_dir / "res" / "Baiti-Regular.otf",
+    )
 
 
 if __name__ == "__main__":
