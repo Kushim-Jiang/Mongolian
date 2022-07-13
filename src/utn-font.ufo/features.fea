@@ -180,7 +180,7 @@
 @vowel.neuter = [@i];
 @vowel = [@vowel.masculine @vowel.feminine @vowel.neuter];
 @consonant = [@n @ng @b @p @h @g @m @l @s @sh @t @d @ch @j @y @r @w @f @k2 @k @c @z @hh @rh @lh @zr @cr];table GDEF {
-    GlyphClassDef , , [zwnj zwj nirugu fvs1 fvs2 fvs3 fvs4], ;
+    GlyphClassDef [nirugu fvs1 fvs2 fvs3 fvs4], , [zwnj zwj], ;
 } GDEF;
 
 languagesystem mong dflt;
@@ -974,11 +974,3 @@ lookup IIb.ligature {
 } IIb.ligature;feature rlig {
     lookup IIb.ligature;
 } rlig;
-
-feature dist {
-	pos nirugu 168;
-	pos fvs1 1712;
-	pos fvs2 1712;
-	pos fvs3 1712;
-	pos fvs4 1712;
-} dist;

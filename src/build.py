@@ -22,15 +22,6 @@ def main():
                 else:
                     inlined_otl.write(line)
 
-    # dist
-    ufo = Font.open(directory / "utn-font.ufo")
-    with inlined_otl_path.open("a") as inlined_otl:
-        inlined_otl.write("\n\n")
-        inlined_otl.write("feature dist {\n")
-        for glyph_name in ["nirugu", "fvs1", "fvs2", "fvs3", "fvs4"]:
-            inlined_otl.write("\tpos " + glyph_name + " " + str(ufo[glyph_name].width) + ";\n")
-        inlined_otl.write("} dist;")
-
     ufo = Font.open(directory / "utn-font.ufo")
     ufo.info.familyName = "Draft UTN"
 

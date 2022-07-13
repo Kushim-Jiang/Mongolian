@@ -204,14 +204,13 @@ def main():
         if path.suffix == ".fea":
             (temp_dir / path.name).write_text(path.read_text())
 
-    lines = [
-        "include(main.fea);\n",
-        "feature dist {\n",
-    ]
-    lines.extend(f"    pos {i} {ufo[i].width};\n" for i in ["nirugu", "fvs1", "fvs2", "fvs3", "fvs4"])
-    lines.append("} dist;\n")
-
-    ufo.features.text = "".join(lines)
+    # lines = [
+    #     "include(main.fea);\n",
+    #     "feature dist {\n",
+    # ]
+    # lines.extend(f"    pos {i} {ufo[i].width};\n" for i in ["nirugu", "fvs1", "fvs2", "fvs3", "fvs4"])
+    # lines.append("} dist;\n")
+    # ufo.features.text = "".join(lines)
 
     path = temp_dir / "font.ufo"
     ufo.save(path, overwrite=True)  # fontmake reads fro
