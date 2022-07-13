@@ -21,7 +21,7 @@
 @o.fina = [o.U.fina o.O.fina];
 @o = [@o.isol @o.init @o.medi @o.fina];
 @u.isol = [u.AO.isol u.U.isol u.Ux.isol];
-@u.init = [u.AO.init u.U.init];
+@u.init = [u.AO.init u.O.init];
 @u.medi = [u.O.medi u.AO.medi];
 @u.fina = [u.U.fina u.O.fina];
 @u = [@u.isol @u.init @u.medi @u.fina];
@@ -122,7 +122,7 @@
 @r = [@r.isol @r.init @r.medi @r.fina];
 @w.isol = [w.W.isol];
 @w.init = [w.W.init];
-@w.medi = [w.W.medi w.U.medi];
+@w.medi = [w.W.medi w.O.medi];
 @w.fina = [w.W.fina w.U.fina];
 @w = [@w.isol @w.init @w.medi @w.fina];
 @f.isol = [f.F.isol];
@@ -160,10 +160,10 @@
 @rh.medi = [rh.Rh.medi];
 @rh.fina = [rh.Rh.fina];
 @rh = [@rh.isol @rh.init @rh.medi @rh.fina];
-@lh.isol = [lh.Lh.isol];
-@lh.init = [lh.Lh.init];
-@lh.medi = [lh.Lh.medi];
-@lh.fina = [lh.Lh.fina];
+@lh.isol = [lh.LHh.isol];
+@lh.init = [lh.LHh.init];
+@lh.medi = [lh.LHh.medi];
+@lh.fina = [lh.LHh.fina];
 @lh = [@lh.isol @lh.init @lh.medi @lh.fina];
 @zr.isol = [zr.Zr.isol];
 @zr.init = [zr.Zr.init];
@@ -180,7 +180,7 @@
 @vowel.neuter = [@i];
 @vowel = [@vowel.masculine @vowel.feminine @vowel.neuter];
 @consonant = [@n @ng @b @p @h @g @m @l @s @sh @t @d @ch @j @y @r @w @f @k2 @k @c @z @hh @rh @lh @zr @cr];table GDEF {
-    GlyphClassDef , , [zwnj zwj nirugu fvs1 fvs2 fvs3 fvs4], ;
+    GlyphClassDef [nirugu fvs1 fvs2 fvs3 fvs4], , [zwnj zwj], ;
 } GDEF;
 
 languagesystem mong dflt;
@@ -220,7 +220,7 @@ lookup IIa.isol {
     sub z-mon by z.Z.isol;
     sub hh-mon by hh.Hh.isol;
     sub rh-mon by rh.Rh.isol;
-    sub lh-mon by lh.Lh.isol;
+    sub lh-mon by lh.LHh.isol;
     sub zr-mon by zr.Zr.isol;
     sub cr-mon by cr.Cr.isol;
 } IIa.isol;
@@ -258,7 +258,7 @@ lookup IIa.init {
     sub z-mon by z.Z.init;
     sub hh-mon by hh.Hh.init;
     sub rh-mon by rh.Rh.init;
-    sub lh-mon by lh.Lh.init;
+    sub lh-mon by lh.LHh.init;
     sub zr-mon by zr.Zr.init;
     sub cr-mon by cr.Cr.init;
 } IIa.init;
@@ -296,7 +296,7 @@ lookup IIa.medi {
     sub z-mon by z.Z.medi;
     sub hh-mon by hh.Hh.medi;
     sub rh-mon by rh.Rh.medi;
-    sub lh-mon by lh.Lh.medi;
+    sub lh-mon by lh.LHh.medi;
     sub zr-mon by zr.Zr.medi;
     sub cr-mon by cr.Cr.medi;
 } IIa.medi;
@@ -334,7 +334,7 @@ lookup IIa.fina {
     sub z-mon by z.Z.fina;
     sub hh-mon by hh.Hh.fina;
     sub rh-mon by rh.Rh.fina;
-    sub lh-mon by lh.Lh.fina;
+    sub lh-mon by lh.LHh.fina;
     sub zr-mon by zr.Zr.fina;
     sub cr-mon by cr.Cr.fina;
 } IIa.fina;
@@ -489,7 +489,7 @@ lookup condition.particle {
     sub @a.isol.for_particle by a.Aa.isol;  # NNBSP = MVS
     sub @a.init.for_particle by a.A.init;
     sub @u.isol.for_particle by u.U.isol;
-    sub @u.init.for_particle by u.U.init;
+    sub @u.init.for_particle by u.O.init;
     sub @u.fina.for_particle by u.U.fina;
     sub @e.isol.for_particle by e.Aa.isol;  # NNBSP = MVS
     sub @ue.isol.for_particle by ue.U.isol;
@@ -504,7 +504,7 @@ lookup condition.particle {
 @y.init.for_dictionary_particle = [y.Y.init];
 @y.medi.for_dictionary_particle = [y.Y.medi];
 @ue.init.for_dictionary_particle = [ue.O.init];
-@u.init.for_dictionary_particle = [u.U.init];
+@u.init.for_dictionary_particle = [u.O.init];
 lookup condition.dictionary_particle {
     sub @y.init.for_dictionary_particle by y.I.init;
     sub @y.medi.for_dictionary_particle by y.I.medi;
@@ -633,7 +633,7 @@ lookup III.ue_y.dictionary_particle {
     sub [mvs.effe nnbsp.effe] y.Y.init' lookup condition.dictionary_particle i.I.medi n.A.fina;
     # not found in EAC spec
     sub [mvs.effe nnbsp.effe] ue.O.init' lookup condition.dictionary_particle g.G.medi e.A.medi i.I.fina;
-    sub [mvs.effe nnbsp.effe] u.U.init' lookup condition.dictionary_particle r.R.medi u.O.medi g.Gh.medi u.U.fina;
+    sub [mvs.effe nnbsp.effe] u.O.init' lookup condition.dictionary_particle r.R.medi u.O.medi g.Gh.medi u.U.fina;
     lookupflag 0;
 } III.ue_y.dictionary_particle;
 
@@ -684,7 +684,7 @@ lookup III.fvs {
     sub @u.isol fvs1 by u.U.isol;
     sub @u.isol fvs2 by u.Ux.isol;
     sub @u.init fvs2 by u.AO.init;
-    sub @u.init fvs1 by u.U.init;
+    sub @u.init fvs1 by u.O.init;
     sub @u.medi fvs1 by u.AO.medi;
     sub @u.fina fvs2 by u.U.fina;
     sub @u.fina fvs1 by u.O.fina;
@@ -761,7 +761,7 @@ lookup III.fvs {
     sub @y.medi fvs3 by y.Y.medi;
     sub @y.medi fvs1 by y.I.medi;
     sub @y.medi fvs2 by y.II.medi;
-    sub @w.medi fvs1 by w.U.medi;
+    sub @w.medi fvs1 by w.O.medi;
     sub @w.fina fvs1 by w.U.fina;
 } III.fvs;
 
@@ -876,7 +876,7 @@ lookup IIb.ligature {
     sub b.B.init [o.O.fina u.O.fina oe.O.fina ue.O.fina] by BO.isol;
     sub b.B.medi [o.O.fina u.O.fina oe.O.fina ue.O.fina] by BO.fina;
     sub b.B.init [oe.OI.medi ue.OI.medi] by BOI.init;
-    sub b.B.medi [oe.OI.medi ue.OI.medi] by BUI.medi;
+    sub b.B.medi [oe.OI.medi ue.OI.medi] by BOI.medi;
     sub b.B.init [oe.Ue.fina ue.Ue.fina] by BUe.isol;
     sub b.B.medi [oe.Ue.fina ue.Ue.fina] by BUe.fina;
     sub b.B.init eh.W.medi by BW.init;
@@ -974,11 +974,3 @@ lookup IIb.ligature {
 } IIb.ligature;feature rlig {
     lookup IIb.ligature;
 } rlig;
-
-feature dist {
-	pos nirugu 168;
-	pos fvs1 1712;
-	pos fvs2 1712;
-	pos fvs3 1712;
-	pos fvs4 1712;
-} dist;

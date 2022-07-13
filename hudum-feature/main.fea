@@ -2,7 +2,7 @@
 include(classes-letters.fea);
 include(classes-categories.fea);
 table GDEF {
-    GlyphClassDef , , [zwnj zwj nirugu fvs1 fvs2 fvs3 fvs4], ;
+    GlyphClassDef [nirugu fvs1 fvs2 fvs3 fvs4], , [zwnj zwj], ;
 } GDEF;
 
 languagesystem mong dflt;

@@ -20,7 +20,7 @@
 @o.fina = [o.U.fina o.O.fina];
 @o = [@o.isol @o.init @o.medi @o.fina];
 @u.isol = [u.AO.isol u.U.isol u.Ux.isol];
-@u.init = [u.AO.init u.U.init];
+@u.init = [u.AO.init u.O.init];
 @u.medi = [u.O.medi u.AO.medi];
 @u.fina = [u.U.fina u.O.fina];
 @u = [@u.isol @u.init @u.medi @u.fina];
@@ -121,7 +121,7 @@
 @r = [@r.isol @r.init @r.medi @r.fina];
 @w.isol = [w.W.isol];
 @w.init = [w.W.init];
-@w.medi = [w.W.medi w.U.medi];
+@w.medi = [w.W.medi w.O.medi];
 @w.fina = [w.W.fina w.U.fina];
 @w = [@w.isol @w.init @w.medi @w.fina];
 @f.isol = [f.F.isol];
@@ -159,10 +159,10 @@
 @rh.medi = [rh.Rh.medi];
 @rh.fina = [rh.Rh.fina];
 @rh = [@rh.isol @rh.init @rh.medi @rh.fina];
-@lh.isol = [lh.Lh.isol];
-@lh.init = [lh.Lh.init];
-@lh.medi = [lh.Lh.medi];
-@lh.fina = [lh.Lh.fina];
+@lh.isol = [lh.LHh.isol];
+@lh.init = [lh.LHh.init];
+@lh.medi = [lh.LHh.medi];
+@lh.fina = [lh.LHh.fina];
 @lh = [@lh.isol @lh.init @lh.medi @lh.fina];
 @zr.isol = [zr.Zr.isol];
 @zr.init = [zr.Zr.init];
