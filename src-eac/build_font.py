@@ -6,7 +6,7 @@ from ufoLib2 import Font
 
 repository_dir = Path(__file__).parent.parent
 
-ufo_path = repository_dir / "src-noto" / "eac-font.ufo"
+ufo_path = repository_dir / "src-eac" / "eac-font.ufo"
 
 otl_dir = repository_dir / "hudum-feature"
 otl_path = otl_dir / "main.fea"
@@ -25,14 +25,16 @@ def main():
                     inlined_otl.write(line)
 
     ufo = Font.open(ufo_path)
-    ufo.info.familyName = "Draft UTN"
-
+    ufo.info.familyName = "Draft EAC"
+    ufo.info.postscriptFullName = "Draft EAC Regular"
+    ufo.info.postscriptFontName = "DraftEAC-Regular"
+    ufo.info.styleMapFamilyName = "Draft EAC Regular"
     project = FontProject()
     project.run_from_ufos(
         [ufo],
         output=["otf"],
         remove_overlaps=True,
-        output_path=repository_dir / "src-noto" / "res" / "DraftUTN-Regular.otf",
+        output_path=repository_dir / "src-eac" / "res" / "DraftEAC-Regular.otf",
     )
 
 
