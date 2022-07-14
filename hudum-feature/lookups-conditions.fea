@@ -72,9 +72,13 @@ lookup condition.devsger {
 
 @t.medi.for_onset = [t.D.medi];
 @i.medi.for_onset = [i.II.medi];
+@n.medi.for_onset = [n.A.medi];
+@d.medi.for_onset = [d.Dd.medi];
 lookup condition.onset {
     sub @t.medi.for_onset by t.T.medi;
     sub @i.medi.for_onset by i.I.medi;
+    sub @n.medi.for_onset by n.N.medi;
+    sub @d.medi.for_onset by d.D.medi;
 } condition.onset;
 
 # Syllabic - h/g - Masculine_Onset

@@ -84,7 +84,7 @@ lookup IIa.medi {
     sub oe-mon by oe.O.medi;
     sub ue-mon by ue.O.medi;
     sub eh-mon by eh.W.medi;
-    sub n-mon by n.N.medi;
+    sub n-mon by n.A.medi;
     sub ng-mon by ng.AG.medi;
     sub b-mon by b.B.medi;
     sub p-mon by p.P.medi;
@@ -95,7 +95,7 @@ lookup IIa.medi {
     sub s-mon by s.S.medi;
     sub sh-mon by sh.Sh.medi;
     sub t-mon by t.D.medi;
-    sub d-mon by d.D.medi;
+    sub d-mon by d.Dd.medi;
     sub ch-mon by ch.Ch.medi;
     sub j-mon by j.J.medi;
     sub y-mon by y.Y.medi;

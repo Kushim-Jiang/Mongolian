@@ -272,7 +272,7 @@ lookup IIa.medi {
     sub oe-mon by oe.O.medi;
     sub ue-mon by ue.O.medi;
     sub eh-mon by eh.W.medi;
-    sub n-mon by n.N.medi;
+    sub n-mon by n.A.medi;
     sub ng-mon by ng.AG.medi;
     sub b-mon by b.B.medi;
     sub p-mon by p.P.medi;
@@ -283,7 +283,7 @@ lookup IIa.medi {
     sub s-mon by s.S.medi;
     sub sh-mon by sh.Sh.medi;
     sub t-mon by t.D.medi;
-    sub d-mon by d.D.medi;
+    sub d-mon by d.Dd.medi;
     sub ch-mon by ch.Ch.medi;
     sub j-mon by j.J.medi;
     sub y-mon by y.Y.medi;
@@ -429,9 +429,13 @@ lookup condition.devsger {
 
 @t.medi.for_onset = [t.D.medi];
 @i.medi.for_onset = [i.II.medi];
+@n.medi.for_onset = [n.A.medi];
+@d.medi.for_onset = [d.Dd.medi];
 lookup condition.onset {
     sub @t.medi.for_onset by t.T.medi;
     sub @i.medi.for_onset by i.I.medi;
+    sub @n.medi.for_onset by n.N.medi;
+    sub @d.medi.for_onset by d.D.medi;
 } condition.onset;
 
 # Syllabic - h/g - Masculine_Onset
@@ -586,9 +590,12 @@ lookup III.n_j_w_h_g.chachlag_onset {
 lookup III.n_t_d.onset_and_devsger {
     lookupflag IgnoreMarks;
     sub [@t]' lookup condition.onset @eh;
+    sub [@n @d]' lookup condition.onset @vowel;
     sub [@n @t @d]' lookup condition.devsger @consonant;
+
     # MXS21 (Controversial): sh + i -> s + i
-    # sub [@sh.init.for_devsger @sh.medi.for_devsger]' lookup condition.devsger @i;
+    sub [@sh.init.for_devsger @sh.medi.for_devsger]' lookup condition.devsger @i;
+
     lookupflag 0;
 } III.n_t_d.onset_and_devsger;
 
@@ -604,9 +611,11 @@ lookup III.h_g.onset_and_devsger_and_gender {
 
     ignore sub [@h.medi @g.medi]' [@vowel.feminine @vowel.neuter];
     sub @vowel.masculine @g.medi.for_masculine_devsger' lookup condition.masculine_devsger @consonant;
+
     # MGZ12, MGZ62 (Controversial): s/t + g -> s/t + h
-    # sub [@s @t] @g.medi.for_masculine_devsger' lookup condition.masculine_devsger @vowel.masculine;
-    # sub [@s @t] @g.fina.for_masculine_devsger' lookup condition.masculine_devsger mvs.effe a.Aa.fina;
+    sub [@s @t] @g.medi.for_masculine_devsger' lookup condition.masculine_devsger @vowel.masculine;
+    sub [@s @t] @g.fina.for_masculine_devsger' lookup condition.masculine_devsger mvs.effe a.Aa.fina;
+
     sub [@h.medi.for_masculine_onset @g.medi.for_masculine_onset]' lookup condition.masculine_onset @vowel.masculine;
     sub @vowel.masculine [@h.medi.for_masculine_onset @g.medi.for_masculine_onset]' lookup condition.masculine_onset;
     lookupflag 0;
@@ -631,6 +640,7 @@ lookup III.ue_y.dictionary_particle {
     sub [mvs.effe nnbsp.effe] i.I.init y.Y.medi' lookup condition.dictionary_particle [a.A.medi e.A.medi] [n.A.fina r.R.fina];
     sub [mvs.effe nnbsp.effe] y.Y.init' lookup condition.dictionary_particle i.I.fina;
     sub [mvs.effe nnbsp.effe] y.Y.init' lookup condition.dictionary_particle i.I.medi n.A.fina;
+
     # not found in EAC spec
     sub [mvs.effe nnbsp.effe] ue.O.init' lookup condition.dictionary_particle g.G.medi e.A.medi i.I.fina;
     sub [mvs.effe nnbsp.effe] u.O.init' lookup condition.dictionary_particle r.R.medi u.O.medi g.Gh.medi u.U.fina;
