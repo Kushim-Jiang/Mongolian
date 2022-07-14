@@ -58,7 +58,7 @@ lookup IIb.ligature {
     sub b.B.init [o.O.fina u.O.fina oe.O.fina ue.O.fina] by BO.isol;
     sub b.B.medi [o.O.fina u.O.fina oe.O.fina ue.O.fina] by BO.fina;
     sub b.B.init [oe.OI.medi ue.OI.medi] by BOI.init;
-    sub b.B.medi [oe.OI.medi ue.OI.medi] by BUI.medi;
+    sub b.B.medi [oe.OI.medi ue.OI.medi] by BOI.medi;
     sub b.B.init [oe.Ue.fina ue.Ue.fina] by BUe.isol;
     sub b.B.medi [oe.Ue.fina ue.Ue.fina] by BUe.fina;
     sub b.B.init eh.W.medi by BW.init;

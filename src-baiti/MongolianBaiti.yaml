@@ -523,10 +523,10 @@ uni183F: rh.Rh.isol
 glyph895: rh.Rh.init
 glyph896: rh.Rh.medi
 glyph897: rh.Rh.fina
-uni1840: lh.Lh.isol
-glyph899: lh.Lh.init
-glyph900: lh.Lh.medi
-glyph901: lh.Lh.fina
+uni1840: lh.LHh.isol
+glyph899: lh.LHh.init
+glyph900: lh.LHh.medi
+glyph901: lh.LHh.fina
 uni1841: zr.Zr.isol
 glyph904: zr.Zr.init
 glyph905: zr.Zr.medi
@@ -571,7 +571,7 @@ glyph907: cr.Cr.fina
 # glyph2047: h_i.GI.medi.mvs
 # glyph2229: h_ue.GUe.fina.mvs
 
-# uni202F: nnbsp
+uni202F: nnbsp
 # uni1801: ellipsis-mon
 # uni1802: comma-mon
 # uni1803: fullstop-mon
@@ -581,12 +581,12 @@ glyph907: cr.Cr.fina
 # uni1807: ssm-mon
 # uni1808: comma2-mon
 # uni1809: fullstop2-mon
-# uni180A: nirugu
-# uni180B: fvs1
-# uni180C: fvs2
-# uni180D: fvs3
-# uni180E: mvs
-# uni180F: fvs4
+uni180A: nirugu
+uni180B: fvs1
+uni180C: fvs2
+uni180D: fvs3
+uni180E: mvs
+uni180F: fvs4
 
 # uni1810: zero-mon
 # uni1811: one-mon

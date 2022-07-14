@@ -226,7 +226,7 @@ lookup III.fvs {
     sub @y.medi fvs3 by y.Y.medi;
     sub @y.medi fvs1 by y.I.medi;
     sub @y.medi fvs2 by y.II.medi;
-    sub @w.medi fvs1 by w.U.medi;
+    sub @w.medi fvs1 by w.O.medi;
     sub @w.fina fvs1 by w.U.fina;
 } III.fvs;
 

@@ -32,7 +32,7 @@ lookup IIa.isol {
     sub z-mon by z.Z.isol;
     sub hh-mon by hh.Hh.isol;
     sub rh-mon by rh.Rh.isol;
-    sub lh-mon by lh.Lh.isol;
+    sub lh-mon by lh.LHh.isol;
     sub zr-mon by zr.Zr.isol;
     sub cr-mon by cr.Cr.isol;
 } IIa.isol;
@@ -70,7 +70,7 @@ lookup IIa.init {
     sub z-mon by z.Z.init;
     sub hh-mon by hh.Hh.init;
     sub rh-mon by rh.Rh.init;
-    sub lh-mon by lh.Lh.init;
+    sub lh-mon by lh.LHh.init;
     sub zr-mon by zr.Zr.init;
     sub cr-mon by cr.Cr.init;
 } IIa.init;
@@ -108,7 +108,7 @@ lookup IIa.medi {
     sub z-mon by z.Z.medi;
     sub hh-mon by hh.Hh.medi;
     sub rh-mon by rh.Rh.medi;
-    sub lh-mon by lh.Lh.medi;
+    sub lh-mon by lh.LHh.medi;
     sub zr-mon by zr.Zr.medi;
     sub cr-mon by cr.Cr.medi;
 } IIa.medi;
@@ -146,7 +146,7 @@ lookup IIa.fina {
     sub z-mon by z.Z.fina;
     sub hh-mon by hh.Hh.fina;
     sub rh-mon by rh.Rh.fina;
-    sub lh-mon by lh.Lh.fina;
+    sub lh-mon by lh.LHh.fina;
     sub zr-mon by zr.Zr.fina;
     sub cr-mon by cr.Cr.fina;
 } IIa.fina;

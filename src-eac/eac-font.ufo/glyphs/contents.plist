@@ -30,8 +30,8 @@
 	<string>B_O_.medi.glif</string>
 	<key>BOI.init</key>
 	<string>B_O_I_.init.glif</string>
-	<key>BUI.medi</key>
-	<string>B_U_I_.medi.glif</string>
+	<key>BOI.medi</key>
+	<string>B_O_I_.medi.glif</string>
 	<key>BUe.fina</key>
 	<string>B_U_e.fina.glif</string>
 	<key>BUe.isol</key>
@@ -558,14 +558,14 @@
 	<string>l.L_.medi.glif</string>
 	<key>lh-mon</key>
 	<string>lh-mon.glif</string>
-	<key>lh.Lh.fina</key>
-	<string>lh.L_h.fina.glif</string>
-	<key>lh.Lh.init</key>
-	<string>lh.L_h.init.glif</string>
-	<key>lh.Lh.isol</key>
-	<string>lh.L_h.isol.glif</string>
-	<key>lh.Lh.medi</key>
-	<string>lh.L_h.medi.glif</string>
+	<key>lh.LHh.fina</key>
+	<string>lh.L_H_h.fina.glif</string>
+	<key>lh.LHh.init</key>
+	<string>lh.L_H_h.init.glif</string>
+	<key>lh.LHh.isol</key>
+	<string>lh.L_H_h.isol.glif</string>
+	<key>lh.LHh.medi</key>
+	<string>lh.L_H_h.medi.glif</string>
 	<key>m-mon</key>
 	<string>m-mon.glif</string>
 	<key>m.M.fina</key>
@@ -772,8 +772,8 @@
 	<string>w-mon.glif</string>
 	<key>w.U.fina</key>
 	<string>w.U_.fina.glif</string>
-	<key>w.U.medi</key>
-	<string>w.U_.medi.glif</string>
+	<key>w.O.medi</key>
+	<string>w.O_.medi.glif</string>
 	<key>w.W.fina</key>
 	<string>w.W_.fina.glif</string>
 	<key>w.W.init</key>
