@@ -15,7 +15,10 @@ def main():
     temp_dir.mkdir(exist_ok=True)
 
     ufo = Font.open(baiti_dir / "161Source005-cubic.ufo")
-    ufo.info.familyName = "Mongolian Baiti"
+    ufo.info.familyName = "Draft Baiti"
+    ufo.info.postscriptFullName = "Draft Baiti Regular"
+    ufo.info.postscriptFontName = "DraftBaiti-Regular"
+    ufo.info.styleMapFamilyName = "Draft Baiti Regular"
 
     # rename glyph
     yaml_dir = baiti_dir / "MongolianBaiti.yaml"
