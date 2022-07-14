@@ -132,7 +132,7 @@ lookup condition.particle {
     sub @a.isol.for_particle by a.Aa.isol;  # NNBSP = MVS
     sub @a.init.for_particle by a.A.init;
     sub @u.isol.for_particle by u.U.isol;
-    sub @u.init.for_particle by u.U.init;
+    sub @u.init.for_particle by u.O.init;
     sub @u.fina.for_particle by u.U.fina;
     sub @e.isol.for_particle by e.Aa.isol;  # NNBSP = MVS
     sub @ue.isol.for_particle by ue.U.isol;
@@ -147,7 +147,7 @@ lookup condition.particle {
 @y.init.for_dictionary_particle = [y.Y.init];
 @y.medi.for_dictionary_particle = [y.Y.medi];
 @ue.init.for_dictionary_particle = [ue.O.init];
-@u.init.for_dictionary_particle = [u.U.init];
+@u.init.for_dictionary_particle = [u.O.init];
 lookup condition.dictionary_particle {
     sub @y.init.for_dictionary_particle by y.I.init;
     sub @y.medi.for_dictionary_particle by y.I.medi;

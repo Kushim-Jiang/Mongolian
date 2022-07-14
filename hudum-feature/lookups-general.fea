@@ -98,7 +98,7 @@ lookup III.ue_y.dictionary_particle {
     sub [mvs.effe nnbsp.effe] y.Y.init' lookup condition.dictionary_particle i.I.medi n.A.fina;
     # not found in EAC spec
     sub [mvs.effe nnbsp.effe] ue.O.init' lookup condition.dictionary_particle g.G.medi e.A.medi i.I.fina;
-    sub [mvs.effe nnbsp.effe] u.U.init' lookup condition.dictionary_particle r.R.medi u.O.medi g.Gh.medi u.U.fina;
+    sub [mvs.effe nnbsp.effe] u.O.init' lookup condition.dictionary_particle r.R.medi u.O.medi g.Gh.medi u.U.fina;
     lookupflag 0;
 } III.ue_y.dictionary_particle;
 
@@ -149,7 +149,7 @@ lookup III.fvs {
     sub @u.isol fvs1 by u.U.isol;
     sub @u.isol fvs2 by u.Ux.isol;
     sub @u.init fvs2 by u.AO.init;
-    sub @u.init fvs1 by u.U.init;
+    sub @u.init fvs1 by u.O.init;
     sub @u.medi fvs1 by u.AO.medi;
     sub @u.fina fvs2 by u.U.fina;
     sub @u.fina fvs1 by u.O.fina;

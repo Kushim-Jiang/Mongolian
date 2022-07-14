@@ -21,7 +21,7 @@
 @o.fina = [o.U.fina o.O.fina];
 @o = [@o.isol @o.init @o.medi @o.fina];
 @u.isol = [u.AO.isol u.U.isol u.Ux.isol];
-@u.init = [u.AO.init u.U.init];
+@u.init = [u.AO.init u.O.init];
 @u.medi = [u.O.medi u.AO.medi];
 @u.fina = [u.U.fina u.O.fina];
 @u = [@u.isol @u.init @u.medi @u.fina];
@@ -489,7 +489,7 @@ lookup condition.particle {
     sub @a.isol.for_particle by a.Aa.isol;  # NNBSP = MVS
     sub @a.init.for_particle by a.A.init;
     sub @u.isol.for_particle by u.U.isol;
-    sub @u.init.for_particle by u.U.init;
+    sub @u.init.for_particle by u.O.init;
     sub @u.fina.for_particle by u.U.fina;
     sub @e.isol.for_particle by e.Aa.isol;  # NNBSP = MVS
     sub @ue.isol.for_particle by ue.U.isol;
@@ -504,7 +504,7 @@ lookup condition.particle {
 @y.init.for_dictionary_particle = [y.Y.init];
 @y.medi.for_dictionary_particle = [y.Y.medi];
 @ue.init.for_dictionary_particle = [ue.O.init];
-@u.init.for_dictionary_particle = [u.U.init];
+@u.init.for_dictionary_particle = [u.O.init];
 lookup condition.dictionary_particle {
     sub @y.init.for_dictionary_particle by y.I.init;
     sub @y.medi.for_dictionary_particle by y.I.medi;
@@ -633,7 +633,7 @@ lookup III.ue_y.dictionary_particle {
     sub [mvs.effe nnbsp.effe] y.Y.init' lookup condition.dictionary_particle i.I.medi n.A.fina;
     # not found in EAC spec
     sub [mvs.effe nnbsp.effe] ue.O.init' lookup condition.dictionary_particle g.G.medi e.A.medi i.I.fina;
-    sub [mvs.effe nnbsp.effe] u.U.init' lookup condition.dictionary_particle r.R.medi u.O.medi g.Gh.medi u.U.fina;
+    sub [mvs.effe nnbsp.effe] u.O.init' lookup condition.dictionary_particle r.R.medi u.O.medi g.Gh.medi u.U.fina;
     lookupflag 0;
 } III.ue_y.dictionary_particle;
 
@@ -684,7 +684,7 @@ lookup III.fvs {
     sub @u.isol fvs1 by u.U.isol;
     sub @u.isol fvs2 by u.Ux.isol;
     sub @u.init fvs2 by u.AO.init;
-    sub @u.init fvs1 by u.U.init;
+    sub @u.init fvs1 by u.O.init;
     sub @u.medi fvs1 by u.AO.medi;
     sub @u.fina fvs2 by u.U.fina;
     sub @u.fina fvs1 by u.O.fina;

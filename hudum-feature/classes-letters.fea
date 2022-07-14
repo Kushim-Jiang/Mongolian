@@ -20,7 +20,7 @@
 @o.fina = [o.U.fina o.O.fina];
 @o = [@o.isol @o.init @o.medi @o.fina];
 @u.isol = [u.AO.isol u.U.isol u.Ux.isol];
-@u.init = [u.AO.init u.U.init];
+@u.init = [u.AO.init u.O.init];
 @u.medi = [u.O.medi u.AO.medi];
 @u.fina = [u.U.fina u.O.fina];
 @u = [@u.isol @u.init @u.medi @u.fina];
