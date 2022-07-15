@@ -11,10 +11,12 @@
 lookup _.effe {
     sub @mcs by @mcs.effe;
     sub @fvs by @fvs.effe;
+    sub nirugu by nirugu.effe;
 } _.effe;
 
 lookup _.nomi {
     sub @fvs.effe by @fvs;
+    sub nirugu.effe by nirugu;
 } _.nomi;
 
 # III.1: Chachlag

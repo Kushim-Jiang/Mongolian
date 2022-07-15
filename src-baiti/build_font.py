@@ -199,6 +199,7 @@ def main():
             "y.I.isol": "j.I.isol",
             "y.II.medi": "i.II.medi",
             "w.O.medi": "ue.O.medi",
+            "nirugu.effe": "nirugu",
     }.items():
         ufo[constructed] = ufo[origin].copy()
 
@@ -211,13 +212,7 @@ def main():
         if path.suffix == ".fea":
             (temp_dir / path.name).write_text(path.read_text())
 
-    lines = [
-        "include(main.fea);\n",
-        # "feature dist {\n",
-    ]
-    # lines.extend(f"    pos {i} {ufo[i].width};\n" for i in ["nirugu", "fvs1", "fvs2", "fvs3", "fvs4"])
-    # lines.append("} dist;\n")
-    ufo.features.text = "".join(lines)
+    ufo.features.text = "include(main.fea);\n"
 
     path = temp_dir / "font.ufo"
     ufo.save(path, overwrite=True)  # fontmake reads fro
