@@ -188,17 +188,16 @@ def main():
             cmap_glyph.unicodes = unicodes
 
     for constructed, origin in {
-            # These 10 glyphs are used by EAC, not used by Baiti
-            "oe.AU.isol": "ue.AU.isol",
+            # These 9 glyphs are used by EAC, not used by Baiti
+            "oe.AU.isol": ".notdef",
             "n.A.isol": ".notdef",
-            "sh.S.isol": "s.S.isol",
-            "sh.S.init": "s.S.init",
-            "sh.S.medi": "s.S.medi",
-            "d.T.isol": "t.T.isol",
-            "j.I2.isol": ".notdef",
-            "y.I.isol": "j.I.isol",
-            "y.II.medi": "i.II.medi",
-            "w.O.medi": "ue.O.medi",
+            "sh.S.isol": ".notdef",
+            "sh.S.init": ".notdef",
+            "sh.S.medi": ".notdef",
+            "d.T.isol": ".notdef",
+            "y.I.isol": ".notdef",
+            "y.II.medi": ".notdef",
+            "w.O.medi": ".notdef",
             "nirugu.effe": "nirugu",
     }.items():
         ufo[constructed] = ufo[origin].copy()

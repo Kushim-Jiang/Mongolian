@@ -355,7 +355,8 @@ uni1834: ch.Ch.isol
 glyph686: ch.Ch.init
 glyph687: ch.Ch.medi
 glyph688: ch.Ch.fina
-uni1835: j.I.isol
+uni1835: j.I2.isol
+glyph2281: j.I.isol
 glyph690: j.I.init
 glyph691: j.J.medi
 glyph692: j.J.fina
