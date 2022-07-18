@@ -205,6 +205,10 @@ def main():
     # TODO, FIXME
     for name in ["zwnj", "zwj", "mvs.effe", "nnbsp.effe", 'fvs1.effe', 'fvs2.effe', 'fvs3.effe', 'fvs4.effe']:
         ufo.newGlyph(name)
+        if name == "mvs.effe":
+            ufo[name].width = 300
+        elif name == "nnbsp.effe":
+            ufo[name].width = 500
 
     # feature
     for path in otl_dir.iterdir():
