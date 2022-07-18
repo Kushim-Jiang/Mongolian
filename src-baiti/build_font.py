@@ -188,7 +188,7 @@ def main():
             cmap_glyph.unicodes = unicodes
 
     for constructed, origin in {
-            # These 9 glyphs are used by EAC, not used by Baiti
+            # These glyphs are not used by Baiti
             "oe.AU.isol": ".notdef",
             "n.A.isol": ".notdef",
             "sh.S.isol": ".notdef",

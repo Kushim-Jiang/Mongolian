@@ -572,7 +572,6 @@ glyph907: cr.Cr.fina
 # glyph2047: h_i.GI.medi.mvs
 # glyph2229: h_ue.GUe.fina.mvs
 
-uni202F: nnbsp
 # uni1801: ellipsis-mon
 # uni1802: comma-mon
 # uni1803: fullstop-mon
@@ -586,8 +585,9 @@ uni180A: nirugu
 uni180B: fvs1
 uni180C: fvs2
 uni180D: fvs3
-uni180E: mvs
 uni180F: fvs4
+uni180E: mvs
+uni202F: nnbsp
 
 # uni1810: zero-mon
 # uni1811: one-mon
