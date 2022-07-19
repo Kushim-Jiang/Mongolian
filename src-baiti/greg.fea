@@ -1,0 +1,3 @@
+feature vert {
+    sub uni300A by uni300A.vert;
+} vert;

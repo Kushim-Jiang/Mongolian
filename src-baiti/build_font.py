@@ -15,6 +15,7 @@ def main():
     temp_dir.mkdir(exist_ok=True)
 
     ufo = Font.open(baiti_dir / "161Source005-cubic.ufo")
+    ufo.info.unitsPerEm = ufo.info.unitsPerEm / 1.5
     ufo.info.familyName = "Draft Baiti"
     ufo.info.postscriptFullName = "Draft Baiti Regular"
     ufo.info.postscriptFontName = "DraftBaiti-Regular"
@@ -215,7 +216,7 @@ def main():
         if path.suffix == ".fea":
             (temp_dir / path.name).write_text(path.read_text())
 
-    ufo.features.text = "include(main.fea);\n"
+    ufo.features.text = "include(main.fea);\n include(..\greg.fea);\n"
 
     path = temp_dir / "font.ufo"
     ufo.save(path, overwrite=True)  # fontmake reads fro

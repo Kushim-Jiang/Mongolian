@@ -856,7 +856,7 @@ uni202F: nnbsp
 # uni3002: uni3002
 # uni3008: uni3008
 # uni3009: uni3009
-# uni300A: uni300A
+uni300A: uni300A
 # uni300B: uni300B
 # uni300C: uni300C
 # uni300D: uni300D
@@ -940,7 +940,7 @@ uni202F: nnbsp
 # glyph1943: uni3002.vert
 # glyph1867: uni3008.vert
 # glyph1868: uni3009.vert
-# glyph1863: uni300A.vert
+glyph1863: uni300A.vert
 # glyph1864: uni300B.vert
 # glyph1879: uni300C.vert
 # glyph1880: uni300D.vert
