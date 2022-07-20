@@ -856,7 +856,7 @@ uni202F: nnbsp
 # uni3002: uni3002
 # uni3008: uni3008
 # uni3009: uni3009
-uni300A: uni300A
+# uni300A: uni300A
 # uni300B: uni300B
 # uni300C: uni300C
 # uni300D: uni300D
@@ -886,87 +886,87 @@ uni300A: uni300A
 # uniFE63: uniFE63
 # uniFF0E: uniFF0E
 # uniFF5C: uniFF5C
-# glyph1851: zero-mon.vert
-# glyph1852: one-mon.vert
-# glyph1853: two-mon.vert
-# glyph1854: three-mon.vert
-# glyph1855: four-mon.vert
-# glyph1856: five-mon.vert
-# glyph1857: six-mon.vert
-# glyph1858: seven-mon.vert
-# glyph1859: eight-mon.vert
-# glyph1860: nine-mon.vert
-# glyph1841: uni0030.vert
-# glyph1842: uni0031.vert
-# glyph1843: uni0032.vert
-# glyph1844: uni0033.vert
-# glyph1845: uni0034.vert
-# glyph1846: uni0035.vert
-# glyph1847: uni0036.vert
-# glyph1848: uni0037.vert
-# glyph1849: uni0038.vert
-# glyph1850: uni0039.vert
+glyph1851: zero-mon.vert
+glyph1852: one-mon.vert
+glyph1853: two-mon.vert
+glyph1854: three-mon.vert
+glyph1855: four-mon.vert
+glyph1856: five-mon.vert
+glyph1857: six-mon.vert
+glyph1858: seven-mon.vert
+glyph1859: eight-mon.vert
+glyph1860: nine-mon.vert
+glyph1841: uni0030.vert
+glyph1842: uni0031.vert
+glyph1843: uni0032.vert
+glyph1844: uni0033.vert
+glyph1845: uni0034.vert
+glyph1846: uni0035.vert
+glyph1847: uni0036.vert
+glyph1848: uni0037.vert
+glyph1849: uni0038.vert
+glyph1850: uni0039.vert
 # glyph1948: uni2018.vert
-# glyph1949: uni2019.vert
-# glyph1950: uni201C.vert
-# glyph1951: uni201D.vert
-# glyph1941: uni2022.vert
-# glyph1915: uni203C.vert
-# glyph1916: uni2047.vert
-# glyph1920: uni2048.vert
-# glyph1919: uni2049.vert
-# glyph1973: uni2460.vert
-# glyph1974: uni2461.vert
-# glyph1975: uni2462.vert
-# glyph1976: uni2463.vert
-# glyph1977: uni2464.vert
-# glyph1978: uni2465.vert
-# glyph1979: uni2466.vert
-# glyph1980: uni2467.vert
-# glyph1981: uni2468.vert
-# glyph1982: uni2469.vert
-# glyph1983: uni246A.vert
-# glyph1984: uni246B.vert
-# glyph1985: uni246C.vert
-# glyph1986: uni246D.vert
-# glyph1987: uni246E.vert
-# glyph1988: uni246F.vert
-# glyph1989: uni2470.vert
-# glyph1990: uni2471.vert
-# glyph1991: uni2472.vert
-# glyph1992: uni2473.vert
+glyph1949: uni2019.vert
+glyph1950: uni201C.vert
+glyph1951: uni201D.vert
+glyph1941: uni2022.vert
+glyph1915: uni203C.vert
+glyph1916: uni2047.vert
+glyph1920: uni2048.vert
+glyph1919: uni2049.vert
+glyph1973: uni2460.vert
+glyph1974: uni2461.vert
+glyph1975: uni2462.vert
+glyph1976: uni2463.vert
+glyph1977: uni2464.vert
+glyph1978: uni2465.vert
+glyph1979: uni2466.vert
+glyph1980: uni2467.vert
+glyph1981: uni2468.vert
+glyph1982: uni2469.vert
+glyph1983: uni246A.vert
+glyph1984: uni246B.vert
+glyph1985: uni246C.vert
+glyph1986: uni246D.vert
+glyph1987: uni246E.vert
+glyph1988: uni246F.vert
+glyph1989: uni2470.vert
+glyph1990: uni2471.vert
+glyph1991: uni2472.vert
+glyph1992: uni2473.vert
 
-# glyph1945: uni3001.vert
-# glyph1943: uni3002.vert
-# glyph1867: uni3008.vert
-# glyph1868: uni3009.vert
+glyph1945: uni3001.vert
+glyph1943: uni3002.vert
+glyph1867: uni3008.vert
+glyph1868: uni3009.vert
 glyph1863: uni300A.vert
-# glyph1864: uni300B.vert
-# glyph1879: uni300C.vert
-# glyph1880: uni300D.vert
-# glyph1871: uni300E.vert
-# glyph1872: uni300F.vert
-# glyph1883: uni3010.vert
-# glyph1884: uni3011.vert
-# glyph1875: uni3014.vert
-# glyph1876: uni3015.vert
-# glyph1887: uni3016.vert
-# glyph1888: uni3017.vert
-# glyph1891: uni3018.vert
-# glyph1892: uni3019.vert
-# glyph1895: uni301A.vert
-# glyph1896: uni301B.vert
-# glyph1937: uni301C.vert
-# glyph1924: uni301D.vert
-# glyph1925: uni301E.vert
-# uniFE10.vert: uniFE10.vert
-# glyph1933: uniFE13.vert
-# glyph1931: uniFE14.vert
-# glyph1911: uniFE15.vert
-# glyph1912: uniFE16.vert
-# glyph1939: uniFE19.vert
-# glyph1903: uniFE5B.vert
-# glyph1904: uniFE5C.vert
-# glyph1935: uniFE63.vert
-# glyph1927: uniFF0E.vert
-# glyph1947: uniFF5C.vert
+glyph1864: uni300B.vert
+glyph1879: uni300C.vert
+glyph1880: uni300D.vert
+glyph1871: uni300E.vert
+glyph1872: uni300F.vert
+glyph1883: uni3010.vert
+glyph1884: uni3011.vert
+glyph1875: uni3014.vert
+glyph1876: uni3015.vert
+glyph1887: uni3016.vert
+glyph1888: uni3017.vert
+glyph1891: uni3018.vert
+glyph1892: uni3019.vert
+glyph1895: uni301A.vert
+glyph1896: uni301B.vert
+glyph1937: uni301C.vert
+glyph1924: uni301D.vert
+glyph1925: uni301E.vert
+uniFE10: uniFE10.vert
+glyph1933: uniFE13.vert
+glyph1931: uniFE14.vert
+glyph1911: uniFE15.vert
+glyph1912: uniFE16.vert
+glyph1939: uniFE19.vert
+glyph1903: uniFE5B.vert
+glyph1904: uniFE5C.vert
+glyph1935: uniFE63.vert
+glyph1927: uniFF0E.vert
+glyph1947: uniFF5C.vert
