@@ -199,16 +199,19 @@ def main():
             "y.I.isol": ".notdef",
             "y.II.medi": ".notdef",
             "w.O.medi": ".notdef",
-            "nirugu.effe": "nirugu",
+            "nirugu.effective": "nirugu",
     }.items():
         ufo[constructed] = ufo[origin].copy()
 
     # TODO, FIXME
-    for name in ["zwnj", "zwj", "mvs.effe", "nnbsp.effe", 'fvs1.effe', 'fvs2.effe', 'fvs3.effe', 'fvs4.effe']:
+    for name in [
+            "zwnj", "zwj", "mvs.effective", "nnbsp.effective", "fvs1.effective", "fvs2.effective", "fvs3.effective", "fvs4.effective", "nil", "_mvs", "_nnbsp",
+            "_fvs1", "_fvs2", "_fvs3", "_fvs4", "_nil", "_helper"
+    ]:
         ufo.newGlyph(name)
-        if name == "mvs.effe":
+        if name == "mvs.effective":
             ufo[name].width = 300
-        elif name == "nnbsp.effe":
+        elif name == "nnbsp.effective":
             ufo[name].width = 500
 
     # feature

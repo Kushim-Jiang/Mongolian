@@ -822,70 +822,70 @@ uni202F: nnbsp
 # perthousand: uni2030
 # guilsinglleft: uni2039
 # guilsinglright: uni203A
-# quoteleft: uni2018
-# quoteright: uni2019
-# quotedblleft: uni201C
-# quotedblright: uni201D
-# bullet: uni2022
-# exclamdbl: uni203C
-# uni2047: uni2047
-# uni2048: uni2048
-# uni2049: uni2049
+quoteleft: uni2018
+quoteright: uni2019
+quotedblleft: uni201C
+quotedblright: uni201D
+bullet: uni2022
+exclamdbl: uni203C
+uni2047: uni2047
+uni2048: uni2048
+uni2049: uni2049
 # trademark: uni2122
-# uni2460: uni2460
-# uni2461: uni2461
-# uni2462: uni2462
-# uni2463: uni2463
-# uni2464: uni2464
-# uni2465: uni2465
-# uni2466: uni2466
-# uni2467: uni2467
-# uni2468: uni2468
-# uni2469: uni2469
-# uni246A: uni246A
-# uni246B: uni246B
-# uni246C: uni246C
-# uni246D: uni246D
-# uni246E: uni246E
-# uni246F: uni246F
-# uni2470: uni2470
-# uni2471: uni2471
-# uni2472: uni2472
-# uni2473: uni2473
-# uni3001: uni3001
-# uni3002: uni3002
-# uni3008: uni3008
-# uni3009: uni3009
-# uni300A: uni300A
-# uni300B: uni300B
-# uni300C: uni300C
-# uni300D: uni300D
-# uni300E: uni300E
-# uni300F: uni300F
-# uni3010: uni3010
-# uni3011: uni3011
-# uni3014: uni3014
-# uni3015: uni3015
-# uni3016: uni3016
-# uni3017: uni3017
-# uni3018: uni3018
-# uni3019: uni3019
-# uni301A: uni301A
-# uni301B: uni301B
-# uni301C: uni301C
-# uni301D: uni301D
-# uni301E: uni301E
-# uniFE10: uniFE10
-# uniFE13: uniFE13
-# uniFE14: uniFE14
-# uniFE15: uniFE15
-# uniFE16: uniFE16
-# uniFE19: uniFE19
-# uniFE5B: uniFE5B
-# uniFE5C: uniFE5C
-# uniFE63: uniFE63
-# uniFF0E: uniFF0E
-# uniFF5C: uniFF5C
+uni2460: uni2460
+uni2461: uni2461
+uni2462: uni2462
+uni2463: uni2463
+uni2464: uni2464
+uni2465: uni2465
+uni2466: uni2466
+uni2467: uni2467
+uni2468: uni2468
+uni2469: uni2469
+uni246A: uni246A
+uni246B: uni246B
+uni246C: uni246C
+uni246D: uni246D
+uni246E: uni246E
+uni246F: uni246F
+uni2470: uni2470
+uni2471: uni2471
+uni2472: uni2472
+uni2473: uni2473
+uni3001: uni3001
+uni3002: uni3002
+uni3008: uni3008
+uni3009: uni3009
+uni300A: uni300A
+uni300B: uni300B
+uni300C: uni300C
+uni300D: uni300D
+uni300E: uni300E
+uni300F: uni300F
+uni3010: uni3010
+uni3011: uni3011
+uni3014: uni3014
+uni3015: uni3015
+uni3016: uni3016
+uni3017: uni3017
+uni3018: uni3018
+uni3019: uni3019
+uni301A: uni301A
+uni301B: uni301B
+uni301C: uni301C
+uni301D: uni301D
+uni301E: uni301E
+uniFE10: uniFE10
+uniFE13: uniFE13
+uniFE14: uniFE14
+uniFE15: uniFE15
+uniFE16: uniFE16
+uniFE19: uniFE19
+uniFE5B: uniFE5B
+uniFE5C: uniFE5C
+uniFE63: uniFE63
+uniFF0E: uniFF0E
+uniFF5C: uniFF5C
 glyph1851: zero-mon.vert
 glyph1852: one-mon.vert
 glyph1853: two-mon.vert
@@ -906,7 +906,7 @@ glyph1847: uni0036.vert
 glyph1848: uni0037.vert
 glyph1849: uni0038.vert
 glyph1850: uni0039.vert
-# glyph1948: uni2018.vert
+glyph1948: uni2018.vert
 glyph1949: uni2019.vert
 glyph1950: uni201C.vert
 glyph1951: uni201D.vert
@@ -959,7 +959,6 @@ glyph1896: uni301B.vert
 glyph1937: uni301C.vert
 glyph1924: uni301D.vert
 glyph1925: uni301E.vert
-uniFE10: uniFE10.vert
 glyph1933: uniFE13.vert
 glyph1931: uniFE14.vert
 glyph1911: uniFE15.vert

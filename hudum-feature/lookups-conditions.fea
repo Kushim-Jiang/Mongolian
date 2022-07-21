@@ -10,6 +10,39 @@ lookup condition.chachlag {
     sub @e.isol.for_chachlag by e.Aa.isol;
 } condition.chachlag;
 
+# III.3: Particle
+
+@a.isol.for_particle = [a.AA.isol];  # NNBSP = MVS
+@a.init.for_particle = [a.AA.init];
+@u.isol.for_particle = [u.AO.isol];
+@u.init.for_particle = [u.AO.init];
+@u.fina.for_particle = [u.O.fina];
+@e.isol.for_particle = [e.A.isol];  # NNBSP = MVS
+@ue.isol.for_particle = [ue.AUe.isol];
+@ue.init.for_particle = [ue.AOI.init];
+@ue.medi.for_particle = [ue.OI.medi];
+@ue.fina.for_particle = [ue.Ue.fina ue.O.fina];
+@i.isol.for_particle = [i.AI.isol];
+@i.init.for_particle = [i.AI.init];
+@d.init.for_particle = [d.T.init];
+lookup condition.particle {
+    # NNBSP == MVS
+    sub @a.isol.for_particle by a.Aa.isol;
+    sub @a.init.for_particle by a.A.init;
+    sub @u.isol.for_particle by u.U.isol;
+    sub @u.init.for_particle by u.O.init;
+    sub @u.fina.for_particle by u.U.fina;
+    # NNBSP == MVS
+    sub @e.isol.for_particle by e.Aa.isol;
+    sub @ue.isol.for_particle by ue.U.isol;
+    sub @ue.init.for_particle by ue.O.init;
+    sub @ue.medi.for_particle by ue.O.medi;
+    sub @ue.fina.for_particle by ue.U.fina;
+    sub @i.isol.for_particle by i.I.isol;
+    sub @i.init.for_particle by i.I.init;
+    sub @d.init.for_particle by d.D.init;
+} condition.particle;
+
 # III.2: Syllabic
 # Syllabic - o/u/ö/ü - Marked
 
@@ -28,23 +61,24 @@ lookup condition.marked {
     sub @ue.fina.for_marked by ue.Ue.fina;
 } condition.marked;
 
-# Syllabic - n/j/y/w - Chachlag_Onset
-# Syllabic - h/g - Chachlag_Onset
+# III.5: Post-bowed
+# III.6: FVS-selected
+# IIB.1: Variation involving bowed written units
 
-@n.fina.for_chachlag_onset = [n.A.fina];
-@h.fina.for_chachlag_onset = [h.Gh.fina];
-@g.fina.for_chachlag_onset = [g.G.fina g.H.fina];
-@j.fina.for_chachlag_onset = [j.J.fina];
-@j.isol.for_chachlag_onset = [j.I2.isol];
-@w.fina.for_chachlag_onset = [w.W.fina];
-lookup condition.chachlag_onset {
-    sub @n.fina.for_chachlag_onset by n.N.fina;
-    sub @h.fina.for_chachlag_onset by h.H.fina;
-    sub @g.fina.for_chachlag_onset by g.Gh.fina;
-    sub @j.fina.for_chachlag_onset by j.I.fina;
-    sub @j.isol.for_chachlag_onset by j.I.isol;
-    sub @w.fina.for_chachlag_onset by w.U.fina;
-} condition.chachlag_onset;
+@a.fina.for_post_bowed = [a.A.fina];
+@e.fina.for_post_bowed = [e.A.fina];
+@o.fina.for_post_bowed = [o.U.fina];
+@u.fina.for_post_bowed = [u.U.fina];
+@oe.fina.for_post_bowed = [oe.U.fina];
+@ue.fina.for_post_bowed = [ue.U.fina];
+lookup condition.post_bowed {
+    sub @a.fina.for_post_bowed by a.Aa.fina;
+    sub @e.fina.for_post_bowed by e.Aa.fina;
+    sub @o.fina.for_post_bowed by o.O.fina;
+    sub @u.fina.for_post_bowed by u.O.fina;
+    sub @oe.fina.for_post_bowed by oe.O.fina;
+    sub @ue.fina.for_post_bowed by ue.O.fina;
+} condition.post_bowed;
 
 # Syllabic - t - Onset
 # Syllabic - n/t/d - Devsger
@@ -80,6 +114,24 @@ lookup condition.onset {
     sub @n.medi.for_onset by n.N.medi;
     sub @d.medi.for_onset by d.D.medi;
 } condition.onset;
+
+# Syllabic - n/j/y/w - Chachlag_Onset
+# Syllabic - h/g - Chachlag_Onset
+
+@n.fina.for_chachlag_onset = [n.A.fina];
+@h.fina.for_chachlag_onset = [h.Gh.fina];
+@g.fina.for_chachlag_onset = [g.G.fina g.H.fina];
+@j.fina.for_chachlag_onset = [j.J.fina];
+@j.isol.for_chachlag_onset = [j.I2.isol];
+@w.fina.for_chachlag_onset = [w.W.fina];
+lookup condition.chachlag_onset {
+    sub @n.fina.for_chachlag_onset by n.N.fina;
+    sub @h.fina.for_chachlag_onset by h.H.fina;
+    sub @g.fina.for_chachlag_onset by g.Gh.fina;
+    sub @j.isol.for_chachlag_onset by j.I.isol;
+    sub @j.fina.for_chachlag_onset by j.I.fina;
+    sub @w.fina.for_chachlag_onset by w.U.fina;
+} condition.chachlag_onset;
 
 # Syllabic - h/g - Masculine_Onset
 # Syllabic - h/g - Feminine
@@ -117,37 +169,6 @@ lookup condition.masculine_devsger {
     sub @g.fina.for_masculine_devsger by g.H.fina;
 } condition.masculine_devsger;
 
-# III.3: Particle
-
-@a.isol.for_particle = [a.AA.isol];  # NNBSP = MVS
-@a.init.for_particle = [a.AA.init];
-@u.isol.for_particle = [u.AO.isol];
-@u.init.for_particle = [u.AO.init];
-@u.fina.for_particle = [u.O.fina];
-@e.isol.for_particle = [e.A.isol];  # NNBSP = MVS
-@ue.isol.for_particle = [ue.AUe.isol];
-@ue.init.for_particle = [ue.AOI.init];
-@ue.medi.for_particle = [ue.OI.medi];
-@ue.fina.for_particle = [ue.Ue.fina ue.O.fina];
-@i.isol.for_particle = [i.AI.isol];
-@i.init.for_particle = [i.AI.init];
-@d.init.for_particle = [d.T.init];
-lookup condition.particle {
-    sub @a.isol.for_particle by a.Aa.isol;  # NNBSP = MVS
-    sub @a.init.for_particle by a.A.init;
-    sub @u.isol.for_particle by u.U.isol;
-    sub @u.init.for_particle by u.O.init;
-    sub @u.fina.for_particle by u.U.fina;
-    sub @e.isol.for_particle by e.Aa.isol;  # NNBSP = MVS
-    sub @ue.isol.for_particle by ue.U.isol;
-    sub @ue.init.for_particle by ue.O.init;
-    sub @ue.medi.for_particle by ue.O.medi;
-    sub @ue.fina.for_particle by ue.U.fina;
-    sub @i.isol.for_particle by i.I.isol;
-    sub @i.init.for_particle by i.I.init;
-    sub @d.init.for_particle by d.D.init;
-} condition.particle;
-
 @y.init.for_dictionary_particle = [y.Y.init];
 @y.medi.for_dictionary_particle = [y.Y.medi];
 @ue.init.for_dictionary_particle = [ue.O.init];
@@ -158,25 +179,3 @@ lookup condition.dictionary_particle {
     sub @ue.init.for_dictionary_particle by ue.AOI.init;
     sub @u.init.for_dictionary_particle by u.AO.init;
 } condition.dictionary_particle;
-
-# III.5: Post-bowed
-# III.6: FVS-selected
-# IIB.1: Variation involving bowed written units
-
-@a.fina.for_post_bowed = [a.A.fina];
-@e.fina.for_post_bowed = [e.A.fina];
-@o.fina.for_post_bowed = [o.U.fina];
-@u.fina.for_post_bowed = [u.U.fina];
-@oe.fina.for_post_bowed = [oe.U.fina];
-@ue.fina.for_post_bowed = [ue.U.fina];
-lookup condition.post_bowed {
-    sub @a.fina.for_post_bowed by a.Aa.fina;
-    sub @e.fina.for_post_bowed by e.Aa.fina;
-    sub @o.fina.for_post_bowed by o.O.fina;
-    sub @u.fina.for_post_bowed by u.O.fina;
-    sub @oe.fina.for_post_bowed by oe.O.fina;
-    sub @ue.fina.for_post_bowed by ue.O.fina;
-} condition.post_bowed;
-
-# IIB.2: Cleanup of format controls
-# IIB.3: Optional treatments

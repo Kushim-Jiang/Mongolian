@@ -406,20 +406,20 @@
 	<string>f.F_.medi.glif</string>
 	<key>fvs1</key>
 	<string>fvs1.glif</string>
-	<key>fvs1.effe</key>
-	<string>fvs1.effe.glif</string>
+	<key>fvs1.effective</key>
+	<string>fvs1.effective.glif</string>
 	<key>fvs2</key>
 	<string>fvs2.glif</string>
-	<key>fvs2.effe</key>
-	<string>fvs2.effe.glif</string>
+	<key>fvs2.effective</key>
+	<string>fvs2.effective.glif</string>
 	<key>fvs3</key>
 	<string>fvs3.glif</string>
-	<key>fvs3.effe</key>
-	<string>fvs3.effe.glif</string>
+	<key>fvs3.effective</key>
+	<string>fvs3.effective.glif</string>
 	<key>fvs4</key>
 	<string>fvs4.glif</string>
-	<key>fvs4.effe</key>
-	<string>fvs4.effe.glif</string>
+	<key>fvs4.effective</key>
+	<string>fvs4.effective.glif</string>
 	<key>g-mon</key>
 	<string>g-mon.glif</string>
 	<key>g.G.fina</key>
@@ -578,8 +578,8 @@
 	<string>m.M_.medi.glif</string>
 	<key>mvs</key>
 	<string>mvs.glif</string>
-	<key>mvs.effe</key>
-	<string>mvs.effe.glif</string>
+	<key>mvs.effective</key>
+	<string>mvs.effective.glif</string>
 	<key>n-mon</key>
 	<string>n-mon.glif</string>
 	<key>n.A.fina</key>
@@ -610,12 +610,12 @@
 	<string>ng.A_G_.medi.glif</string>
 	<key>nirugu</key>
 	<string>nirugu.glif</string>
-	<key>nirugu.effe</key>
-	<string>nirugu.effe.glif</string>
+	<key>nirugu.effective</key>
+	<string>nirugu.effective.glif</string>
 	<key>nnbsp</key>
 	<string>nnbsp.glif</string>
-	<key>nnbsp.effe</key>
-	<string>nnbsp.effe.glif</string>
+	<key>nnbsp.effective</key>
+	<string>nnbsp.effective.glif</string>
 	<key>o-mon</key>
 	<string>o-mon.glif</string>
 	<key>o.AO.isol</key>
@@ -824,11 +824,29 @@
 	<string>zr.Z_r.medi.glif</string>
 	<key>zwj</key>
 	<string>zwj.glif</string>
-	<key>zwj.effe</key>
-	<string>zwj.effe.glif</string>
+	<key>zwj.effective</key>
+	<string>zwj.effective.glif</string>
 	<key>zwnj</key>
 	<string>zwnj.glif</string>
-	<key>zwnj.effe</key>
-	<string>zwnj.effe.glif</string>
+	<key>zwnj.effective</key>
+	<string>zwnj.effective.glif</string>
+	<key>nil</key>
+	<string>nil.glif</string>
+	<key>_helper</key>
+	<string>_helper.glif</string>
+	<key>_mvs</key>
+	<string>_mvs.glif</string>
+	<key>_nnbsp</key>
+	<string>_nnbsp.glif</string>
+	<key>_fvs1</key>
+	<string>_fvs1.glif</string>
+	<key>_fvs2</key>
+	<string>_fvs2.glif</string>
+	<key>_fvs3</key>
+	<string>_fvs3.glif</string>
+	<key>_fvs4</key>
+	<string>_fvs4.glif</string>
+	<key>_nil</key>
+	<string>_nil.glif</string>
 </dict>
 </plist>

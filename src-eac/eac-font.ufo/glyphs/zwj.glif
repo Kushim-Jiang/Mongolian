@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zwj" format="2">
-	<advance width="1712"/>
+	<advance width="1712" height="1750"/>
 	<unicode hex="200D"/>
 	<note>
 		ZWJ

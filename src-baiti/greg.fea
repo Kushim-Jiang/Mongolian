@@ -53,20 +53,13 @@ feature vert {
     sub uni301C by uni301C.vert;
     sub uni301D by uni301D.vert;
     sub uni301E by uni301E.vert;
-    sub uniFE10 by uniFE10.vert;
-    sub uniFE13 by uniFE13.vert;
-    sub uniFE14 by uniFE14.vert;
-    sub uniFE15 by uniFE15.vert;
-    sub uniFE16 by uniFE16.vert;
-    sub uniFE19 by uniFE19.vert;
     sub uniFE5B by uniFE5B.vert;
     sub uniFE5C by uniFE5C.vert;
     sub uniFE63 by uniFE63.vert;
-    sub uniFF08 by uniFE35.vert;
-    sub uniFF09 by uniFE36.vert;
+    # sub uniFF08 by uniFE35.vert;
+    # sub uniFF09 by uniFE36.vert;
     sub uniFF0E by uniFF0E.vert;
-    sub uniFF3B by uniFE47.vert;
-    sub uniFF3D by uniFE48.vert;
+    # sub uniFF3B by uniFE47.vert;
+    # sub uniFF3D by uniFE48.vert;
     sub uniFF5C by uniFF5C.vert;
-
 } vert;
