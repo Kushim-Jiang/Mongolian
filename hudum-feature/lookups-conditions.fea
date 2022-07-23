@@ -122,7 +122,7 @@ lookup condition.onset {
 @h.fina.for_chachlag_onset = [h.Gh.fina];
 @g.fina.for_chachlag_onset = [g.G.fina g.H.fina];
 @j.fina.for_chachlag_onset = [j.J.fina];
-@j.isol.for_chachlag_onset = [j.I2.isol];
+@j.isol.for_chachlag_onset = [j.I.init._isol];
 @w.fina.for_chachlag_onset = [w.W.fina];
 lookup condition.chachlag_onset {
     sub @n.fina.for_chachlag_onset by n.N.fina;

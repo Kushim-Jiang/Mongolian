@@ -314,8 +314,8 @@
 	<string>b.B_.fina.glif</string>
 	<key>b.B.init</key>
 	<string>b.B_.init.glif</string>
-	<key>b.B.isol</key>
-	<string>b.B_.isol.glif</string>
+	<key>b.B.init._isol</key>
+	<string>b.B_.init._isol.glif</string>
 	<key>b.B.medi</key>
 	<string>b.B_.medi.glif</string>
 	<key>b.B2.fina</key>
@@ -326,8 +326,8 @@
 	<string>c.C_.fina.glif</string>
 	<key>c.C.init</key>
 	<string>c.C_.init.glif</string>
-	<key>c.C.isol</key>
-	<string>c.C_.isol.glif</string>
+	<key>c.C.init._isol</key>
+	<string>c.C_.init._isol.glif</string>
 	<key>c.C.medi</key>
 	<string>c.C_.medi.glif</string>
 	<key>ch-mon</key>
@@ -336,18 +336,18 @@
 	<string>ch.C_h.fina.glif</string>
 	<key>ch.Ch.init</key>
 	<string>ch.C_h.init.glif</string>
-	<key>ch.Ch.isol</key>
-	<string>ch.C_h.isol.glif</string>
+	<key>ch.Ch.init._isol</key>
+	<string>ch.C_h.init._isol.glif</string>
 	<key>ch.Ch.medi</key>
 	<string>ch.C_h.medi.glif</string>
 	<key>cr-mon</key>
 	<string>cr-mon.glif</string>
-	<key>cr.Cr.fina</key>
-	<string>cr.C_r.fina.glif</string>
+	<key>cr.Cr.init._fina</key>
+	<string>cr.C_r.init._fina.glif</string>
 	<key>cr.Cr.init</key>
 	<string>cr.C_r.init.glif</string>
-	<key>cr.Cr.isol</key>
-	<string>cr.C_r.isol.glif</string>
+	<key>cr.Cr.init._isol</key>
+	<string>cr.C_r.init._isol.glif</string>
 	<key>cr.Cr.medi</key>
 	<string>cr.C_r.medi.glif</string>
 	<key>d-mon</key>
@@ -356,8 +356,8 @@
 	<string>d.D_.fina.glif</string>
 	<key>d.D.init</key>
 	<string>d.D_.init.glif</string>
-	<key>d.D.isol</key>
-	<string>d.D_.isol.glif</string>
+	<key>d.D.init._isol</key>
+	<string>d.D_.init._isol.glif</string>
 	<key>d.D.medi</key>
 	<string>d.D_.medi.glif</string>
 	<key>d.Dd.fina</key>
@@ -366,8 +366,8 @@
 	<string>d.D_d.medi.glif</string>
 	<key>d.T.init</key>
 	<string>d.T_.init.glif</string>
-	<key>d.T.isol</key>
-	<string>d.T_.isol.glif</string>
+	<key>d.T.init._isol</key>
+	<string>d.T_.init._isol.glif</string>
 	<key>e-mon</key>
 	<string>e-mon.glif</string>
 	<key>e.A.fina</key>
@@ -400,8 +400,8 @@
 	<string>f.F_.fina.glif</string>
 	<key>f.F.init</key>
 	<string>f.F_.init.glif</string>
-	<key>f.F.isol</key>
-	<string>f.F_.isol.glif</string>
+	<key>f.F.init._isol</key>
+	<string>f.F_.init._isol.glif</string>
 	<key>f.F.medi</key>
 	<string>f.F_.medi.glif</string>
 	<key>fvs1</key>
@@ -426,60 +426,60 @@
 	<string>g.G_.fina.glif</string>
 	<key>g.G.init</key>
 	<string>g.G_.init.glif</string>
-	<key>g.G.isol</key>
-	<string>g.G_.isol.glif</string>
+	<key>g.G.init._isol</key>
+	<string>g.G_.init._isol.glif</string>
 	<key>g.G.medi</key>
 	<string>g.G_.medi.glif</string>
 	<key>g.Gh.fina</key>
 	<string>g.G_h.fina.glif</string>
 	<key>g.Gh.init</key>
 	<string>g.G_h.init.glif</string>
-	<key>g.Gh.isol</key>
-	<string>g.G_h.isol.glif</string>
+	<key>g.Gh.init._isol</key>
+	<string>g.G_h.init._isol.glif</string>
 	<key>g.Gh.medi</key>
 	<string>g.G_h.medi.glif</string>
 	<key>g.Gx.init</key>
 	<string>g.G_x.init.glif</string>
-	<key>g.Gx.isol</key>
-	<string>g.G_x.isol.glif</string>
+	<key>g.Gx.init._isol</key>
+	<string>g.G_x.init._isol.glif</string>
 	<key>g.Gx.medi</key>
 	<string>g.G_x.medi.glif</string>
 	<key>g.H.fina</key>
 	<string>g.H_.fina.glif</string>
 	<key>g.H.init</key>
 	<string>g.H_.init.glif</string>
-	<key>g.H.isol</key>
-	<string>g.H_.isol.glif</string>
+	<key>g.H.init._isol</key>
+	<string>g.H_.init._isol.glif</string>
 	<key>g.H.medi</key>
 	<string>g.H_.medi.glif</string>
 	<key>h-mon</key>
 	<string>h-mon.glif</string>
 	<key>h.G.init</key>
 	<string>h.G_.init.glif</string>
-	<key>h.G.isol</key>
-	<string>h.G_.isol.glif</string>
+	<key>h.G.init._isol</key>
+	<string>h.G_.init._isol.glif</string>
 	<key>h.G.medi</key>
 	<string>h.G_.medi.glif</string>
 	<key>h.Gh.fina</key>
 	<string>h.G_h.fina.glif</string>
 	<key>h.Gh.init</key>
 	<string>h.G_h.init.glif</string>
-	<key>h.Gh.isol</key>
-	<string>h.G_h.isol.glif</string>
+	<key>h.Gh.init._isol</key>
+	<string>h.G_h.init._isol.glif</string>
 	<key>h.Gh.medi</key>
 	<string>h.G_h.medi.glif</string>
 	<key>h.Gx.init</key>
 	<string>h.G_x.init.glif</string>
-	<key>h.Gx.isol</key>
-	<string>h.G_x.isol.glif</string>
+	<key>h.Gx.init._isol</key>
+	<string>h.G_x.init._isol.glif</string>
 	<key>h.Gx.medi</key>
 	<string>h.G_x.medi.glif</string>
 	<key>h.H.fina</key>
 	<string>h.H_.fina.glif</string>
 	<key>h.H.init</key>
 	<string>h.H_.init.glif</string>
-	<key>h.H.isol</key>
-	<string>h.H_.isol.glif</string>
+	<key>h.H.init._isol</key>
+	<string>h.H_.init._isol.glif</string>
 	<key>h.H.medi</key>
 	<string>h.H_.medi.glif</string>
 	<key>hh-mon</key>
@@ -488,8 +488,8 @@
 	<string>hh.H_h.fina.glif</string>
 	<key>hh.Hh.init</key>
 	<string>hh.H_h.init.glif</string>
-	<key>hh.Hh.isol</key>
-	<string>hh.H_h.isol.glif</string>
+	<key>hh.Hh.init._isol</key>
+	<string>hh.H_h.init._isol.glif</string>
 	<key>hh.Hh.medi</key>
 	<string>hh.H_h.medi.glif</string>
 	<key>i-mon</key>
@@ -520,8 +520,8 @@
 	<string>j.I_.init.glif</string>
 	<key>j.I.isol</key>
 	<string>j.I_.isol.glif</string>
-	<key>j.I2.isol</key>
-	<string>j.I_2.isol.glif</string>
+	<key>j.I.init._isol</key>
+	<string>j.I_.init._isol.glif</string>
 	<key>j.J.fina</key>
 	<string>j.J_.fina.glif</string>
 	<key>j.J.medi</key>
@@ -532,8 +532,8 @@
 	<string>k.K_.fina.glif</string>
 	<key>k.K.init</key>
 	<string>k.K_.init.glif</string>
-	<key>k.K.isol</key>
-	<string>k.K_.isol.glif</string>
+	<key>k.K.init._isol</key>
+	<string>k.K_.init._isol.glif</string>
 	<key>k.K.medi</key>
 	<string>k.K_.medi.glif</string>
 	<key>k2-mon</key>
@@ -542,8 +542,8 @@
 	<string>k2.K_2.fina.glif</string>
 	<key>k2.K2.init</key>
 	<string>k2.K_2.init.glif</string>
-	<key>k2.K2.isol</key>
-	<string>k2.K_2.isol.glif</string>
+	<key>k2.K2.init._isol</key>
+	<string>k2.K_2.init._isol.glif</string>
 	<key>k2.K2.medi</key>
 	<string>k2.K_2.medi.glif</string>
 	<key>l-mon</key>
@@ -552,18 +552,18 @@
 	<string>l.L_.fina.glif</string>
 	<key>l.L.init</key>
 	<string>l.L_.init.glif</string>
-	<key>l.L.isol</key>
-	<string>l.L_.isol.glif</string>
+	<key>l.L.init._isol</key>
+	<string>l.L_.init._isol.glif</string>
 	<key>l.L.medi</key>
 	<string>l.L_.medi.glif</string>
 	<key>lh-mon</key>
 	<string>lh-mon.glif</string>
-	<key>lh.LHh.fina</key>
-	<string>lh.L_H_h.fina.glif</string>
+	<key>lh.LHh.medi._fina</key>
+	<string>lh.L_H_h.medi._fina.glif</string>
 	<key>lh.LHh.init</key>
 	<string>lh.L_H_h.init.glif</string>
-	<key>lh.LHh.isol</key>
-	<string>lh.L_H_h.isol.glif</string>
+	<key>lh.LHh.init._isol</key>
+	<string>lh.L_H_h.init._isol.glif</string>
 	<key>lh.LHh.medi</key>
 	<string>lh.L_H_h.medi.glif</string>
 	<key>m-mon</key>
@@ -572,8 +572,8 @@
 	<string>m.M_.fina.glif</string>
 	<key>m.M.init</key>
 	<string>m.M_.init.glif</string>
-	<key>m.M.isol</key>
-	<string>m.M_.isol.glif</string>
+	<key>m.M.init._isol</key>
+	<string>m.M_.init._isol.glif</string>
 	<key>m.M.medi</key>
 	<string>m.M_.medi.glif</string>
 	<key>mvs</key>
@@ -586,26 +586,26 @@
 	<string>n.A_.fina.glif</string>
 	<key>n.A.init</key>
 	<string>n.A_.init.glif</string>
-	<key>n.A.isol</key>
-	<string>n.A_.isol.glif</string>
+	<key>n.A.init._isol</key>
+	<string>n.A_.init._isol.glif</string>
 	<key>n.A.medi</key>
 	<string>n.A_.medi.glif</string>
 	<key>n.N.fina</key>
 	<string>n.N_.fina.glif</string>
 	<key>n.N.init</key>
 	<string>n.N_.init.glif</string>
-	<key>n.N.isol</key>
-	<string>n.N_.isol.glif</string>
+	<key>n.N.init._isol</key>
+	<string>n.N_.init._isol.glif</string>
 	<key>n.N.medi</key>
 	<string>n.N_.medi.glif</string>
 	<key>ng-mon</key>
 	<string>ng-mon.glif</string>
 	<key>ng.AG.fina</key>
 	<string>ng.A_G_.fina.glif</string>
-	<key>ng.AG.init</key>
-	<string>ng.A_G_.init.glif</string>
-	<key>ng.AG.isol</key>
-	<string>ng.A_G_.isol.glif</string>
+	<key>ng.AG.medi._init</key>
+	<string>ng.A_G_.medi._init.glif</string>
+	<key>ng.AG.medi._isol</key>
+	<string>ng.A_G_.medi._isol.glif</string>
 	<key>ng.AG.medi</key>
 	<string>ng.A_G_.medi.glif</string>
 	<key>nirugu</key>
@@ -656,8 +656,8 @@
 	<string>p.P_.fina.glif</string>
 	<key>p.P.init</key>
 	<string>p.P_.init.glif</string>
-	<key>p.P.isol</key>
-	<string>p.P_.isol.glif</string>
+	<key>p.P.init._isol</key>
+	<string>p.P_.init._isol.glif</string>
 	<key>p.P.medi</key>
 	<string>p.P_.medi.glif</string>
 	<key>r-mon</key>
@@ -666,8 +666,8 @@
 	<string>r.R_.fina.glif</string>
 	<key>r.R.init</key>
 	<string>r.R_.init.glif</string>
-	<key>r.R.isol</key>
-	<string>r.R_.isol.glif</string>
+	<key>r.R.init._isol</key>
+	<string>r.R_.init._isol.glif</string>
 	<key>r.R.medi</key>
 	<string>r.R_.medi.glif</string>
 	<key>rh-mon</key>
@@ -676,8 +676,8 @@
 	<string>rh.R_h.fina.glif</string>
 	<key>rh.Rh.init</key>
 	<string>rh.R_h.init.glif</string>
-	<key>rh.Rh.isol</key>
-	<string>rh.R_h.isol.glif</string>
+	<key>rh.Rh.init._isol</key>
+	<string>rh.R_h.init._isol.glif</string>
 	<key>rh.Rh.medi</key>
 	<string>rh.R_h.medi.glif</string>
 	<key>s-mon</key>
@@ -686,8 +686,8 @@
 	<string>s.S_.fina.glif</string>
 	<key>s.S.init</key>
 	<string>s.S_.init.glif</string>
-	<key>s.S.isol</key>
-	<string>s.S_.isol.glif</string>
+	<key>s.S.init._isol</key>
+	<string>s.S_.init._isol.glif</string>
 	<key>s.S.medi</key>
 	<string>s.S_.medi.glif</string>
 	<key>s.S2.fina</key>
@@ -696,16 +696,16 @@
 	<string>sh-mon.glif</string>
 	<key>sh.S.init</key>
 	<string>sh.S_.init.glif</string>
-	<key>sh.S.isol</key>
-	<string>sh.S_.isol.glif</string>
+	<key>sh.S.init._isol</key>
+	<string>sh.S_.init._isol.glif</string>
 	<key>sh.S.medi</key>
 	<string>sh.S_.medi.glif</string>
 	<key>sh.Sh.fina</key>
 	<string>sh.S_h.fina.glif</string>
 	<key>sh.Sh.init</key>
 	<string>sh.S_h.init.glif</string>
-	<key>sh.Sh.isol</key>
-	<string>sh.S_h.isol.glif</string>
+	<key>sh.Sh.init._isol</key>
+	<string>sh.S_h.init._isol.glif</string>
 	<key>sh.Sh.medi</key>
 	<string>sh.S_h.medi.glif</string>
 	<key>space</key>
@@ -718,8 +718,8 @@
 	<string>t.T_.fina.glif</string>
 	<key>t.T.init</key>
 	<string>t.T_.init.glif</string>
-	<key>t.T.isol</key>
-	<string>t.T_.isol.glif</string>
+	<key>t.T.init._isol</key>
+	<string>t.T_.init._isol.glif</string>
 	<key>t.T.medi</key>
 	<string>t.T_.medi.glif</string>
 	<key>u-mon</key>
@@ -780,8 +780,8 @@
 	<string>w.W_.fina.glif</string>
 	<key>w.W.init</key>
 	<string>w.W_.init.glif</string>
-	<key>w.W.isol</key>
-	<string>w.W_.isol.glif</string>
+	<key>w.W.init._isol</key>
+	<string>w.W_.init._isol.glif</string>
 	<key>w.W.medi</key>
 	<string>w.W_.medi.glif</string>
 	<key>y-mon</key>
@@ -790,16 +790,16 @@
 	<string>y.I_.fina.glif</string>
 	<key>y.I.init</key>
 	<string>y.I_.init.glif</string>
-	<key>y.I.isol</key>
-	<string>y.I_.isol.glif</string>
+	<key>y.I.init._isol</key>
+	<string>y.I_.init._isol.glif</string>
 	<key>y.I.medi</key>
 	<string>y.I_.medi.glif</string>
 	<key>y.II.medi</key>
 	<string>y.I_I_.medi.glif</string>
 	<key>y.Y.init</key>
 	<string>y.Y_.init.glif</string>
-	<key>y.Y.isol</key>
-	<string>y.Y_.isol.glif</string>
+	<key>y.Y.init._isol</key>
+	<string>y.Y_.init._isol.glif</string>
 	<key>y.Y.medi</key>
 	<string>y.Y_.medi.glif</string>
 	<key>z-mon</key>
@@ -808,18 +808,18 @@
 	<string>z.Z_.fina.glif</string>
 	<key>z.Z.init</key>
 	<string>z.Z_.init.glif</string>
-	<key>z.Z.isol</key>
-	<string>z.Z_.isol.glif</string>
+	<key>z.Z.init._isol</key>
+	<string>z.Z_.init._isol.glif</string>
 	<key>z.Z.medi</key>
 	<string>z.Z_.medi.glif</string>
 	<key>zr-mon</key>
 	<string>zr-mon.glif</string>
-	<key>zr.Zr.fina</key>
-	<string>zr.Z_r.fina.glif</string>
+	<key>zr.Zr.init._fina</key>
+	<string>zr.Z_r.init._fina.glif</string>
 	<key>zr.Zr.init</key>
 	<string>zr.Z_r.init.glif</string>
-	<key>zr.Zr.isol</key>
-	<string>zr.Z_r.isol.glif</string>
+	<key>zr.Zr.init._isol</key>
+	<string>zr.Z_r.init._isol.glif</string>
 	<key>zr.Zr.medi</key>
 	<string>zr.Z_r.medi.glif</string>
 	<key>zwj</key>

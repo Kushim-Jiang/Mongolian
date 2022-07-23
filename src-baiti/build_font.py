@@ -191,12 +191,12 @@ def main():
     for constructed, origin in {
             # These glyphs are not used by Baiti
             "oe.AU.isol": ".notdef",
-            "n.A.isol": ".notdef",
-            "sh.S.isol": ".notdef",
+            "n.A.init._isol": ".notdef",
+            "sh.S.init._isol": ".notdef",
             "sh.S.init": ".notdef",
             "sh.S.medi": ".notdef",
-            "d.T.isol": ".notdef",
-            "y.I.isol": ".notdef",
+            "d.T.init._isol": ".notdef",
+            "y.I.init._isol": ".notdef",
             "y.II.medi": ".notdef",
             "w.O.medi": ".notdef",
             "nirugu.effective": "nirugu",
