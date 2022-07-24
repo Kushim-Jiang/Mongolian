@@ -1,6 +1,4 @@
 feature vert {
-    sub uni3008 by uni3008.vert;
-    sub uni300A by uni300A.vert;
     sub uni2018 by uni2018.vert;
     sub uni2019 by uni2019.vert;
     sub uni201C by uni201C.vert;

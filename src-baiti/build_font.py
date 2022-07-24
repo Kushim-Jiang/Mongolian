@@ -8,7 +8,8 @@ repository_dir = Path(__file__).parent.parent
 baiti_dir = repository_dir / "src-baiti"
 res_dir = baiti_dir / "res"
 temp_dir = baiti_dir / "temp"
-otl_dir = repository_dir / "hudum-feature"
+# otl_dir = repository_dir / "hudum-feature"
+otl_dir = baiti_dir / "hudum-feature"
 
 
 def main():
