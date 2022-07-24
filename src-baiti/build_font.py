@@ -220,7 +220,7 @@ def main():
         if path.suffix == ".fea":
             (temp_dir / path.name).write_text(path.read_text())
 
-    ufo.features.text = "include(main.fea);\n include(..\greg.fea);\n"
+    ufo.features.text = "include(main.fea);\n include(lookups-vertical.fea);\n"
 
     path = temp_dir / "font.ufo"
     ufo.save(path, overwrite=True)  # fontmake reads fro
