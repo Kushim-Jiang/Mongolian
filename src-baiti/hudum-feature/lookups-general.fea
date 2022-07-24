@@ -137,6 +137,7 @@ lookup III.i.eac {
 # III.6: FVS-selected
 
 lookup _.manual {
+    # sub @a.isol' fvs3 by a.AA.isol;
     sub @a.isol' fvs3 by a.AA.isol;
     sub @a.isol' fvs1 by a.A.isol;
     sub @a.isol' fvs2 by a.Aa.isol;
@@ -145,11 +146,13 @@ lookup _.manual {
     sub @a.medi' fvs1 by a.AA.medi;
     sub @a.fina' fvs2 by a.A.fina;
     sub @a.fina' fvs1 by a.Aa.fina;
+    # sub @e.isol' fvs2 by e.A.isol;
     sub @e.isol' fvs2 by e.A.isol;
     sub @e.isol' fvs1 by e.Aa.isol;
     sub @e.init' fvs1 by e.AA.init;
     sub @e.fina' fvs2 by e.A.fina;
     sub @e.fina' fvs1 by e.Aa.fina;
+    # sub @i.isol' fvs3 by i.AI.isol;
     sub @i.isol' fvs3 by i.AI.isol;
     sub @i.isol' fvs1 by i.I.isol;
     sub @i.isol' fvs2 by i.Ix.isol;
@@ -161,6 +164,7 @@ lookup _.manual {
     sub @o.medi' fvs1 by o.AO.medi;
     sub @o.fina' fvs2 by o.U.fina;
     sub @o.fina' fvs1 by o.O.fina;
+    # sub @u.isol' fvs3 by u.AO.isol;
     sub @u.isol' fvs3 by u.AO.isol;
     sub @u.isol' fvs1 by u.U.isol;
     sub @u.isol' fvs2 by u.Ux.isol;
