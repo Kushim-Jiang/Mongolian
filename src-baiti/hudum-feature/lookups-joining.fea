@@ -15,7 +15,7 @@ lookup IIa.isol {
     # sub h-mon by h.H.init._isol;
     sub h-mon by h.H.init._isol;
     # sub g-mon by g.Gh.init._isol;
-    sub g-mon by g.G.init._isol;
+    sub g-mon by g.Gh.init._isol;
     sub m-mon by m.M.init._isol;
     sub l-mon by l.L.init._isol;
     sub s-mon by s.S.init._isol;
@@ -97,7 +97,7 @@ lookup IIa.medi {
     # sub h-mon by h.G.medi;
     sub h-mon by h.H.medi;
     # sub g-mon by g.G.medi;
-    sub g-mon by g.G.medi;
+    sub g-mon by g.H.medi;
     sub m-mon by m.M.medi;
     sub l-mon by l.L.medi;
     sub s-mon by s.S.medi;
@@ -140,7 +140,7 @@ lookup IIa.fina {
     # sub h-mon by h.H.fina;
     sub h-mon by h.H.fina;
     # sub g-mon by g.G.fina;
-    sub g-mon by g.G.fina;
+    sub g-mon by g.H.fina;
     sub m-mon by m.M.fina;
     sub l-mon by l.L.fina;
     sub s-mon by s.S.fina;
