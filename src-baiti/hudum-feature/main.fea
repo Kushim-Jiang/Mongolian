@@ -68,3 +68,5 @@ include(lookups-ligature.fea);
 feature rlig {
     lookup IIb.ligature;
 } rlig;
+
+include(lookups-vertical.fea);
