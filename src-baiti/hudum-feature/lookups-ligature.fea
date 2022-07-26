@@ -1,4 +1,27 @@
 lookup IIb.ligature {
+
+    # ng
+    sub b.B.init l.L.medi by BL.init;
+    sub b.B.medi l.L.medi by BL.medi;
+    sub g.G.medi l.L.medi by GL.medi;
+    sub m.M.medi m.M.medi by MM.medi;
+    sub m.M.medi l.L.medi by ML.medi;
+    sub l.L.medi l.L.medi  by LL.medi;
+    sub ng.AG.medi n.N.medi by ng_n.AGN.medi;
+
+    sub ng.AG.medi h.H.medi by ng_h.AGH.medi;
+    sub ng.AG.medi h.Gh.medi by ng_h.AGGh.medi;
+    sub ng.AG.medi h.H.fina by ng_h.AGH.fina;
+    sub ng.AG.medi h.Gh.fina by ng_h.AGGh.fina;
+
+    sub ng.AG.medi g.H.medi by ng_g.AGH.medi;
+    sub ng.AG.medi g.Gh.medi by ng_g.AGGh.medi;
+    sub ng.AG.medi g.H.fina by ng_g.AGH.fina;
+    sub ng.AG.medi g.Gh.fina by ng_g.AGGh.fina;
+
+    sub ng.AG.medi g.G.medi l.L.medi by ng_g_l.AGGL.medi;
+    sub ng.AG.medi l.L.medi by ng_l.AGL.medi;
+
     # h_g
     sub [h.G.init g.G.init] e.A.medi by GA.init;
     sub [h.G.medi g.G.medi] e.A.medi by GA.medi;

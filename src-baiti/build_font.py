@@ -16,7 +16,7 @@ def main():
     temp_dir.mkdir(exist_ok=True)
 
     ufo = Font.open(baiti_dir / "161Source005-cubic.ufo")
-    ufo.info.unitsPerEm = ufo.info.unitsPerEm / 1.5
+    ufo.info.unitsPerEm = ufo.info.unitsPerEm / 1.25
     ufo.info.familyName = "Draft Baiti"
     ufo.info.postscriptFullName = "Draft Baiti Regular"
     ufo.info.postscriptFontName = "DraftBaiti-Regular"

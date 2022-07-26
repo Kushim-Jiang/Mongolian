@@ -75,17 +75,17 @@ uni1829: ng.AG.medi._isol
 glyph343: ng.AG.medi._init
 glyph344: ng.AG.medi
 glyph345: ng.AG.fina
-# glyph347: ng_n.AGN.medi
-# glyph348: ng_h.AGH.fina
-# glyph349: ng_h.AGGh.fina
-# glyph350: ng_h.AGH.medi
-# glyph351: ng_h.AGGh.medi
-# glyph352: ng_g.AGH.fina
-# glyph353: ng_g.AGGh.fina
-# glyph354: ng_g.AGH.medi
-# glyph355: ng_g.AGGh.medi
-# glyph1993: ng_g_l.AGGL.medi
-# glyph356: ng_l.AGL.medi
+glyph347: ng_n.AGN.medi
+glyph348: ng_h.AGH.fina
+glyph349: ng_h.AGGh.fina
+glyph350: ng_h.AGH.medi
+glyph351: ng_h.AGGh.medi
+glyph352: ng_g.AGH.fina
+glyph353: ng_g.AGGh.fina
+glyph354: ng_g.AGH.medi
+glyph355: ng_g.AGGh.medi
+glyph1993: ng_g_l.AGGL.medi
+glyph356: ng_l.AGL.medi
 uni182A: b.B.init._isol
 glyph363: b.B.init
 glyph364: b.B.medi
@@ -536,9 +536,9 @@ uni1842: cr.Cr.init._isol
 glyph908: cr.Cr.init
 glyph909: cr.Cr.medi
 glyph907: cr.Cr.init._fina
-# glyph306: u_u.OU.isol
-# glyph1831: ue_ue.OU.isol
-# glyph402: b_ue_ue.BOU.isol
+glyph306: u_u.OU.isol
+glyph1831: ue_ue.OU.isol
+glyph402: b_ue_ue.BOU.isol
 
 # glyph2223: a.A.init.mvs
 # glyph2224: e.A.init.mvs
