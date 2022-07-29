@@ -8,7 +8,6 @@ repository_dir = Path(__file__).parent.parent
 baiti_dir = repository_dir / "src-baiti"
 res_dir = baiti_dir / "res"
 temp_dir = baiti_dir / "temp"
-# otl_dir = repository_dir / "hudum-feature"
 otl_dir = baiti_dir / "hudum-feature"
 
 
@@ -206,8 +205,7 @@ def main():
 
     # TODO, FIXME
     for name in [
-            "zwnj", "zwj", "mvs.effective", "nnbsp.effective", "fvs1.effective", "fvs2.effective", "fvs3.effective", "fvs4.effective", "nil", "_mvs", "_nnbsp",
-            "_fvs1", "_fvs2", "_fvs3", "_fvs4", "_nil", "_helper"
+            "zwnj", "zwj", "mvs.effective", "nnbsp.effective", "fvs1.effective", "fvs2.effective", "fvs3.effective", "fvs4.effective", "nil", "_nil", "_helper"
     ]:
         ufo.newGlyph(name)
         if name == "mvs.effective":

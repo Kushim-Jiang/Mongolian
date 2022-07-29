@@ -2,7 +2,7 @@
 include(classes-letters.fea);
 include(classes-categories.fea);
 table GDEF {
-    GlyphClassDef [nirugu @fvs @mcs @mcs.effective], , [nirugu.effective @fvs.effective zwnj zwj nil], ;
+    GlyphClassDef [nirugu @fvs @mcs @mcs.effective _mvs _nnbsp], , [nirugu.effective @fvs.effective zwnj zwj nil], ;
 } GDEF;
 
 languagesystem mong dflt;
@@ -29,6 +29,8 @@ feature fina {
 include(lookups-conditions.fea);
 include(lookups-general.fea);
 feature rclt {
+    lookup _.nirugu.effective;
+
     # III.1: Chachlag
     lookup III.a_e.chachlag;
 
@@ -54,8 +56,6 @@ feature rclt {
     # III.6: FVS-selected
     lookup III.fvs;
 
-    # IIB.1: Variation involving bowed written units
-
     # IIB.2: Cleanup of format controls
     lookup IIb.hide_effective_format_controls;
     lookup IIb.preserve_format_controls.A;
@@ -64,9 +64,14 @@ feature rclt {
     # IIB.3: Optional treatments
 } rclt;
 
+# IIB.1: Variation involving bowed written units
 include(lookups-ligature.fea);
 feature rlig {
     lookup IIb.ligature;
 } rlig;
 
+# IB.1: Vertical forms of punctuation marks
 include(lookups-vertical.fea);
+feature vert {
+    lookup Ib.vertical;
+} vert;

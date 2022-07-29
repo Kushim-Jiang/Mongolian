@@ -3,11 +3,16 @@
 lookup _.effective {
     sub mvs by mvs.effective;
     sub nnbsp by nnbsp.effective;
+    sub nirugu by nirugu.effective;
     sub fvs1 by fvs1.effective;
     sub fvs2 by fvs2.effective;
     sub fvs3 by fvs3.effective;
     sub fvs4 by fvs4.effective;
 } _.effective;
+
+lookup _.nirugu.effective {
+    sub nirugu' lookup _.effective;
+} _.nirugu.effective;
 
 # III.1: Chachlag
 # Chachlag - a/e - Chachlag
@@ -359,8 +364,7 @@ lookup III.fvs {
 # IIB.2: Cleanup of format controls
 
 lookup IIb.hide_effective_format_controls {
-    sub mvs.effective by nil;
-    sub nnbsp.effective by nnbsp;
+    sub nirugu.effective by nirugu;
     sub fvs1.effective by nil;
     sub fvs2.effective by nil;
     sub fvs3.effective by nil;

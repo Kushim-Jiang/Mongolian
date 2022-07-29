@@ -187,7 +187,7 @@
 @fvs = [fvs1 fvs2 fvs3 fvs4];
 @fvs.effective = [fvs1.effective fvs2.effective fvs3.effective fvs4.effective];
 table GDEF {
-    GlyphClassDef [nirugu @fvs @mcs @mcs.effective], , [nirugu.effective @fvs.effective zwnj zwj nil], ;
+    GlyphClassDef [nirugu @fvs @mcs @mcs.effective _mvs _nnbsp], , [nirugu.effective @fvs.effective zwnj zwj nil], ;
 } GDEF;
 
 languagesystem mong dflt;
@@ -548,11 +548,16 @@ lookup condition.dictionary_particle {
 lookup _.effective {
     sub mvs by mvs.effective;
     sub nnbsp by nnbsp.effective;
+    sub nirugu by nirugu.effective;
     sub fvs1 by fvs1.effective;
     sub fvs2 by fvs2.effective;
     sub fvs3 by fvs3.effective;
     sub fvs4 by fvs4.effective;
 } _.effective;
+
+lookup _.nirugu.effective {
+    sub nirugu' lookup _.effective;
+} _.nirugu.effective;
 
 # III.1: Chachlag
 # Chachlag - a/e - Chachlag
@@ -904,8 +909,7 @@ lookup III.fvs {
 # IIB.2: Cleanup of format controls
 
 lookup IIb.hide_effective_format_controls {
-    sub mvs.effective by nil;
-    sub nnbsp.effective by nnbsp;
+    sub nirugu.effective by nirugu;
     sub fvs1.effective by nil;
     sub fvs2.effective by nil;
     sub fvs3.effective by nil;
@@ -934,6 +938,8 @@ lookup IIb.preserve_format_controls.B {
 
 # IIB.3: Optional treatments
 feature rclt {
+    lookup _.nirugu.effective;
+
     # III.1: Chachlag
     lookup III.a_e.chachlag;
 
@@ -959,8 +965,6 @@ feature rclt {
     # III.6: FVS-selected
     lookup III.fvs;
 
-    # IIB.1: Variation involving bowed written units
-
     # IIB.2: Cleanup of format controls
     lookup IIb.hide_effective_format_controls;
     lookup IIb.preserve_format_controls.A;
@@ -969,6 +973,7 @@ feature rclt {
     # IIB.3: Optional treatments
 } rclt;
 
+# IIB.1: Variation involving bowed written units
 lookup IIb.ligature {
     # h_g
     sub [h.G.init g.G.init] e.A.medi by GA.init;
@@ -1127,3 +1132,66 @@ lookup IIb.ligature {
 } IIb.ligature;feature rlig {
     lookup IIb.ligature;
 } rlig;
+
+# IB.1: Vertical forms of punctuation marks
+lookup Ib.vertical {
+    # sub uni2018 by uni2018.vert;
+    # sub uni2019 by uni2019.vert;
+    # sub uni201C by uni201C.vert;
+    # sub uni201D by uni201D.vert;
+    # sub uni2022 by uni2022.vert;
+    # sub uni203C by uni203C.vert;
+    # sub uni2047 by uni2047.vert;
+    # sub uni2048 by uni2048.vert;
+    # sub uni2049 by uni2049.vert;
+    # sub uni2460 by uni2460.vert;
+    # sub uni2461 by uni2461.vert;
+    # sub uni2462 by uni2462.vert;
+    # sub uni2463 by uni2463.vert;
+    # sub uni2464 by uni2464.vert;
+    # sub uni2465 by uni2465.vert;
+    # sub uni2466 by uni2466.vert;
+    # sub uni2467 by uni2467.vert;
+    # sub uni2468 by uni2468.vert;
+    # sub uni2469 by uni2469.vert;
+    # sub uni246A by uni246A.vert;
+    # sub uni246B by uni246B.vert;
+    # sub uni246C by uni246C.vert;
+    # sub uni246D by uni246D.vert;
+    # sub uni246E by uni246E.vert;
+    # sub uni246F by uni246F.vert;
+    # sub uni2470 by uni2470.vert;
+    # sub uni2471 by uni2471.vert;
+    # sub uni2472 by uni2472.vert;
+    # sub uni2473 by uni2473.vert;
+    # sub uni3001 by uni3001.vert;
+    # sub uni3002 by uni3002.vert;
+    # sub uni3008 by uni3008.vert;
+    # sub uni3009 by uni3009.vert;
+    # sub uni300A by uni300A.vert;
+    # sub uni300B by uni300B.vert;
+    # sub uni300C by uni300C.vert;
+    # sub uni300D by uni300D.vert;
+    # sub uni300E by uni300E.vert;
+    # sub uni300F by uni300F.vert;
+    # sub uni3010 by uni3010.vert;
+    # sub uni3011 by uni3011.vert;
+    # sub uni3014 by uni3014.vert;
+    # sub uni3015 by uni3015.vert;
+    # sub uni3016 by uni3016.vert;
+    # sub uni3017 by uni3017.vert;
+    # sub uni3018 by uni3018.vert;
+    # sub uni3019 by uni3019.vert;
+    # sub uni301A by uni301A.vert;
+    # sub uni301B by uni301B.vert;
+    # sub uni301C by uni301C.vert;
+    # sub uni301D by uni301D.vert;
+    # sub uni301E by uni301E.vert;
+    # sub uniFE5B by uniFE5B.vert;
+    # sub uniFE5C by uniFE5C.vert;
+    # sub uniFE63 by uniFE63.vert;
+    # sub uniFF0E by uniFF0E.vert;
+    # sub uniFF5C by uniFF5C.vert;
+} Ib.vertical;feature vert {
+    lookup Ib.vertical;
+} vert;

@@ -8,7 +8,7 @@ repository_dir = Path(__file__).parent.parent
 
 ufo_path = repository_dir / "src-eac" / "eac-font.ufo"
 
-otl_dir = repository_dir / "hudum-feature"
+otl_dir = repository_dir / "src-eac" / "hudum-feature"
 otl_path = otl_dir / "main.fea"
 
 

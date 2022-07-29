@@ -3,11 +3,16 @@
 lookup _.effective {
     sub mvs by mvs.effective;
     sub nnbsp by nnbsp.effective;
+    sub nirugu by nirugu.effective;
     sub fvs1 by fvs1.effective;
     sub fvs2 by fvs2.effective;
     sub fvs3 by fvs3.effective;
     sub fvs4 by fvs4.effective;
 } _.effective;
+
+lookup _.nirugu.effective {
+    sub nirugu' lookup _.effective;
+} _.nirugu.effective;
 
 # III.1: Chachlag
 # Chachlag - a/e - Chachlag
@@ -96,8 +101,8 @@ lookup III.a_i_u_ue_d.particle.B {
 lookup III.u_ue_y.dictionary_particle {
     lookupflag IgnoreMarks;
     sub [mvs.effective nnbsp.effective] i.I.init y.Y.medi' lookup condition.dictionary_particle [a.A.medi e.A.medi] [n.A.fina r.R.fina];
-    sub [mvs nnbsp]' lookup _.effective y.Y.init' lookup condition.dictionary_particle i.I.fina;
-    sub [mvs nnbsp]' lookup _.effective y.Y.init' lookup condition.dictionary_particle i.I.medi n.A.fina;
+    sub [mvs.effective nnbsp.effective] y.Y.init' lookup condition.dictionary_particle i.I.fina;
+    sub [mvs.effective nnbsp.effective] y.Y.init' lookup condition.dictionary_particle i.I.medi n.A.fina;
 
     # not found in EAC spec
     sub [mvs.effective nnbsp.effective] ue.O.init' lookup condition.dictionary_particle g.G.medi e.A.medi i.I.fina;
@@ -251,6 +256,7 @@ lookup _.manual {
 } _.manual;
 
 lookup III.fvs {
+    # a.Aa.isol fvs3 => a.AA.isol fvs3.effective
     sub @a.isol' lookup _.manual fvs3' lookup _.effective;
     sub @a.isol' lookup _.manual fvs1' lookup _.effective;
     sub @a.isol' lookup _.manual fvs2' lookup _.effective;
@@ -363,8 +369,7 @@ lookup III.fvs {
 # IIB.2: Cleanup of format controls
 
 lookup IIb.hide_effective_format_controls {
-    sub mvs.effective by nil;
-    sub nnbsp.effective by nnbsp;
+    sub nirugu.effective by nirugu;
     sub fvs1.effective by nil;
     sub fvs2.effective by nil;
     sub fvs3.effective by nil;
