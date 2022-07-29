@@ -12,9 +12,9 @@ lookup IIa.isol {
     sub ng-mon by ng.AG.medi._isol;
     sub b-mon by b.B.init._isol;
     sub p-mon by p.P.init._isol;
-    # sub h-mon by h.H.init._isol; NOCHANGE
+    # sub h-mon by h.H.init._isol;
     sub h-mon by h.H.init._isol;
-    # sub g-mon by g.Gh.init._isol; NOCHANGE
+    # sub g-mon by g.Gh.init._isol;
     sub g-mon by g.Gh.init._isol;
     sub m-mon by m.M.init._isol;
     sub l-mon by l.L.init._isol;
@@ -52,9 +52,9 @@ lookup IIa.init {
     sub ng-mon by ng.AG.medi._init;
     sub b-mon by b.B.init;
     sub p-mon by p.P.init;
-    # sub h-mon by h.H.init; NOCHANGE
+    # sub h-mon by h.H.init;
     sub h-mon by h.H.init;
-    # sub g-mon by g.Gh.init; NOCHANGE
+    # sub g-mon by g.Gh.init;
     sub g-mon by g.Gh.init;
     sub m-mon by m.M.init;
     sub l-mon by l.L.init;
@@ -137,10 +137,10 @@ lookup IIa.fina {
     sub ng-mon by ng.AG.fina;
     sub b-mon by b.B.fina;
     sub p-mon by p.P.fina;
-    # sub h-mon by h.H.fina; NOCHANGE
+    # sub h-mon by h.H.fina;
     sub h-mon by h.H.fina;
     # sub g-mon by g.G.fina;
-    sub g-mon by g.H.fina;
+    sub g-mon by g.G.fina;
     sub m-mon by m.M.fina;
     sub l-mon by l.L.fina;
     sub s-mon by s.S.fina;
