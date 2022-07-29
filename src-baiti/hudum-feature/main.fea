@@ -70,15 +70,8 @@ feature rlig {
     lookup IIb.ligature;
 } rlig;
 
-<<<<<<< Updated upstream
 # IB.1: Vertical forms of punctuation marks
 include(lookups-vertical.fea);
 feature vert {
     lookup Ib.vertical;
 } vert;
-=======
-include(lookups-vertical.fea);
-feature vert {
-    lookup IIb.vertical;
-} vert;
->>>>>>> Stashed changes
