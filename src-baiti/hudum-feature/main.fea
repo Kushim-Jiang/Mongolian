@@ -39,7 +39,7 @@ feature rclt {
     lookup III.n_j_w_h_g.chachlag_onset;
     lookup III.n_t_d.onset_and_devsger;
     lookup III.h_g.onset_and_devsger_and_gender;
-    lookup III.sh_g.eac;
+    # lookup III.sh_g.eac; Not needed for Draft Baiti
 
     # III.3: Particle
     lookup III.a_i_u_ue_d.particle.A;
@@ -48,7 +48,7 @@ feature rclt {
 
     # III.4: Devsger i
     lookup III.i.devsger;
-    lookup III.i.eac;
+    # lookup III.i.eac; Not needed for Draft Baiti
 
     # III.5: Post-bowed
     lookup III.a_e_o_u_oe_ue.post_bowed;
@@ -70,8 +70,15 @@ feature rlig {
     lookup IIb.ligature;
 } rlig;
 
+<<<<<<< Updated upstream
 # IB.1: Vertical forms of punctuation marks
 include(lookups-vertical.fea);
 feature vert {
     lookup Ib.vertical;
 } vert;
+=======
+include(lookups-vertical.fea);
+feature vert {
+    lookup IIb.vertical;
+} vert;
+>>>>>>> Stashed changes

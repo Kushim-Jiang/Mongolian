@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 lookup Ib.vertical {
+=======
+lookup IIb.vertical {
+
+>>>>>>> Stashed changes
     sub uni2018 by uni2018.vert;
     sub uni2019 by uni2019.vert;
     sub uni201C by uni201C.vert;
@@ -60,4 +65,9 @@ lookup Ib.vertical {
     # sub uniFF3B by uniFE47.vert;
     # sub uniFF3D by uniFE48.vert;
     sub uniFF5C by uniFF5C.vert;
+<<<<<<< Updated upstream
 } Ib.vertical;
+=======
+    
+} IIb.vertical;
+>>>>>>> Stashed changes
