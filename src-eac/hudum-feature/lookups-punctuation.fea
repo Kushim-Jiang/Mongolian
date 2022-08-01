@@ -1,0 +1,23 @@
+lookup Ib.punctuation.ligature {
+    # sub question exclamation by question_exclamation;
+    # sub exclamation question by exclamation_question;
+} Ib.punctuation.ligature;
+
+lookup Ib.punctuation.vertical {
+    # sub percent by percent.vert;
+    # sub plus by plus.vert;
+    # sub minus by minus.vert;
+    # sub equal by equal.vert;
+    # sub dash.wave by dash.wave.vert;
+    # sub question_exclamation by question_exclamation.vert;
+    # sub exclamation_question by exclamation_question.vert;
+    # sub dash.em by dash.em.vert;
+    # sub parenthesis.left by parenthesis.left.vert;
+    # sub parenthesis.right by parenthesis.right.vert;
+    # sub bracket.angle.double.left by bracket.angle.double.left.vert;
+    # sub bracket.angle.double.right by bracket.angle.double.right.vert;
+    # sub bracket.angle.single.left by bracket.angle.single.left.vert;
+    # sub bracket.angle.single.right by bracket.angle.single.right.vert;
+    # sub bracket.square.left by bracket.square.left.vert;
+    # sub bracket.square.right by bracket.square.right.vert;
+} Ib.punctuation.vertical;

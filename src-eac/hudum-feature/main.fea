@@ -71,7 +71,11 @@ feature rlig {
 } rlig;
 
 # IB.1: Vertical forms of punctuation marks
-include(lookups-vertical.fea);
+include(lookups-punctuation.fea);
+feature rlig {
+    lookup Ib.punctuation.ligature;
+} rlig;
+
 feature vert {
-    lookup Ib.vertical;
+    lookup Ib.punctuation.vertical;
 } vert;

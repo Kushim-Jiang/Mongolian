@@ -87,33 +87,33 @@ lookup III.sh_g.eac {
 
 lookup III.a_i_u_ue_d.particle.A {
     lookupflag IgnoreMarks;
-    sub [mvs nnbsp]' lookup _.effective [@a.init.for_particle @i.isol.for_particle @i.init.for_particle @u.isol.for_particle @u.init.for_particle @ue.isol.for_particle @ue.init.for_particle @d.init.for_particle]' lookup condition.particle;
+    sub @mcs' lookup _.effective [@a.init.for_particle @i.isol.for_particle @i.init.for_particle @u.isol.for_particle @u.init.for_particle @ue.isol.for_particle @ue.init.for_particle @d.init.for_particle]' lookup condition.particle;
 
-    sub [mvs nnbsp]' lookup _.effective [@a.isol @a.init @e.isol @i.isol @i.init @u.isol @u.init @ue.isol @ue.init @y.init @d.init];
+    sub @mcs' lookup _.effective [@a.isol @a.init @e.isol @i.isol @i.init @u.isol @u.init @ue.isol @ue.init @y.init @d.init];
     # not found in EAC spec
-    sub [mvs nnbsp]' lookup _.effective [@e.init @j.isol];
+    sub @mcs' lookup _.effective [@e.init @j.isol];
     lookupflag 0;
 } III.a_i_u_ue_d.particle.A;
 
 lookup III.a_i_u_ue_d.particle.B {
     lookupflag IgnoreMarks;
-    sub [mvs mvs.effective nnbsp nnbsp.effective]' lookup _.effective @consonant.init' [@u.fina.for_particle @ue.medi.for_particle @ue.fina.for_particle]' lookup condition.particle;
+    sub [@mcs @mcs.effective]' lookup _.effective @consonant.init' [@u.fina.for_particle @ue.medi.for_particle @ue.fina.for_particle]' lookup condition.particle;
 
-    sub [mvs mvs.effective nnbsp nnbsp.effective]' lookup _.effective [@ch.init @t.init @y.init @l.init @n.init @h.init @d.init @b.init] [@u.medi @u.fina @ue.medi @ue.fina @a.medi @e.medi @i.medi];
+    sub [@mcs @mcs.effective]' lookup _.effective [@ch.init @t.init @y.init @l.init @n.init @h.init @d.init @b.init] [@u.medi @u.fina @ue.medi @ue.fina @a.medi @e.medi @i.medi];
     # not found in EAC spec
-    sub [mvs mvs.effective nnbsp nnbsp.effective]' lookup _.effective [@l.init @h.init] [@a.fina @e.fina @i.fina];
+    sub [@mcs @mcs.effective]' lookup _.effective [@l.init @h.init] [@a.fina @e.fina @i.fina];
     lookupflag 0;
 } III.a_i_u_ue_d.particle.B;
 
 lookup III.u_ue_y.dictionary_particle {
     lookupflag IgnoreMarks;
-    sub [mvs.effective nnbsp.effective] i.I.init y.Y.medi' lookup condition.dictionary_particle [a.A.medi e.A.medi] [n.A.fina r.R.fina];
-    sub [mvs nnbsp]' lookup _.effective y.Y.init' lookup condition.dictionary_particle i.I.fina;
-    sub [mvs nnbsp]' lookup _.effective y.Y.init' lookup condition.dictionary_particle i.I.medi n.A.fina;
+    sub @mcs.effective i.I.init y.Y.medi' lookup condition.dictionary_particle [a.A.medi e.A.medi] [n.A.fina r.R.fina];
+    sub [@mcs @mcs.effective]' lookup _.effective y.Y.init' lookup condition.dictionary_particle i.I.fina;
+    sub [@mcs @mcs.effective]' lookup _.effective y.Y.init' lookup condition.dictionary_particle i.I.medi n.A.fina;
 
     # not found in EAC spec
-    sub [mvs.effective nnbsp.effective] ue.O.init' lookup condition.dictionary_particle g.G.medi e.A.medi i.I.fina;
-    sub [mvs.effective nnbsp.effective] u.O.init' lookup condition.dictionary_particle r.R.medi u.O.medi g.Gh.medi u.U.fina;
+    sub [@mcs @mcs.effective]' lookup _.effective ue.O.init' lookup condition.dictionary_particle g.G.medi e.A.medi i.I.fina;
+    sub [@mcs @mcs.effective]' lookup _.effective u.O.init' lookup condition.dictionary_particle r.R.medi u.O.medi g.Gh.medi u.U.fina;
     lookupflag 0;
 } III.u_ue_y.dictionary_particle;
 
